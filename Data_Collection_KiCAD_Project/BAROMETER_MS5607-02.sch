@@ -3,14 +3,14 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title "MS5607-02BA Barometer Chip"
 Date "2021-10-01"
-Rev "v1.0.1"
+Rev "v1.0.2"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
-Comment2 ""
-Comment3 ""
+Comment2 "Intended as initial pre-production design"
+Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp

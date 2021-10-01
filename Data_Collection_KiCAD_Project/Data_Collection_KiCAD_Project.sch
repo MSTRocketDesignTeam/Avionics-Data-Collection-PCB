@@ -3,28 +3,16 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Data Collection PCB Schematic"
 Date "2021-10-01"
-Rev "v1.0.1"
+Rev "v1.0.2"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"
 Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_ST_STM32L0:STM32L031C4Tx U?
-U 1 1 6156CC3B
-P 2900 5050
-F 0 "U?" H 2900 6900 50  0000 C CNN
-F 1 "STM32L552CC" H 2900 6800 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2400 3550 50  0001 R CNN
-F 3 "https://www.st.com/resource/en/datasheet/DM00532748.pdf" H 2900 5050 50  0001 C CNN
-F 4 "Microcontroller" H 2900 6700 50  0000 C CNN "Description"
-	1    2900 5050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61577BBB
@@ -51,231 +39,14 @@ F 3 "" H 7000 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 4650 7000 4950
-$Comp
-L power:GND #PWR?
-U 1 1 6157A66F
-P 2800 6750
-F 0 "#PWR?" H 2800 6500 50  0001 C CNN
-F 1 "GND" H 2805 6577 50  0000 C CNN
-F 2 "" H 2800 6750 50  0001 C CNN
-F 3 "" H 2800 6750 50  0001 C CNN
-	1    2800 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 6700 2900 6700
-Wire Wire Line
-	3100 6700 3100 6650
-Connection ~ 2800 6700
-Wire Wire Line
-	2800 6700 2800 6650
-Wire Wire Line
-	3000 6650 3000 6700
-Connection ~ 3000 6700
-Wire Wire Line
-	3000 6700 3100 6700
-Wire Wire Line
-	2900 6650 2900 6700
-Connection ~ 2900 6700
-Wire Wire Line
-	2900 6700 3000 6700
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6157B8A8
-P 3300 3450
-F 0 "#PWR?" H 3300 3300 50  0001 C CNN
-F 1 "+3.3V" H 3315 3623 50  0000 C CNN
-F 2 "" H 3300 3450 50  0001 C CNN
-F 3 "" H 3300 3450 50  0001 C CNN
-	1    3300 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 3550 3100 3500
-Wire Wire Line
-	3100 3500 3300 3500
-Wire Wire Line
-	3300 3500 3300 3450
-Wire Wire Line
-	3000 3550 3000 3500
-Wire Wire Line
-	3000 3500 3100 3500
-Connection ~ 3100 3500
-Wire Wire Line
-	2800 3550 2800 3500
-Wire Wire Line
-	2800 3500 2900 3500
-Connection ~ 3000 3500
-Wire Wire Line
-	2900 3550 2900 3500
-Connection ~ 2900 3500
-Wire Wire Line
-	2900 3500 3000 3500
-Wire Wire Line
-	2800 6750 2800 6700
 Text GLabel 6550 5050 2    50   Input ~ 0
 EXT_SDA
 Text GLabel 6550 5150 2    50   Input ~ 0
 EXT_SCL
-Text GLabel 2300 5850 0    50   Input ~ 0
-I2C1_SDA
-Text GLabel 2300 5550 0    50   Input ~ 0
-I2C1_SCL
-Text GLabel 3500 5150 2    50   Input ~ 0
-USART2_TX
-Text GLabel 3500 5250 2    50   Input ~ 0
-USART2_RX
-Text GLabel 3500 5650 2    50   Input ~ 0
-SPI1_MOSI
-Text GLabel 3500 5050 2    50   Input ~ 0
-SPI1_SCK
-Text GLabel 3500 6150 2    50   Input ~ 0
-USB_DP
-Text GLabel 3500 6050 2    50   Input ~ 0
-USB_DM
-Text GLabel 3500 5550 2    50   Input ~ 0
-SPI1_MISO
-Text GLabel 2300 4950 0    50   Input ~ 0
-MEMS_EN
-Text GLabel 2300 6350 0    50   Input ~ 0
-SPI2_MISO
-Text GLabel 2300 6450 0    50   Input ~ 0
-SPI2_MOSI
-Text GLabel 2300 5950 0    50   Input ~ 0
-SPI2_SCK
-Text GLabel 2300 6050 0    50   Input ~ 0
-EXT_SDA
-Text GLabel 2300 6250 0    50   Input ~ 0
-EXT_SCL
 Text Notes 7150 4350 2    100  ~ 0
 Main System Bus
-Text Notes 2200 3100 2    100  ~ 0
+Text Notes 3650 2550 2    100  ~ 0
 Microcontroller Chip
-$Comp
-L power:GND #PWR?
-U 1 1 6175B71A
-P 900 1850
-F 0 "#PWR?" H 900 1600 50  0001 C CNN
-F 1 "GND" H 905 1677 50  0000 C CNN
-F 2 "" H 900 1850 50  0001 C CNN
-F 3 "" H 900 1850 50  0001 C CNN
-	1    900  1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6175BE4D
-P 900 1600
-F 0 "C?" H 1015 1646 50  0000 L CNN
-F 1 "1uF" H 1015 1555 50  0000 L CNN
-F 2 "" H 938 1450 50  0001 C CNN
-F 3 "~" H 900 1600 50  0001 C CNN
-	1    900  1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6175AAC7
-P 900 1350
-F 0 "#PWR?" H 900 1200 50  0001 C CNN
-F 1 "+3.3V" H 915 1523 50  0000 C CNN
-F 2 "" H 900 1350 50  0001 C CNN
-F 3 "" H 900 1350 50  0001 C CNN
-	1    900  1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  1750 900  1800
-Wire Wire Line
-	900  1350 900  1400
-$Comp
-L Device:C C?
-U 1 1 617783A3
-P 1300 1600
-F 0 "C?" H 1415 1646 50  0000 L CNN
-F 1 "100nF" H 1415 1555 50  0000 L CNN
-F 2 "" H 1338 1450 50  0001 C CNN
-F 3 "~" H 1300 1600 50  0001 C CNN
-	1    1300 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 61778808
-P 1750 1600
-F 0 "C?" H 1865 1646 50  0000 L CNN
-F 1 "100nF" H 1865 1555 50  0000 L CNN
-F 2 "" H 1788 1450 50  0001 C CNN
-F 3 "~" H 1750 1600 50  0001 C CNN
-	1    1750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 61778B9F
-P 2200 1600
-F 0 "C?" H 2315 1646 50  0000 L CNN
-F 1 "100nF" H 2315 1555 50  0000 L CNN
-F 2 "" H 2238 1450 50  0001 C CNN
-F 3 "~" H 2200 1600 50  0001 C CNN
-	1    2200 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  1800 1300 1800
-Wire Wire Line
-	2200 1800 2200 1750
-Connection ~ 900  1800
-Wire Wire Line
-	900  1800 900  1850
-Wire Wire Line
-	2200 1450 2200 1400
-Wire Wire Line
-	2200 1400 1750 1400
-Connection ~ 900  1400
-Wire Wire Line
-	900  1400 900  1450
-Wire Wire Line
-	1300 1450 1300 1400
-Connection ~ 1300 1400
-Wire Wire Line
-	1300 1400 900  1400
-Wire Wire Line
-	1750 1450 1750 1400
-Connection ~ 1750 1400
-Wire Wire Line
-	1750 1400 1300 1400
-Wire Wire Line
-	1750 1750 1750 1800
-Connection ~ 1750 1800
-Wire Wire Line
-	1750 1800 2200 1800
-Wire Wire Line
-	1300 1750 1300 1800
-Connection ~ 1300 1800
-Wire Wire Line
-	1300 1800 1750 1800
-$Comp
-L Device:C C?
-U 1 1 618540DA
-P 2650 1600
-F 0 "C?" H 2765 1646 50  0000 L CNN
-F 1 "100nF" H 2765 1555 50  0000 L CNN
-F 2 "" H 2688 1450 50  0001 C CNN
-F 3 "~" H 2650 1600 50  0001 C CNN
-	1    2650 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 1800 2650 1800
-Wire Wire Line
-	2650 1800 2650 1750
-Connection ~ 2200 1800
-Wire Wire Line
-	2650 1450 2650 1400
-Wire Wire Line
-	2650 1400 2200 1400
-Connection ~ 2200 1400
 $Comp
 L SparkFun-Connectors:CONN_05X2RA J?
 U 1 1 6196C043
@@ -349,12 +120,6 @@ Text GLabel 8900 4900 2    50   Input ~ 0
 SWCLK
 Text GLabel 8900 5200 2    50   Input ~ 0
 NRST
-Text GLabel 3500 6250 2    50   Input ~ 0
-SWDIO
-Text GLabel 3500 6350 2    50   Input ~ 0
-SWCLK
-Text GLabel 2300 3750 0    50   Input ~ 0
-NRST
 $Comp
 L Device:C C?
 U 1 1 619D380E
@@ -393,13 +158,6 @@ Text Notes 9250 4350 2    100  ~ 0
 SWD Connector
 Text Notes 8150 5850 0    50   ~ 0
 NRST cap protects\nagainst parasitic resets.
-Text GLabel 2300 5650 0    50   Input ~ 0
-PVD_IN
-Text GLabel 2700 1400 2    50   Input ~ 0
-PVD_IN
-Wire Wire Line
-	2650 1400 2700 1400
-Connection ~ 2650 1400
 Wire Notes Line
 	5850 5650 7600 5650
 Wire Notes Line
@@ -408,108 +166,6 @@ Wire Notes Line
 	5850 4400 7600 4400
 Wire Notes Line
 	5850 4400 5850 5650
-$Comp
-L power:GND #PWR?
-U 1 1 61C83AF5
-P 800 4050
-F 0 "#PWR?" H 800 3800 50  0001 C CNN
-F 1 "GND" H 805 3877 50  0000 C CNN
-F 2 "" H 800 4050 50  0001 C CNN
-F 3 "" H 800 4050 50  0001 C CNN
-	1    800  4050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2300 4450
-NoConn ~ 2300 4550
-NoConn ~ 2300 5050
-NoConn ~ 2300 5150
-NoConn ~ 2300 5250
-NoConn ~ 2300 5350
-NoConn ~ 2300 5450
-NoConn ~ 2300 5750
-NoConn ~ 2300 6150
-NoConn ~ 3500 6450
-NoConn ~ 3500 5950
-NoConn ~ 3500 5850
-NoConn ~ 3500 4950
-$Comp
-L Device:LED D?
-U 1 1 61DAA1E4
-P 4050 6050
-F 0 "D?" V 4089 5932 50  0000 R CNN
-F 1 "LED" V 3998 5932 50  0000 R CNN
-F 2 "" H 4050 6050 50  0001 C CNN
-F 3 "~" H 4050 6050 50  0001 C CNN
-	1    4050 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 61DABA9D
-P 4400 6050
-F 0 "D?" V 4439 5932 50  0000 R CNN
-F 1 "LED" V 4348 5932 50  0000 R CNN
-F 2 "" H 4400 6050 50  0001 C CNN
-F 3 "~" H 4400 6050 50  0001 C CNN
-	1    4400 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 61DABD7B
-P 4750 6050
-F 0 "D?" V 4789 5932 50  0000 R CNN
-F 1 "LED" V 4698 5932 50  0000 R CNN
-F 2 "" H 4750 6050 50  0001 C CNN
-F 3 "~" H 4750 6050 50  0001 C CNN
-	1    4750 6050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4050 5900 4050 5750
-Wire Wire Line
-	4050 5750 3500 5750
-$Comp
-L power:GND #PWR?
-U 1 1 61EE7B43
-P 4050 6200
-F 0 "#PWR?" H 4050 5950 50  0001 C CNN
-F 1 "GND" H 4055 6027 50  0000 C CNN
-F 2 "" H 4050 6200 50  0001 C CNN
-F 3 "" H 4050 6200 50  0001 C CNN
-	1    4050 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61EE7D1F
-P 4400 6200
-F 0 "#PWR?" H 4400 5950 50  0001 C CNN
-F 1 "GND" H 4405 6027 50  0000 C CNN
-F 2 "" H 4400 6200 50  0001 C CNN
-F 3 "" H 4400 6200 50  0001 C CNN
-	1    4400 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61EE7F70
-P 4750 6200
-F 0 "#PWR?" H 4750 5950 50  0001 C CNN
-F 1 "GND" H 4755 6027 50  0000 C CNN
-F 2 "" H 4750 6200 50  0001 C CNN
-F 3 "" H 4750 6200 50  0001 C CNN
-	1    4750 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 5450 4400 5900
-Wire Wire Line
-	3500 5450 4400 5450
-Wire Wire Line
-	4750 5900 4750 5350
-Wire Wire Line
-	3500 5350 4750 5350
 $Sheet
 S 5900 1000 850  800 
 U 615A5159
@@ -690,108 +346,7 @@ Text GLabel 9350 3200 0    50   Input ~ 0
 USB_DM
 Text GLabel 9350 2900 0    50   Input ~ 0
 USB_DP
-Wire Notes Line
-	5050 7000 5050 3150
-Text Notes 700  1050 0    100  ~ 0
-Microcontroller\nInput Power Filtering
-Text Notes 750  2300 0    50   ~ 0
-1uF - Bulk Filtering\n100nF - 1 per VCC pin
-Wire Notes Line
-	700  1100 700  2100
-Wire Notes Line
-	700  2100 3050 2100
-Wire Notes Line
-	3050 2100 3050 1100
-Wire Notes Line
-	3050 1100 700  1100
-Text Notes 750  2550 0    50   ~ 0
-PVD_IN is the Power Voltage Dropout pin,\nused to detect and respond to brownout conditions.
 NoConn ~ 7650 1600
-Text Notes 700  6200 0    50   ~ 0
-CL = 2 * (Cload - Cstray)\nCstray ≈ 20pF, Cstray ≈ 5pF\nCL = 2 * (Cload - 5pF)\nCL = 30pF
-$Comp
-L Device:Crystal Y?
-U 1 1 61843AD7
-P 1200 5050
-F 0 "Y?" H 1200 5350 50  0000 C CNN
-F 1 "32MHz" H 1200 5250 50  0000 C CNN
-F 2 "" H 1200 5050 50  0001 C CNN
-F 3 "~" H 1200 5050 50  0001 C CNN
-	1    1200 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6184CB24
-P 950 5400
-F 0 "C?" H 1065 5446 50  0000 L CNN
-F 1 "30pF" H 1065 5355 50  0000 L CNN
-F 2 "" H 988 5250 50  0001 C CNN
-F 3 "~" H 950 5400 50  0001 C CNN
-	1    950  5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6184D6F8
-P 1450 5400
-F 0 "C?" H 1565 5446 50  0000 L CNN
-F 1 "30pF" H 1565 5355 50  0000 L CNN
-F 2 "" H 1488 5250 50  0001 C CNN
-F 3 "~" H 1450 5400 50  0001 C CNN
-	1    1450 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 5050 950  5050
-Wire Wire Line
-	1450 5050 1350 5050
-$Comp
-L power:GND #PWR?
-U 1 1 6185236B
-P 950 5550
-F 0 "#PWR?" H 950 5300 50  0001 C CNN
-F 1 "GND" H 955 5377 50  0000 C CNN
-F 2 "" H 950 5550 50  0001 C CNN
-F 3 "" H 950 5550 50  0001 C CNN
-	1    950  5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61852907
-P 1450 5550
-F 0 "#PWR?" H 1450 5300 50  0001 C CNN
-F 1 "GND" H 1455 5377 50  0000 C CNN
-F 2 "" H 1450 5550 50  0001 C CNN
-F 3 "" H 1450 5550 50  0001 C CNN
-	1    1450 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 5250 1450 5050
-Connection ~ 1450 5050
-Wire Wire Line
-	950  5050 950  5250
-Connection ~ 950  5050
-Wire Notes Line
-	650  7000 650  3150
-Wire Notes Line
-	650  3150 5050 3150
-Wire Notes Line
-	650  7000 5050 7000
-Wire Wire Line
-	1450 4250 2300 4250
-Wire Wire Line
-	1450 4250 1450 5050
-Wire Wire Line
-	800  4050 800  3950
-Wire Wire Line
-	800  3950 2300 3950
-Wire Wire Line
-	2300 4150 950  4150
-Wire Wire Line
-	950  4150 950  5050
 Wire Notes Line
 	8100 4400 8100 5650
 Wire Notes Line
@@ -819,4 +374,58 @@ F1 "USB_ESD.sch" 50
 F2 "D+" O L 9350 2900 50 
 F3 "D-" O L 9350 3200 50 
 $EndSheet
+$Sheet
+S 2100 2650 900  2700
+U 61E8EFE4
+F0 "L552CC" 50
+F1 "MCU_L552CC.sch" 50
+F2 "MEMS_EN" I R 3000 4800 50 
+F3 "I2C1_SCL" I R 3000 2800 50 
+F4 "I2C1_SDA" I R 3000 2900 50 
+F5 "SPI2_SCK" I R 3000 3600 50 
+F6 "EXT_SDA" I R 3000 4300 50 
+F7 "EXT_SCL" I R 3000 4200 50 
+F8 "SPI2_MISO" I R 3000 3500 50 
+F9 "SPI2_MOSI" I R 3000 3700 50 
+F10 "SPI1_SCK" I R 3000 3200 50 
+F11 "USART2_TX" I R 3000 4000 50 
+F12 "USART2_RX" I R 3000 3900 50 
+F13 "SPI1_MISO" I R 3000 3100 50 
+F14 "SPI1_MOSI" I R 3000 3300 50 
+F15 "USB_DM" I R 3000 4600 50 
+F16 "USB_DP" I R 3000 4500 50 
+F17 "SWDIO" I R 3000 5200 50 
+F18 "SWCLK" I R 3000 5100 50 
+F19 "NRST" I R 3000 5000 50 
+$EndSheet
+Text GLabel 3000 2900 2    50   Input ~ 0
+I2C1_SDA
+Text GLabel 3000 2800 2    50   Input ~ 0
+I2C1_SCL
+Text GLabel 3000 3900 2    50   Input ~ 0
+USART1_TX
+Text GLabel 3000 4000 2    50   Input ~ 0
+USART1_RX
+Text GLabel 3000 3200 2    50   Input ~ 0
+SPI1_SCK
+Text GLabel 3000 3300 2    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 3000 3100 2    50   Input ~ 0
+SPI1_MISO
+Text GLabel 3000 4500 2    50   Input ~ 0
+USB_DP
+Text GLabel 3000 4600 2    50   Input ~ 0
+USB_DM
+Text GLabel 3000 5000 2    50   Input ~ 0
+NRST
+Text GLabel 3000 4800 2    50   Input ~ 0
+MEMS_EN
+Text GLabel 3000 5100 2    50   Input ~ 0
+SWCLK
+Text GLabel 3000 5200 2    50   Input ~ 0
+SWDIO
+Text GLabel 3000 4300 2    50   Input ~ 0
+EXT_SDA
+Text GLabel 3000 4200 2    50   Input ~ 0
+EXT_SCL
 $EndSCHEMATC
