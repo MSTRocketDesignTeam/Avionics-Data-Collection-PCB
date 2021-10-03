@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title "STM32L552CC Schematic"
 Date "2021-10-01"
-Rev "v1.0.2"
+Rev "v1.0.3"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 8
 Title "MAX-8Q GNSS Module"
 Date "2021-10-01"
-Rev "v1.0.2"
+Rev "v1.0.3"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"

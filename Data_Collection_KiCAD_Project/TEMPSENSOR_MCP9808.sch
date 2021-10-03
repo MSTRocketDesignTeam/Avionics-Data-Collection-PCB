@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 8
 Title "MCP9608 Temperature Sensor"
 Date "2021-10-01"
-Rev "v1.0.2"
+Rev "v1.0.3"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"
