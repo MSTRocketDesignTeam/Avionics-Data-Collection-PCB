@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 8
 Title "STM32L552CC Schematic"
 Date "2021-10-01"
-Rev "v1.0.3"
+Rev "v1.0.4"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"

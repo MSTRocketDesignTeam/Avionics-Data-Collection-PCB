@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 8
 Title "ICM-20948 MEMS Chip"
 Date "2021-10-01"
-Rev "v1.0.3"
+Rev "v1.0.4"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"
@@ -376,4 +376,6 @@ Wire Wire Line
 	7950 3700 8450 3700
 Text Notes 4800 4800 0    50   ~ 0
 LM317 Equation:\nVout = 1.25(1 + R2/R1)\nLet R1 = 240Ω, Vout = 1.8V\nR1 = 105.6Ω ≈ 100Ω
+Text Notes 7650 4500 0    50   ~ 0
+ICM-20948 I2C Addresses:\nAD0 = 0 -> 0x68\nAD0 = 1 -> 0x69
 $EndSCHEMATC

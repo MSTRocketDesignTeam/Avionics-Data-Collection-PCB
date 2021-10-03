@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 4 8
 Title "MCP9608 Temperature Sensor"
 Date "2021-10-01"
-Rev "v1.0.3"
+Rev "v1.0.4"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"
@@ -113,4 +113,6 @@ Wire Notes Line
 	2400 2200 4750 2200
 Wire Wire Line
 	4250 2500 4250 2950
+Text Notes 3750 3850 0    50   ~ 0
+MCP9804 I2C Addresses:\n     |A2 A1 A0|\n0011|X  X  X |
 $EndSCHEMATC

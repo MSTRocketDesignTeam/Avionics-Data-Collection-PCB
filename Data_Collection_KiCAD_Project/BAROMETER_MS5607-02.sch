@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 8 8
 Title "MS5607-02BA Barometer Chip"
 Date "2021-10-01"
-Rev "v1.0.3"
+Rev "v1.0.4"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"
@@ -81,13 +81,7 @@ Connection ~ 5600 4100
 Wire Wire Line
 	5600 4100 5600 4150
 Wire Notes Line
-	6450 4400 6450 2800
-Wire Notes Line
 	6450 2800 4700 2800
-Wire Notes Line
-	4700 2800 4700 4400
-Wire Notes Line
-	4700 4400 6450 4400
 Text Notes 5900 2750 2    100  ~ 0
 Barometer Chip
 Wire Wire Line
@@ -102,7 +96,15 @@ SCLK
 Text HLabel 5200 3550 0    50   Input ~ 0
 SDO
 Text HLabel 5200 3850 0    50   Input ~ 0
-CSB
+~CSB
 Text HLabel 5200 3450 0    50   Input ~ 0
 PS
+Text Notes 4750 4650 0    50   ~ 0
+MS5607-02 I2C Addresses:\nAD0 = 0 -> 0x77\nAD0 = 1 -> 0x76
+Wire Notes Line
+	6450 4700 4700 4700
+Wire Notes Line
+	6450 2800 6450 4700
+Wire Notes Line
+	4700 2800 4700 4700
 $EndSCHEMATC

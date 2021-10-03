@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 8
 Title "Data Collection PCB Schematic"
 Date "2021-10-01"
-Rev "v1.0.3"
+Rev "v1.0.4"
 Comp "Missouri S&T Rocket Design Team '21 (Thomas Francois)"
 Comment1 "https://github.com/MSTRocketDesignTeam/Avionics-Data-Collection-PCB"
 Comment2 "Intended as initial pre-production design"
@@ -100,17 +100,6 @@ F3 "SCLK" I L 4650 1450 50
 F4 "~CS" I R 5350 1300 50 
 F5 "SDO_AD0" I R 5350 1150 50 
 F6 "EN" I L 4650 1150 50 
-$EndSheet
-$Sheet
-S 8500 1000 700  700 
-U 615B3F6F
-F0 "MS5607-02" 50
-F1 "BAROMETER_MS5607-02.sch" 50
-F2 "SDI_SDA" I L 8500 1100 50 
-F3 "SCLK" I L 8500 1250 50 
-F4 "SDO" I R 9200 1300 50 
-F5 "CSB" I R 9200 1450 50 
-F6 "PS" I R 9200 1150 50 
 $EndSheet
 $Comp
 L power:GND #PWR?
@@ -265,15 +254,6 @@ Wire Wire Line
 Connection ~ 7350 1300
 Wire Wire Line
 	7350 1300 7350 1150
-Wire Wire Line
-	9400 1550 9400 1450
-Wire Wire Line
-	9400 1450 9200 1450
-Wire Wire Line
-	9200 1300 9400 1300
-Wire Wire Line
-	9400 1300 9400 1450
-Connection ~ 9400 1450
 Wire Wire Line
 	9400 1000 9400 1150
 Wire Wire Line
@@ -587,28 +567,54 @@ Wire Notes Line
 	6650 7750 6650 6400
 Wire Notes Line
 	4950 6400 6650 6400
+Text Notes 5200 1700 0    50   ~ 0
+x68
+Text Notes 7050 1700 0    50   ~ 0
+x18
+Wire Wire Line
+	9400 1550 9400 1450
+Wire Wire Line
+	9400 1450 9200 1450
 Wire Bus Line
 	1000 4450 1000 6150
 Wire Bus Line
 	4000 6150 4000 7050
 Wire Bus Line
+	4800 5900 4800 7050
+Wire Bus Line
+	1150 5150 1150 5900
+Wire Bus Line
 	3250 1700 3250 1900
+Wire Bus Line
+	3250 2750 3250 3100
 Wire Bus Line
 	3250 4100 3250 4300
 Wire Bus Line
 	3250 5300 3250 5500
 Wire Bus Line
-	3250 5500 9400 5500
-Wire Bus Line
 	3250 4300 9400 4300
 Wire Bus Line
-	3250 2750 3250 3100
-Wire Bus Line
-	1150 5150 1150 5900
-Wire Bus Line
-	4800 5900 4800 7050
+	3250 5500 9400 5500
 Wire Bus Line
 	3250 3100 9400 3100
 Wire Bus Line
 	3250 1900 9400 1900
+Connection ~ 9400 1450
+Wire Wire Line
+	9400 1300 9400 1450
+Wire Wire Line
+	9200 1300 9400 1300
+$Sheet
+S 8500 1000 700  700 
+U 615B3F6F
+F0 "MS5607-02" 50
+F1 "BAROMETER_MS5607-02.sch" 50
+F2 "SDI_SDA" I L 8500 1100 50 
+F3 "SCLK" I L 8500 1250 50 
+F4 "SDO" I R 9200 1300 50 
+F5 "PS" I R 9200 1150 50 
+F6 "~CSB" I R 9200 1450 50 
+$EndSheet
+Text Notes 9050 1700 0    50   ~ 0
+x77
 $EndSCHEMATC
