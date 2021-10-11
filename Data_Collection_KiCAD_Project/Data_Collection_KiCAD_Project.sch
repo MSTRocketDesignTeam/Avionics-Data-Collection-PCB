@@ -90,28 +90,6 @@ Text Notes 4950 6350 0    100  ~ 0
 SWD Connector
 Text Notes 6600 7650 2    50   ~ 0
 NRST cap protects\nagainst parasitic resets.
-$Sheet
-S 4650 1000 700  700 
-U 615A5159
-F0 "ICM-20948" 50
-F1 "MEMS_ICM-20948.sch" 50
-F2 "SDA_SDI" I L 4650 1300 50 
-F3 "SCLK" I L 4650 1450 50 
-F4 "~CS" I R 5350 1300 50 
-F5 "SDO_AD0" I R 5350 1150 50 
-F6 "EN" I L 4650 1150 50 
-$EndSheet
-$Comp
-L power:GND #PWR?
-U 1 1 616A9A00
-P 5500 1400
-F 0 "#PWR?" H 5500 1150 50  0001 C CNN
-F 1 "GND" H 5505 1227 50  0000 C CNN
-F 2 "" H 5500 1400 50  0001 C CNN
-F 3 "" H 5500 1400 50  0001 C CNN
-	1    5500 1400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 616E7AC6
@@ -155,10 +133,6 @@ Barometer
 Text Notes 5050 2100 2    100  ~ 0
 Flash
 Entry Wire Line
-	4000 1900 4100 1800
-Entry Wire Line
-	4100 1900 4200 1800
-Entry Wire Line
 	5850 1900 5950 1800
 Entry Wire Line
 	5950 1900 6050 1800
@@ -166,9 +140,9 @@ Entry Wire Line
 	7850 1900 7950 1800
 Entry Wire Line
 	7950 1900 8050 1800
-Text Label 4600 1300 2    50   ~ 0
-I2C1_SDA
 Text Label 4600 1450 2    50   ~ 0
+I2C1_SDA
+Text Label 4600 1600 2    50   ~ 0
 I2C1_SCL
 Text Label 6450 1150 2    50   ~ 0
 I2C1_SDA
@@ -196,10 +170,6 @@ Text Label 4600 2500 2    50   ~ 0
 SPI1_MOSI
 Text Label 4600 2350 2    50   ~ 0
 SPI1_SCK
-Wire Wire Line
-	4200 1450 4650 1450
-Wire Wire Line
-	4100 1300 4650 1300
 Wire Wire Line
 	5950 1150 6500 1150
 Wire Wire Line
@@ -258,15 +228,6 @@ Wire Wire Line
 	9400 1000 9400 1150
 Wire Wire Line
 	9400 1150 9200 1150
-Wire Wire Line
-	5500 1400 5500 1300
-Wire Wire Line
-	5500 1150 5350 1150
-Wire Wire Line
-	5350 1300 5500 1300
-Connection ~ 5500 1300
-Wire Wire Line
-	5500 1300 5500 1150
 Text Label 4600 3700 2    50   ~ 0
 USART1_RX
 Text Label 4600 3550 2    50   ~ 0
@@ -307,10 +268,6 @@ Wire Wire Line
 	4100 3000 4100 2500
 Wire Wire Line
 	4000 2350 4000 3000
-Wire Wire Line
-	4100 1800 4100 1300
-Wire Wire Line
-	4200 1800 4200 1450
 Wire Wire Line
 	5950 1800 5950 1150
 Wire Wire Line
@@ -353,8 +310,6 @@ Wire Wire Line
 	1000 900  4050 900 
 Wire Wire Line
 	4050 900  4050 1150
-Wire Wire Line
-	4050 1150 4650 1150
 Wire Wire Line
 	5500 2350 5350 2350
 Wire Wire Line
@@ -567,38 +522,14 @@ Wire Notes Line
 	6650 7750 6650 6400
 Wire Notes Line
 	4950 6400 6650 6400
-Text Notes 5200 1700 0    50   ~ 0
-x68
+Text Notes 5150 1700 0    47   ~ 0
+0x28\n0x1E
 Text Notes 7050 1700 0    50   ~ 0
 x18
 Wire Wire Line
 	9400 1550 9400 1450
 Wire Wire Line
 	9400 1450 9200 1450
-Wire Bus Line
-	1000 4450 1000 6150
-Wire Bus Line
-	4000 6150 4000 7050
-Wire Bus Line
-	4800 5900 4800 7050
-Wire Bus Line
-	1150 5150 1150 5900
-Wire Bus Line
-	3250 1700 3250 1900
-Wire Bus Line
-	3250 2750 3250 3100
-Wire Bus Line
-	3250 4100 3250 4300
-Wire Bus Line
-	3250 5300 3250 5500
-Wire Bus Line
-	3250 4300 9400 4300
-Wire Bus Line
-	3250 5500 9400 5500
-Wire Bus Line
-	3250 3100 9400 3100
-Wire Bus Line
-	3250 1900 9400 1900
 Connection ~ 9400 1450
 Wire Wire Line
 	9400 1300 9400 1450
@@ -617,4 +548,50 @@ F6 "~CSB" I R 9200 1450 50
 $EndSheet
 Text Notes 9050 1700 0    50   ~ 0
 x77
+$Sheet
+S 4650 1000 700  700 
+U 615A5159
+F0 "IMU" 50
+F1 "IMU.sch" 50
+F2 "SDA" B L 4650 1450 50 
+F3 "SCL" B L 4650 1600 50 
+F4 "~BNO055_RESET" I L 4650 1150 50 
+F5 "~BNO055_BTL" I L 4650 1300 50 
+$EndSheet
+Entry Wire Line
+	3950 1900 4050 1800
+Entry Wire Line
+	4050 1900 4150 1800
+Wire Wire Line
+	4150 1800 4150 1600
+Wire Wire Line
+	4150 1600 4650 1600
+Wire Wire Line
+	4050 1800 4050 1450
+Wire Wire Line
+	4050 1450 4650 1450
+Wire Bus Line
+	1000 4450 1000 6150
+Wire Bus Line
+	4000 6150 4000 7050
+Wire Bus Line
+	3250 1700 3250 1900
+Wire Bus Line
+	3250 4100 3250 4300
+Wire Bus Line
+	3250 5300 3250 5500
+Wire Bus Line
+	3250 5500 9400 5500
+Wire Bus Line
+	3250 4300 9400 4300
+Wire Bus Line
+	3250 2750 3250 3100
+Wire Bus Line
+	1150 5150 1150 5900
+Wire Bus Line
+	4800 5900 4800 7050
+Wire Bus Line
+	3250 3100 9400 3100
+Wire Bus Line
+	3250 1900 9400 1900
 $EndSCHEMATC
