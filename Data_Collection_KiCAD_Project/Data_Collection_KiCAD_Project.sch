@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "Data Collection PCB Schematic"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -126,8 +126,8 @@ $EndComp
 NoConn ~ 6500 1450
 Text Notes 6500 900  0    100  ~ 0
 Temperature\nSensor
-Text Notes 5050 900  2    100  ~ 0
-MEMS
+Text Notes 4900 900  2    100  ~ 0
+IMU
 Text Notes 9250 900  2    100  ~ 0
 Barometer
 Text Notes 5050 2100 2    100  ~ 0
@@ -523,7 +523,7 @@ Wire Notes Line
 Wire Notes Line
 	4950 6400 6650 6400
 Text Notes 5150 1700 0    47   ~ 0
-0x28\n0x1E
+0x28\n
 Text Notes 7050 1700 0    50   ~ 0
 x18
 Wire Wire Line
@@ -548,16 +548,6 @@ F6 "~CSB" I R 9200 1450 50
 $EndSheet
 Text Notes 9050 1700 0    50   ~ 0
 x77
-$Sheet
-S 4650 1000 700  700 
-U 615A5159
-F0 "IMU" 50
-F1 "IMU.sch" 50
-F2 "SDA" B L 4650 1450 50 
-F3 "SCL" B L 4650 1600 50 
-F4 "~BNO055_RESET" I L 4650 1150 50 
-F5 "~BNO055_BTL" I L 4650 1300 50 
-$EndSheet
 Entry Wire Line
 	3950 1900 4050 1800
 Entry Wire Line
@@ -570,6 +560,50 @@ Wire Wire Line
 	4050 1800 4050 1450
 Wire Wire Line
 	4050 1450 4650 1450
+$Sheet
+S 4650 1000 700  700 
+U 615A5159
+F0 "BNO055" 50
+F1 "MEMS_BNO055.sch" 50
+F2 "SDA" B L 4650 1450 50 
+F3 "SCL" B L 4650 1600 50 
+F4 "~BNO055_RESET" I L 4650 1150 50 
+F5 "~BNO055_BTL" I L 4650 1300 50 
+$EndSheet
+$Sheet
+S 10150 950  700  700 
+U 61678964
+F0 "KX134-1211" 50
+F1 "MEMS_KX134.sch" 50
+F2 "SDA" B L 10150 1400 50 
+F3 "SCL" B L 10150 1550 50 
+F4 "KX134_INT1" O L 10150 1100 50 
+F5 "KX134_INT2" O L 10150 1250 50 
+$EndSheet
+Text Notes 11000 800  2    100  ~ 0
+High G-Accel
+Wire Bus Line
+	7750 2550 7900 2550
+Wire Bus Line
+	7900 2550 7900 2400
+Entry Wire Line
+	9650 1900 9750 1800
+Text Label 10150 1400 2    50   ~ 0
+I2C1_SDA
+Text Label 10150 1550 2    50   ~ 0
+I2C1_SCL
+Text Notes 10650 1650 0    47   ~ 0
+0x1E
+Entry Wire Line
+	9550 1900 9650 1800
+Wire Wire Line
+	9750 1800 9750 1550
+Wire Wire Line
+	9750 1550 10150 1550
+Wire Wire Line
+	9650 1800 9650 1400
+Wire Wire Line
+	9650 1400 10150 1400
 Wire Bus Line
 	1000 4450 1000 6150
 Wire Bus Line
@@ -593,5 +627,5 @@ Wire Bus Line
 Wire Bus Line
 	3250 3100 9400 3100
 Wire Bus Line
-	3250 1900 9400 1900
+	3250 1900 10900 1900
 $EndSCHEMATC

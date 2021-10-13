@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title "STM32L552CC Schematic"
 Date "2021-10-01"
 Rev "v1.0.4"
