@@ -107,4 +107,6 @@ Wire Notes Line
 	6750 2800 6750 4700
 Wire Notes Line
 	5000 2800 5000 4700
+Text Notes 5450 4900 0    50   ~ 0
+Pressure range should be \nsufficientfor ~ 100,000 feet.
 $EndSCHEMATC

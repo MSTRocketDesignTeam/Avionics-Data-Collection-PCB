@@ -464,8 +464,6 @@ Wire Notes Line
 	3050 950  700  950 
 Text Notes 750  2400 0    50   ~ 0
 PVD_IN is the Power Voltage Dropout pin,\nused to detect and respond to brownout conditions.
-Text HLabel 8200 4200 0    50   Input ~ 0
-MEMS_EN
 Text HLabel 8200 4800 0    50   Input ~ 0
 I2C1_SCL
 Text HLabel 8200 4900 0    50   Input ~ 0
