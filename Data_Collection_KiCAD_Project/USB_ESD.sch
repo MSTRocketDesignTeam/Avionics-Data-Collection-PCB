@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 2 9
 Title "USB Connector and ESD Protection"
 Date "2021-10-01"
 Rev "v1.0.4"

@@ -16,30 +16,26 @@ $EndDescr
 $Comp
 L power:+5V #PWR?
 U 1 1 61577BBB
-P 3450 6650
-F 0 "#PWR?" H 3450 6500 50  0001 C CNN
-F 1 "+5V" H 3465 6823 50  0000 C CNN
-F 2 "" H 3450 6650 50  0001 C CNN
-F 3 "" H 3450 6650 50  0001 C CNN
-	1    3450 6650
+P 2400 6950
+F 0 "#PWR?" H 2400 6800 50  0001 C CNN
+F 1 "+5V" H 2415 7123 50  0000 C CNN
+F 2 "" H 2400 6950 50  0001 C CNN
+F 3 "" H 2400 6950 50  0001 C CNN
+	1    2400 6950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 6850 3450 6650
 $Comp
 L power:+3.3V #PWR?
 U 1 1 61579C7C
-P 3700 6650
-F 0 "#PWR?" H 3700 6500 50  0001 C CNN
-F 1 "+3.3V" H 3715 6823 50  0000 C CNN
-F 2 "" H 3700 6650 50  0001 C CNN
-F 3 "" H 3700 6650 50  0001 C CNN
-	1    3700 6650
+P 1200 6600
+F 0 "#PWR?" H 1200 6450 50  0001 C CNN
+F 1 "+3.3V" H 1215 6773 50  0000 C CNN
+F 2 "" H 1200 6600 50  0001 C CNN
+F 3 "" H 1200 6600 50  0001 C CNN
+	1    1200 6600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 6650 3700 6950
-Text Notes 3850 6350 2    100  ~ 0
+Text Notes 2300 6300 2    100  ~ 0
 Main System Bus
 Text Notes 2850 1300 2    100  ~ 0
 Microcontroller Chip
@@ -58,10 +54,6 @@ $EndComp
 NoConn ~ 5950 7050
 NoConn ~ 5450 6950
 NoConn ~ 5450 7050
-Wire Wire Line
-	3450 6850 3250 6850
-Wire Wire Line
-	3250 6950 3700 6950
 $Comp
 L Device:C C?
 U 1 1 619D380E
@@ -296,6 +288,9 @@ F13 "USB_DP" I R 2550 5200 50
 F14 "SWDIO" I L 1550 5350 50 
 F15 "SWCLK" I L 1550 5200 50 
 F16 "NRST" I L 1550 5050 50 
+F17 "PVD_IN" I L 1550 4850 50 
+F18 "EXT_SDA" I L 1550 4500 50 
+F19 "EXT_SCL" I L 1550 4350 50 
 $EndSheet
 Wire Wire Line
 	5400 7150 5450 7150
@@ -324,18 +319,6 @@ F3 "DI" I L 4650 2500 50
 F4 "DO" I L 4650 2650 50 
 F5 "~CS" I R 5350 2350 50 
 $EndSheet
-$Comp
-L SparkFun-Connectors:CONN_06X2PTH_FEMALE J?
-U 1 1 619BABDC
-P 3000 7100
-F 0 "J?" H 3000 7660 45  0000 C CNN
-F 1 "CONN_06X2PTH_FEMALE" H 3000 7576 45  0000 C CNN
-F 2 "2X6" H 3000 7550 20  0001 C CNN
-F 3 "" H 3000 7100 50  0001 C CNN
-F 4 "2x6 Header" H 3000 7481 60  0000 C CNN "Field4"
-	1    3000 7100
-	1    0    0    -1  
-$EndComp
 Text Label 2600 1600 0    50   ~ 0
 I2C1_SDA
 Text Label 2600 1750 0    50   ~ 0
@@ -469,40 +452,14 @@ Text Label 5400 6850 2    50   ~ 0
 SWCLK
 Text Label 5400 7150 2    50   ~ 0
 NRST
-Wire Bus Line
-	4000 6150 1000 6150
-Entry Wire Line
-	4000 7050 3900 7150
-Entry Wire Line
-	4000 6950 3900 7050
-Entry Wire Line
-	1000 4450 1100 4350
-Entry Wire Line
-	1000 4600 1100 4500
-Wire Wire Line
-	1100 4500 1550 4500
-Wire Wire Line
-	1100 4350 1550 4350
-Text Label 1500 4500 2    50   ~ 0
+Text Label 1550 4500 2    50   ~ 0
 EXT_SDA
-Text Label 1500 4350 2    50   ~ 0
+Text Label 1550 4350 2    50   ~ 0
 EXT_SCL
-Wire Wire Line
-	3250 7050 3900 7050
-Text Label 3300 7050 0    50   ~ 0
+Text Label 1950 6800 0    50   ~ 0
 EXT_SDA
-Wire Wire Line
-	3900 7150 3250 7150
-Text Label 3300 7150 0    50   ~ 0
+Text Label 1450 7000 2    50   ~ 0
 EXT_SCL
-Wire Notes Line
-	2550 6400 3850 6400
-Wire Notes Line
-	3850 6400 3850 7450
-Wire Notes Line
-	3850 7450 2550 7450
-Wire Notes Line
-	2550 7450 2550 6400
 Wire Notes Line
 	4950 6400 4950 7750
 Wire Notes Line
@@ -592,39 +549,70 @@ Wire Wire Line
 $Comp
 L SparkFun-Connectors:CONN_06X2PTH_FEMALE J?
 U 1 1 617A50A2
-P 1400 7150
-F 0 "J?" H 1400 7710 45  0000 C CNN
-F 1 "Main Bus" H 1400 7626 45  0000 C CNN
-F 2 "2X6" H 1400 7600 20  0001 C CNN
-F 3 "" H 1400 7150 50  0001 C CNN
-F 4 "2x6 Header" H 1400 7531 60  0000 C CNN "Field4"
-	1    1400 7150
+P 1700 7050
+F 0 "J?" H 1700 7610 45  0000 C CNN
+F 1 "Main Bus" H 1700 7526 45  0000 C CNN
+F 2 "2X6" H 1700 7500 20  0001 C CNN
+F 3 "" H 1700 7050 50  0001 C CNN
+F 4 "2x6 Header" H 1700 7431 60  0000 C CNN "Field4"
+	1    1700 7050
 	1    0    0    -1  
 $EndComp
-Text Label 1650 7000 0    50   ~ 0
+Text Label 1450 6800 2    50   ~ 0
 GND
-Text Label 1150 6900 2    50   ~ 0
-GND
-Text Label 1150 7200 2    50   ~ 0
-5V
-Text Label 1650 7200 0    50   ~ 0
-5V
-Text Label 1650 7100 0    50   ~ 0
-3.3V
-Text Label 1150 7000 2    50   ~ 0
-3.3V
-Text Label 1650 6900 0    50   ~ 0
-SDA
-Text Label 1150 7100 2    50   ~ 0
-SCL
-NoConn ~ 1150 7300
-NoConn ~ 1150 7400
-NoConn ~ 1650 7400
-NoConn ~ 1650 7300
-Wire Bus Line
-	1000 4450 1000 6150
-Wire Bus Line
-	4000 6150 4000 7050
+NoConn ~ 1450 7200
+NoConn ~ 1450 7300
+NoConn ~ 1950 7300
+NoConn ~ 1950 7200
+NoConn ~ 1950 7100
+Text Label 1450 7100 2    50   ~ 0
+INT
+Wire Wire Line
+	1950 7000 2400 7000
+Wire Wire Line
+	2400 7000 2400 6950
+Wire Wire Line
+	1450 6900 1200 6900
+$Comp
+L power:GND #PWR?
+U 1 1 618118F6
+P 2200 7100
+F 0 "#PWR?" H 2200 6850 50  0001 C CNN
+F 1 "GND" H 2205 6927 50  0000 C CNN
+F 2 "" H 2200 7100 50  0001 C CNN
+F 3 "" H 2200 7100 50  0001 C CNN
+	1    2200 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7100 2200 6900
+Wire Wire Line
+	2200 6900 1950 6900
+Wire Wire Line
+	1200 6600 1200 6900
+Wire Wire Line
+	1450 6800 1000 6800
+Wire Wire Line
+	1000 6800 1000 6950
+$Comp
+L power:GND #PWR?
+U 1 1 6181AAF8
+P 1000 6950
+F 0 "#PWR?" H 1000 6700 50  0001 C CNN
+F 1 "GND" H 1005 6777 50  0000 C CNN
+F 2 "" H 1000 6950 50  0001 C CNN
+F 3 "" H 1000 6950 50  0001 C CNN
+	1    1000 6950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2550 6350 2550 7550
+Wire Notes Line
+	2550 7550 850  7550
+Wire Notes Line
+	850  6350 850  7550
+Wire Notes Line
+	850  6350 2550 6350
 Wire Bus Line
 	3250 1700 3250 1900
 Wire Bus Line
