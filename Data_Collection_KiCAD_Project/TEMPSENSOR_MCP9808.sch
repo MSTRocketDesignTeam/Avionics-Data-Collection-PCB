@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 6160E311
 P 5500 4150
 AR Path="/6160E311" Ref="#PWR?"  Part="1" 
@@ -27,7 +27,7 @@ F 3 "" H 5500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
 U 1 1 6160E323
 P 5950 2950
 AR Path="/6160E323" Ref="#PWR?"  Part="1" 
@@ -50,7 +50,7 @@ Wire Notes Line
 Text Notes 5600 2650 2    100  ~ 0
 Temp Sensor
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 6160E331
 P 6500 3600
 AR Path="/6160E331" Ref="C?"  Part="1" 
@@ -75,7 +75,7 @@ A2
 Wire Wire Line
 	5500 4050 5500 4150
 $Comp
-L Sensor_Temperature:MCP9808_MSOP U?
+L Data_Collection_KiCAD_Project-rescue:MCP9808_MSOP-Sensor_Temperature U?
 U 1 1 6160E30B
 P 5500 3550
 AR Path="/6160E30B" Ref="U?"  Part="1" 
@@ -91,7 +91,7 @@ Wire Wire Line
 	5950 3000 6500 3000
 Connection ~ 5950 3000
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 618848DE
 P 6500 3750
 AR Path="/618848DE" Ref="#PWR?"  Part="1" 

@@ -177,4 +177,5 @@
   (lib (name SparkFun-RF)(type Legacy)(uri "C:/Users/Seth/OneDrive - University of Missouri/Github/SparkFun-KiCad-Libraries/Libraries/SparkFun-RF.lib")(options "")(descr ""))
   (lib (name SparkFun-Sensors)(type Legacy)(uri "C:/Users/Seth/OneDrive - University of Missouri/Github/SparkFun-KiCad-Libraries/Libraries/SparkFun-Sensors.lib")(options "")(descr ""))
   (lib (name SparkFun-Switches)(type Legacy)(uri "C:/Users/Seth/OneDrive - University of Missouri/Github/SparkFun-KiCad-Libraries/Libraries/SparkFun-Switches.lib")(options "")(descr ""))
+  (lib (name Data_Collection_KiCAD_Project-rescue)(type Legacy)(uri ${KIPRJMOD}/Data_Collection_KiCAD_Project-rescue.lib)(options "")(descr ""))
 )

@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Pressure:MS5607-02BA U?
+L Data_Collection_KiCAD_Project-rescue:MS5607-02BA-Sensor_Pressure U?
 U 1 1 6161026E
 P 5900 3650
 AR Path="/6161026E" Ref="U?"  Part="1" 
@@ -29,7 +29,7 @@ F 5 "I2C/SPI (x77/x78)" H 5550 4150 50  0000 L CNN "Serial Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
 U 1 1 61610274
 P 6350 3150
 AR Path="/61610274" Ref="#PWR?"  Part="1" 
@@ -44,7 +44,7 @@ $EndComp
 Wire Wire Line
 	5900 3200 5900 3250
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 6161027B
 P 5900 4150
 AR Path="/6161027B" Ref="#PWR?"  Part="1" 
@@ -59,7 +59,7 @@ $EndComp
 Wire Wire Line
 	5900 4050 5900 4100
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 61610282
 P 6350 3650
 AR Path="/61610282" Ref="C?"  Part="1" 

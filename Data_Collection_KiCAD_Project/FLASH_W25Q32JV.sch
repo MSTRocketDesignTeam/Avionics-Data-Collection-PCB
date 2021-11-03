@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L power:+3.3V #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
 U 1 1 6161184E
 P 4150 2700
 AR Path="/6161184E" Ref="#PWR?"  Part="1" 
@@ -29,7 +29,7 @@ $EndComp
 Wire Wire Line
 	4950 2800 4950 2750
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 61611855
 P 4950 3600
 AR Path="/61611855" Ref="#PWR?"  Part="1" 
@@ -52,7 +52,7 @@ Wire Notes Line
 Text Notes 5150 2250 2    100  ~ 0
 Flash Storage Chip
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 6161186E
 P 3850 3150
 AR Path="/6161186E" Ref="C?"  Part="1" 
@@ -73,7 +73,7 @@ DO
 Text HLabel 4450 3100 0    50   Input ~ 0
 ~CS
 $Comp
-L Memory_Flash:W25Q32JVSS U?
+L Data_Collection_KiCAD_Project-rescue:W25Q32JVSS-Memory_Flash U?
 U 1 1 61611848
 P 4950 3200
 AR Path="/61611848" Ref="U?"  Part="1" 
@@ -88,7 +88,7 @@ F 5 "SPI" H 4950 3700 50  0000 C CNN "Serial Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 617DF3FC
 P 5500 3450
 AR Path="/617DF3FC" Ref="#PWR?"  Part="1" 
@@ -104,7 +104,7 @@ Wire Wire Line
 	5500 3450 5500 3400
 Connection ~ 5500 3400
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 617DFAF5
 P 3850 3300
 AR Path="/617DFAF5" Ref="#PWR?"  Part="1" 

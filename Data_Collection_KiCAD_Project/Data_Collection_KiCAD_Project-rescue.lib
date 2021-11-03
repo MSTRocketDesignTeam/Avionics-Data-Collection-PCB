@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Data_Collection_KiCAD_Project-rescue_+3.3V-power
+# +3.3V-power
 #
-DEF Data_Collection_KiCAD_Project-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_+5V-power
+# +5V-power
 #
-DEF Data_Collection_KiCAD_Project-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_BNO055-Sensor_Motion
+# BNO055-Sensor_Motion
 #
-DEF Data_Collection_KiCAD_Project-rescue_BNO055-Sensor_Motion U 0 20 Y Y 1 F N
+DEF BNO055-Sensor_Motion U 0 20 Y Y 1 F N
 F0 "U" -450 650 50 H V R CNN
-F1 "Data_Collection_KiCAD_Project-rescue_BNO055-Sensor_Motion" 500 650 50 H V R CNN
+F1 "BNO055-Sensor_Motion" 500 650 50 H V R CNN
 F2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" 250 -650 50 H I L CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -74,11 +74,11 @@ X CAP 9 600 -500 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_C-Device
+# C-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Data_Collection_KiCAD_Project-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -92,11 +92,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Data_Collection_KiCAD_Project-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -110,11 +110,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_Conn_Coaxial-Connector
+# Conn_Coaxial-Connector
 #
-DEF Data_Collection_KiCAD_Project-rescue_Conn_Coaxial-Connector J 0 40 Y N 1 F N
+DEF Conn_Coaxial-Connector J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_Conn_Coaxial-Connector" 115 0 50 V V C CNN
+F1 "Conn_Coaxial-Connector" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -135,11 +135,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_Crystal-Device
+# Crystal-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -156,11 +156,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_Crystal_Small-Device
+# Crystal_Small-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_Crystal_Small-Device Y 0 40 N N 1 F N
+DEF Crystal_Small-Device Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_Crystal_Small-Device" 0 -100 50 H V C CNN
+F1 "Crystal_Small-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -175,11 +175,11 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_D_Zener-Device
+# D_Zener-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_D_Zener-Device D 0 40 N N 1 F N
+DEF D_Zener-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_D_Zener-Device" 0 -100 50 H V C CNN
+F1 "D_Zener-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -197,11 +197,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_FDC6330L-Transistor_FET
+# FDC6330L-Transistor_FET
 #
-DEF Data_Collection_KiCAD_Project-rescue_FDC6330L-Transistor_FET Q 0 20 Y N 1 F N
+DEF FDC6330L-Transistor_FET Q 0 20 Y N 1 F N
 F0 "Q" 125 -50 50 H V L CNN
-F1 "Data_Collection_KiCAD_Project-rescue_FDC6330L-Transistor_FET" 125 -150 50 H V L CNN
+F1 "FDC6330L-Transistor_FET" 125 -150 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TSOT-23-6" -50 -575 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 $FPLIST
@@ -249,11 +249,11 @@ X D1 6 -300 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_Ferrite_Bead_Small-Device
+# Ferrite_Bead_Small-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
 F0 "FB" 75 50 50 H V L CNN
-F1 "Data_Collection_KiCAD_Project-rescue_Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -270,11 +270,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_GND-power
+# GND-power
 #
-DEF Data_Collection_KiCAD_Project-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -283,11 +283,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_KX122-1042-Sensor_Motion
+# KX122-1042-Sensor_Motion
 #
-DEF Data_Collection_KiCAD_Project-rescue_KX122-1042-Sensor_Motion U 0 20 Y Y 1 F N
+DEF KX122-1042-Sensor_Motion U 0 20 Y Y 1 F N
 F0 "U" -200 450 50 H V R CNN
-F1 "Data_Collection_KiCAD_Project-rescue_KX122-1042-Sensor_Motion" 150 450 50 H V L CNN
+F1 "KX122-1042-Sensor_Motion" 150 450 50 H V L CNN
 F2 "Package_LGA:LGA-12_2x2mm_P0.5mm" 150 550 50 H I L CNN
 F3 "" -350 0 50 H I C CNN
 $FPLIST
@@ -309,11 +309,11 @@ X GND 9 0 -500 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_L-Device
+# L-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_L-Device L 0 40 N N 1 F N
+DEF L-Device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_L-Device" 75 0 50 V V C CNN
+F1 "L-Device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -332,11 +332,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_LED-Device
+# LED-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -355,11 +355,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_MAX-8Q-RF_GPS
+# MAX-8Q-RF_GPS
 #
-DEF Data_Collection_KiCAD_Project-rescue_MAX-8Q-RF_GPS U 0 20 Y Y 1 F N
+DEF MAX-8Q-RF_GPS U 0 20 Y Y 1 F N
 F0 "U" -400 650 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_MAX-8Q-RF_GPS" 450 650 50 H V C CNN
+F1 "MAX-8Q-RF_GPS" 450 650 50 H V C CNN
 F2 "RF_GPS:ublox_MAX" 400 -650 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -388,11 +388,11 @@ X ~RESET 9 -600 -400 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_MCP9808_MSOP-Sensor_Temperature
+# MCP9808_MSOP-Sensor_Temperature
 #
-DEF Data_Collection_KiCAD_Project-rescue_MCP9808_MSOP-Sensor_Temperature U 0 20 Y Y 1 F N
+DEF MCP9808_MSOP-Sensor_Temperature U 0 20 Y Y 1 F N
 F0 "U" -250 450 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_MCP9808_MSOP-Sensor_Temperature" 400 450 50 H V C CNN
+F1 "MCP9808_MSOP-Sensor_Temperature" 400 450 50 H V C CNN
 F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 0 0 50 H I C CNN
 F3 "" -250 450 50 H I C CNN
 $FPLIST
@@ -411,11 +411,11 @@ X VDD 8 0 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_MS5607-02BA-Sensor_Pressure
+# MS5607-02BA-Sensor_Pressure
 #
-DEF Data_Collection_KiCAD_Project-rescue_MS5607-02BA-Sensor_Pressure U 0 20 Y Y 1 F N
+DEF MS5607-02BA-Sensor_Pressure U 0 20 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_MS5607-02BA-Sensor_Pressure" 300 350 50 H V C CNN
+F1 "MS5607-02BA-Sensor_Pressure" 300 350 50 H V C CNN
 F2 "Package_LGA:LGA-8_3x5mm_P1.25mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -434,11 +434,11 @@ X SCLK 8 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_R-Device
+# R-Device
 #
-DEF Data_Collection_KiCAD_Project-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -451,11 +451,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_STM32L031C4Tx-MCU_ST_STM32L0
+# STM32L031C4Tx-MCU_ST_STM32L0
 #
-DEF Data_Collection_KiCAD_Project-rescue_STM32L031C4Tx-MCU_ST_STM32L0 U 0 20 Y Y 1 F N
+DEF STM32L031C4Tx-MCU_ST_STM32L0 U 0 20 Y Y 1 F N
 F0 "U" -500 1450 50 H V L CNN
-F1 "Data_Collection_KiCAD_Project-rescue_STM32L031C4Tx-MCU_ST_STM32L0" 300 1450 50 H V L CNN
+F1 "STM32L031C4Tx-MCU_ST_STM32L0" 300 1450 50 H V L CNN
 F2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" -500 -1500 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -514,11 +514,11 @@ X VDDA 9 200 1500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_USBLC6-2SC6-Power_Protection
+# USBLC6-2SC6-Power_Protection
 #
-DEF Data_Collection_KiCAD_Project-rescue_USBLC6-2SC6-Power_Protection U 0 20 Y N 1 F N
+DEF USBLC6-2SC6-Power_Protection U 0 20 Y N 1 F N
 F0 "U" 100 350 50 H V L CNN
-F1 "Data_Collection_KiCAD_Project-rescue_USBLC6-2SC6-Power_Protection" 100 -350 50 H V L CNN
+F1 "USBLC6-2SC6-Power_Protection" 100 -350 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -500 50 H I C CNN
 F3 "" 200 350 50 H I C CNN
 $FPLIST
@@ -564,11 +564,11 @@ X I/O1 6 -400 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_USB_B_Micro-Connector
+# USB_B_Micro-Connector
 #
-DEF Data_Collection_KiCAD_Project-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "Data_Collection_KiCAD_Project-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -599,11 +599,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Data_Collection_KiCAD_Project-rescue_W25Q32JVSS-Memory_Flash
+# W25Q32JVSS-Memory_Flash
 #
-DEF Data_Collection_KiCAD_Project-rescue_W25Q32JVSS-Memory_Flash U 0 20 Y Y 1 F N
+DEF W25Q32JVSS-Memory_Flash U 0 20 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
-F1 "Data_Collection_KiCAD_Project-rescue_W25Q32JVSS-Memory_Flash" 300 350 50 H V C CNN
+F1 "W25Q32JVSS-Memory_Flash" 300 350 50 H V C CNN
 F2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -619,85 +619,6 @@ X DI(IO0) 5 500 200 100 L 50 50 1 1 B
 X CLK 6 -500 -100 100 R 50 50 1 1 I
 X IO3 7 500 -200 100 L 50 50 1 1 B
 X VCC 8 0 400 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# SparkFun-Connectors_CONN_05X2RA
-#
-DEF SparkFun-Connectors_CONN_05X2RA J 0 40 N Y 1 L N
-F0 "J" -150 300 45 H V L BNN
-F1 "SparkFun-Connectors_CONN_05X2RA" -150 -350 45 H V L BNN
-F2 "2X5-RA" 0 400 20 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "XXX-00000" 0 450 60 H V C CNN
-$FPLIST
- *2X5-RA*
-$ENDFPLIST
-DRAW
-S 150 -250 -150 250 0 1 0 f
-X 1 1 -250 200 100 R 40 40 1 1 P
-X 10 10 250 -200 100 L 40 40 1 1 P
-X 2 2 250 200 100 L 40 40 1 1 P
-X 3 3 -250 100 100 R 40 40 1 1 P
-X 4 4 250 100 100 L 40 40 1 1 P
-X 5 5 -250 0 100 R 40 40 1 1 P
-X 6 6 250 0 100 L 40 40 1 1 P
-X 7 7 -250 -100 100 R 40 40 1 1 P
-X 8 8 250 -100 100 L 40 40 1 1 P
-X 9 9 -250 -200 100 R 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SparkFun-Connectors_CONN_06X2PTH_FEMALE
-#
-DEF SparkFun-Connectors_CONN_06X2PTH_FEMALE J 0 40 N Y 1 L N
-F0 "J" -150 350 45 H V L BNN
-F1 "SparkFun-Connectors_CONN_06X2PTH_FEMALE" -150 -400 45 H V L BNN
-F2 "2X6" 0 450 20 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "CONN-12423" 0 500 60 H V C CNN
-$FPLIST
- *2X6*
- *2X6_SMD*
-$ENDFPLIST
-DRAW
-S 150 -300 -150 300 0 1 0 f
-X 1 1 -250 250 100 R 40 40 1 1 P
-X 10 10 250 -150 100 L 40 40 1 1 P
-X 11 11 -250 -250 100 R 40 40 1 1 P
-X 12 12 250 -250 100 L 40 40 1 1 P
-X 2 2 250 250 100 L 40 40 1 1 P
-X 3 3 -250 150 100 R 40 40 1 1 P
-X 4 4 250 150 100 L 40 40 1 1 P
-X 5 5 -250 50 100 R 40 40 1 1 P
-X 6 6 250 50 100 L 40 40 1 1 P
-X 7 7 -250 -50 100 R 40 40 1 1 P
-X 8 8 250 -50 100 L 40 40 1 1 P
-X 9 9 -250 -150 100 R 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dk_PMIC-Voltage-Regulators-Linear_LM317T
-#
-DEF dk_PMIC-Voltage-Regulators-Linear_LM317T U 0 40 Y Y 1 F N
-F0 "U" 0 150 60 H V C CNN
-F1 "dk_PMIC-Voltage-Regulators-Linear_LM317T" 0 250 60 H V C CNN
-F2 "digikey-footprints:TO-220-3" 200 200 60 H I L CNN
-F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" 200 300 60 H I L CNN
-F4 "497-1575-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "LM317T" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
-F8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC REG LIN POS ADJ 1.5A TO220AB" 200 1000 60 H I L CNN "Description"
-F11 "STMicroelectronics" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -200 100 200 -200 0 1 0 f
-X ADJ 1 0 -300 100 U 50 50 1 1 I
-X OUT 2 300 0 100 L 50 50 1 1 w
-X IN 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

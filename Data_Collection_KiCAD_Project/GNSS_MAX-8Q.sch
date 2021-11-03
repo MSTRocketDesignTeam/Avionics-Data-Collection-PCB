@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Device:L L?
+L Data_Collection_KiCAD_Project-rescue:L-Device L?
 U 1 1 616192D0
 P 3650 5950
 AR Path="/616192D0" Ref="L?"  Part="1" 
@@ -27,7 +27,7 @@ F 3 "~" H 3650 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 616192D6
 P 4000 6500
 AR Path="/616192D6" Ref="#PWR?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "" H 4000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 616192DC
 P 4900 5550
 AR Path="/616192DC" Ref="C?"  Part="1" 
@@ -53,7 +53,7 @@ F 3 "~" H 4900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Data_Collection_KiCAD_Project-rescue:R-Device R?
 U 1 1 616192E2
 P 4700 5550
 AR Path="/616192E2" Ref="R?"  Part="1" 
@@ -66,7 +66,7 @@ F 3 "~" H 4700 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Data_Collection_KiCAD_Project-rescue:R-Device R?
 U 1 1 616192E8
 P 4350 6250
 AR Path="/616192E8" Ref="R?"  Part="1" 
@@ -79,7 +79,7 @@ F 3 "~" H 4350 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:FDC6330L Q?
+L Data_Collection_KiCAD_Project-rescue:FDC6330L-Transistor_FET Q?
 U 1 1 616192EF
 P 4000 5650
 AR Path="/616192EF" Ref="Q?"  Part="1" 
@@ -109,7 +109,7 @@ Wire Wire Line
 	4900 5350 4700 5350
 Connection ~ 4700 5350
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 616192FE
 P 4900 5750
 AR Path="/616192FE" Ref="#PWR?"  Part="1" 
@@ -143,7 +143,7 @@ Wire Wire Line
 	4900 5350 4950 5350
 Connection ~ 4900 5350
 $Comp
-L Device:R R?
+L Data_Collection_KiCAD_Project-rescue:R-Device R?
 U 1 1 61619311
 P 3650 5550
 AR Path="/61619311" Ref="R?"  Part="1" 
@@ -178,7 +178,7 @@ Wire Notes Line
 Wire Notes Line
 	5500 6750 3000 6750
 $Comp
-L power:+3.3V #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
 U 1 1 6161C95B
 P 7200 2400
 AR Path="/6161C95B" Ref="#PWR?"  Part="1" 
@@ -202,7 +202,7 @@ Wire Wire Line
 	7500 2450 7600 2450
 Connection ~ 7600 2450
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 6161C967
 P 7700 3900
 AR Path="/6161C967" Ref="#PWR?"  Part="1" 
@@ -220,7 +220,7 @@ Wire Wire Line
 	7200 2450 7500 2450
 Connection ~ 7500 2450
 $Comp
-L Connector:Conn_Coaxial J?
+L Data_Collection_KiCAD_Project-rescue:Conn_Coaxial-Connector J?
 U 1 1 6161C976
 P 9400 3200
 AR Path="/6161C976" Ref="J?"  Part="1" 
@@ -242,7 +242,7 @@ Connection ~ 7050 3100
 Text Notes 8600 2000 2    100  ~ 0
 MAX-8Q: GNSS Module Chip
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 6161C998
 P 1200 1950
 AR Path="/6161C998" Ref="#PWR?"  Part="1" 
@@ -255,7 +255,7 @@ F 3 "" H 1200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 6161C99E
 P 1200 1700
 AR Path="/6161C99E" Ref="C?"  Part="1" 
@@ -268,7 +268,7 @@ F 3 "~" H 1200 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
 U 1 1 6161C9A4
 P 1200 1450
 AR Path="/6161C9A4" Ref="#PWR?"  Part="1" 
@@ -285,7 +285,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 1450 1200 1500
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 6161C9AC
 P 1600 1700
 AR Path="/6161C9AC" Ref="C?"  Part="1" 
@@ -298,7 +298,7 @@ F 3 "~" H 1600 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 6161C9B2
 P 2050 1700
 AR Path="/6161C9B2" Ref="C?"  Part="1" 
@@ -311,7 +311,7 @@ F 3 "~" H 2050 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 6161C9B8
 P 2500 1700
 AR Path="/6161C9B8" Ref="C?"  Part="1" 
@@ -358,7 +358,7 @@ Connection ~ 1600 1900
 Wire Wire Line
 	1600 1900 2050 1900
 $Comp
-L Device:C C?
+L Data_Collection_KiCAD_Project-rescue:C-Device C?
 U 1 1 6161C9D2
 P 2950 1700
 AR Path="/6161C9D2" Ref="C?"  Part="1" 
@@ -389,7 +389,7 @@ GPS_LNA_EN
 Text HLabel 4950 6050 2    50   Input ~ 0
 GPS_LNA_EN
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 61679BC7
 P 9400 3400
 AR Path="/61679BC7" Ref="#PWR?"  Part="1" 
@@ -408,7 +408,7 @@ NoConn ~ 7100 3500
 Text HLabel 7100 3600 0    50   Input ~ 0
 ~RESET
 $Comp
-L power:GND #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
 U 1 1 6167BBB2
 P 6550 3700
 AR Path="/6167BBB2" Ref="#PWR?"  Part="1" 
@@ -434,7 +434,7 @@ Connection ~ 6550 3400
 Wire Wire Line
 	6550 3400 7100 3400
 $Comp
-L RF_GPS:MAX-8Q U?
+L Data_Collection_KiCAD_Project-rescue:MAX-8Q-RF_GPS U?
 U 1 1 6161C986
 P 7700 3200
 AR Path="/6161C986" Ref="U?"  Part="1" 
