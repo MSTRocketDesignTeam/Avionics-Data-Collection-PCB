@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Data Collection PCB Schematic"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -633,4 +633,10 @@ Wire Bus Line
 	3250 3100 9400 3100
 Wire Bus Line
 	3250 1900 10900 1900
+$Sheet
+S 9750 3550 800  900 
+U 61948ED3
+F0 "MainBus_CardEdge.sch" 50
+F1 "MainBus_CardEdge.sch" 50
+$EndSheet
 $EndSCHEMATC
