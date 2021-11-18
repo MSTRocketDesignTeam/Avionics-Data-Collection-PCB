@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 9
 Title "STM32L552CC Schematic"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:STM32L031C4Tx-MCU_ST_STM32L0 U?
+L Data_Collection_KiCAD_Project-rescue:STM32L031C4Tx-MCU_ST_STM32L0-Data_Collection_KiCAD_Project-rescue U?
 U 1 1 61E9E6C0
 P 8800 4300
 AR Path="/61E9E6C0" Ref="U?"  Part="1" 
@@ -28,7 +28,7 @@ F 4 "Microcontroller" H 8800 5950 50  0000 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E6C6
 P 8700 6000
 AR Path="/61E9E6C6" Ref="#PWR?"  Part="1" 
@@ -58,7 +58,7 @@ Connection ~ 8800 5950
 Wire Wire Line
 	8800 5950 8900 5950
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E6D6
 P 9200 2700
 AR Path="/61E9E6D6" Ref="#PWR?"  Part="1" 
@@ -96,7 +96,7 @@ Wire Wire Line
 Text Notes 8100 2350 2    100  ~ 0
 Microcontroller Chip
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E6FD
 P 6700 3300
 AR Path="/61E9E6FD" Ref="#PWR?"  Part="1" 
@@ -122,7 +122,7 @@ NoConn ~ 9400 5200
 NoConn ~ 9400 5100
 NoConn ~ 9400 4200
 $Comp
-L Data_Collection_KiCAD_Project-rescue:LED-Device D?
+L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 61E9E710
 P 9950 5300
 AR Path="/61E9E710" Ref="D?"  Part="1" 
@@ -135,7 +135,7 @@ F 3 "~" H 9950 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:LED-Device D?
+L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 61E9E716
 P 10300 5300
 AR Path="/61E9E716" Ref="D?"  Part="1" 
@@ -148,7 +148,7 @@ F 3 "~" H 10300 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:LED-Device D?
+L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 61E9E71C
 P 10650 5300
 AR Path="/61E9E71C" Ref="D?"  Part="1" 
@@ -165,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 5000 9400 5000
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E724
 P 9950 5450
 AR Path="/61E9E724" Ref="#PWR?"  Part="1" 
@@ -178,7 +178,7 @@ F 3 "" H 9950 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E72A
 P 10300 5450
 AR Path="/61E9E72A" Ref="#PWR?"  Part="1" 
@@ -191,7 +191,7 @@ F 3 "" H 10300 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E730
 P 10650 5450
 AR Path="/61E9E730" Ref="#PWR?"  Part="1" 
@@ -216,7 +216,7 @@ Wire Notes Line
 Text Notes 6600 5450 0    50   ~ 0
 CL = 2 * (Cload - Cstray)\nCstray ≈ 20pF, Cstray ≈ 5pF\nCL = 2 * (Cload - 5pF)\nCL = 30pF
 $Comp
-L Data_Collection_KiCAD_Project-rescue:Crystal-Device Y?
+L Data_Collection_KiCAD_Project-rescue:Crystal-Device-Data_Collection_KiCAD_Project-rescue Y?
 U 1 1 61E9E73C
 P 7100 4300
 AR Path="/61E9E73C" Ref="Y?"  Part="1" 
@@ -229,7 +229,7 @@ F 3 "~" H 7100 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61E9E742
 P 6850 4650
 AR Path="/61E9E742" Ref="C?"  Part="1" 
@@ -242,7 +242,7 @@ F 3 "~" H 6850 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61E9E748
 P 7350 4650
 AR Path="/61E9E748" Ref="C?"  Part="1" 
@@ -259,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 4300 7250 4300
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E750
 P 6850 4800
 AR Path="/61E9E750" Ref="#PWR?"  Part="1" 
@@ -272,7 +272,7 @@ F 3 "" H 6850 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E756
 P 7350 4800
 AR Path="/61E9E756" Ref="#PWR?"  Part="1" 
@@ -309,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3400 6850 4300
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61EA2645
 P 900 1700
 AR Path="/61EA2645" Ref="#PWR?"  Part="1" 
@@ -322,7 +322,7 @@ F 3 "" H 900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61EA264B
 P 900 1450
 AR Path="/61EA264B" Ref="C?"  Part="1" 
@@ -335,7 +335,7 @@ F 3 "~" H 900 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61EA2651
 P 900 1200
 AR Path="/61EA2651" Ref="#PWR?"  Part="1" 
@@ -352,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	900  1200 900  1250
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61EA2659
 P 1300 1450
 AR Path="/61EA2659" Ref="C?"  Part="1" 
@@ -365,7 +365,7 @@ F 3 "~" H 1300 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61EA265F
 P 1750 1450
 AR Path="/61EA265F" Ref="C?"  Part="1" 
@@ -378,7 +378,7 @@ F 3 "~" H 1750 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61EA2665
 P 2200 1450
 AR Path="/61EA2665" Ref="C?"  Part="1" 
@@ -425,7 +425,7 @@ Connection ~ 1300 1650
 Wire Wire Line
 	1300 1650 1750 1650
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61EA267F
 P 2650 1450
 AR Path="/61EA267F" Ref="C?"  Part="1" 

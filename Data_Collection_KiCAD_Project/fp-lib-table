@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name digikey-footprints)(type KiCad)(uri "C:/Users/Seth/OneDrive - University of Missouri/Github/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
-  (lib (name Footprints)(type KiCad)(uri "C:/Users/Seth/OneDrive - University of Missouri/Github/SparkFun-KiCad-Libraries/Footprints")(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri "C:/Users/Seth/OneDrive - University of Missouri/Github/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr "")(disabled))
+  (lib (name Footprints)(type KiCad)(uri "C:/Users/Seth/OneDrive - University of Missouri/Github/SparkFun-KiCad-Libraries/Footprints")(options "")(descr "")(disabled))
 )

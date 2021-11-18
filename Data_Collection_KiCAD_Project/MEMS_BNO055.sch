@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 8 9
 Title "ICM-20948 MEMS Chip"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -14,9 +14,11 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:BNO055-Sensor_Motion U?
+L Data_Collection_KiCAD_Project-rescue:BNO055-Sensor_Motion-Data_Collection_KiCAD_Project-rescue U?
 U 1 1 61663BA8
 P 5650 3550
+AR Path="/61663BA8" Ref="U?"  Part="1" 
+AR Path="/615A5159/61663BA8" Ref="U?"  Part="1" 
 F 0 "U?" H 5650 4600 50  0000 C CNN
 F 1 "BNO055" H 5650 4500 50  0000 C CNN
 F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 5900 2900 50  0001 L CNN
@@ -32,9 +34,11 @@ Wire Wire Line
 Wire Wire Line
 	5750 2700 5550 2700
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6166AFE6
 P 5200 2700
+AR Path="/6166AFE6" Ref="#PWR?"  Part="1" 
+AR Path="/615A5159/6166AFE6" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5200 2550 50  0001 C CNN
 F 1 "+3.3V" H 5215 2873 50  0000 C CNN
 F 2 "" H 5200 2700 50  0001 C CNN
@@ -46,7 +50,7 @@ Wire Wire Line
 	5550 2700 5200 2700
 Connection ~ 5550 2700
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6166C199
 P 6400 2750
 F 0 "#PWR?" H 6400 2500 50  0001 C CNN
@@ -57,7 +61,7 @@ F 3 "" H 6400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6166D1D4
 P 5550 4350
 F 0 "#PWR?" H 5550 4100 50  0001 C CNN
@@ -75,7 +79,7 @@ Connection ~ 5550 4250
 Text HLabel 5050 3450 0    50   Input ~ 0
 ~BNO055_BTL
 $Comp
-L Data_Collection_KiCAD_Project-rescue:Crystal_Small-Device Y?
+L Data_Collection_KiCAD_Project-rescue:Crystal_Small-Device-Data_Collection_KiCAD_Project-rescue Y?
 U 1 1 6166FF64
 P 6450 3300
 F 0 "Y?" V 6404 3388 50  0000 L CNN
@@ -86,9 +90,11 @@ F 3 "~" H 6450 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C_Small-Device C?
+L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 6167196C
 P 6300 2700
+AR Path="/6167196C" Ref="C?"  Part="1" 
+AR Path="/615A5159/6167196C" Ref="C?"  Part="1" 
 F 0 "C?" V 6071 2700 50  0000 C CNN
 F 1 "0.1uF" V 6162 2700 50  0000 C CNN
 F 2 "" H 6300 2700 50  0001 C CNN
@@ -110,9 +116,11 @@ Wire Wire Line
 Wire Wire Line
 	6450 3050 6450 3200
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C_Small-Device C?
+L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 6167A718
 P 6750 3050
+AR Path="/6167A718" Ref="C?"  Part="1" 
+AR Path="/615A5159/6167A718" Ref="C?"  Part="1" 
 F 0 "C?" V 6521 3050 50  0000 C CNN
 F 1 "0.1uF" V 6612 3050 50  0000 C CNN
 F 2 "" H 6750 3050 50  0001 C CNN
@@ -121,9 +129,11 @@ F 3 "~" H 6750 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C_Small-Device C?
+L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 6167C82F
 P 6750 3550
+AR Path="/6167C82F" Ref="C?"  Part="1" 
+AR Path="/615A5159/6167C82F" Ref="C?"  Part="1" 
 F 0 "C?" V 6850 3550 50  0000 C CNN
 F 1 "0.1uF" V 6950 3550 50  0000 C CNN
 F 2 "" H 6750 3550 50  0001 C CNN
@@ -138,7 +148,7 @@ Wire Wire Line
 	6450 3050 6650 3050
 Connection ~ 6450 3050
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6167EB61
 P 7100 3550
 F 0 "#PWR?" H 7100 3300 50  0001 C CNN
@@ -160,7 +170,7 @@ SDA
 Text HLabel 5050 3850 0    50   BiDi ~ 0
 SCL
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61681CEA
 P 4850 4100
 F 0 "#PWR?" H 4850 3850 50  0001 C CNN
@@ -198,7 +208,7 @@ Text HLabel 5050 3050 0    50   Input ~ 0
 Text HLabel 5050 3250 0    50   Output ~ 0
 BNO055_INT
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616939D5
 P 6700 4350
 F 0 "#PWR?" H 6700 4100 50  0001 C CNN
@@ -209,9 +219,11 @@ F 3 "" H 6700 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C_Small-Device C?
+L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 616964F3
 P 6450 4050
+AR Path="/616964F3" Ref="C?"  Part="1" 
+AR Path="/615A5159/616964F3" Ref="C?"  Part="1" 
 F 0 "C?" V 6550 4050 50  0000 C CNN
 F 1 "0.1uF" V 6650 4050 50  0000 C CNN
 F 2 "" H 6450 4050 50  0001 C CNN

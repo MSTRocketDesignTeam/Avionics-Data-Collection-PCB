@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 9
 Title "MS5607-02BA Barometer Chip"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:MS5607-02BA-Sensor_Pressure U?
+L Data_Collection_KiCAD_Project-rescue:MS5607-02BA-Sensor_Pressure-Data_Collection_KiCAD_Project-rescue U?
 U 1 1 6161026E
 P 5900 3650
 AR Path="/6161026E" Ref="U?"  Part="1" 
@@ -29,7 +29,7 @@ F 5 "I2C/SPI (x77/x78)" H 5550 4150 50  0000 L CNN "Serial Type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61610274
 P 6350 3150
 AR Path="/61610274" Ref="#PWR?"  Part="1" 
@@ -44,7 +44,7 @@ $EndComp
 Wire Wire Line
 	5900 3200 5900 3250
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6161027B
 P 5900 4150
 AR Path="/6161027B" Ref="#PWR?"  Part="1" 
@@ -59,7 +59,7 @@ $EndComp
 Wire Wire Line
 	5900 4050 5900 4100
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 61610282
 P 6350 3650
 AR Path="/61610282" Ref="C?"  Part="1" 

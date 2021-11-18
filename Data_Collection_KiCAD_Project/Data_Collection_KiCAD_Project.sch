@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title "Data Collection PCB Schematic"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+5V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61577BBB
 P 2400 6950
 F 0 "#PWR?" H 2400 6800 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 2400 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61579C7C
 P 1200 6600
 F 0 "#PWR?" H 1200 6450 50  0001 C CNN
@@ -55,7 +55,7 @@ NoConn ~ 5950 7050
 NoConn ~ 5450 6950
 NoConn ~ 5450 7050
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 619D380E
 P 5400 7350
 F 0 "C?" H 5515 7396 50  0000 L CNN
@@ -66,7 +66,7 @@ F 3 "~" H 5400 7350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 619D3F11
 P 5400 7500
 F 0 "#PWR?" H 5400 7250 50  0001 C CNN
@@ -83,7 +83,7 @@ SWD Connector
 Text Notes 6600 7650 2    50   ~ 0
 NRST cap protects\nagainst parasitic resets.
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616E7AC6
 P 9400 1550
 F 0 "#PWR?" H 9400 1300 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 9400 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616FEE96
 P 9400 1000
 F 0 "#PWR?" H 9400 850 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 9400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6176C380
 P 7350 1550
 F 0 "#PWR?" H 7350 1300 50  0001 C CNN
@@ -299,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 2450 5500 2350
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 617E2922
 P 5500 2450
 F 0 "#PWR?" H 5500 2200 50  0001 C CNN
@@ -378,7 +378,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 6750 6150 6700
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 619AF36E
 P 6150 6700
 F 0 "#PWR?" H 6150 6550 50  0001 C CNN
@@ -403,7 +403,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 7200 6050 7150
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6196C349
 P 6050 7200
 F 0 "#PWR?" H 6050 6950 50  0001 C CNN
@@ -574,7 +574,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 6900 1200 6900
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 618118F6
 P 2200 7100
 F 0 "#PWR?" H 2200 6850 50  0001 C CNN
@@ -595,7 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 6800 1000 6950
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 6181AAF8
 P 1000 6950
 F 0 "#PWR?" H 1000 6700 50  0001 C CNN
@@ -633,10 +633,4 @@ Wire Bus Line
 	3250 3100 9400 3100
 Wire Bus Line
 	3250 1900 10900 1900
-$Sheet
-S 9750 3550 800  900 
-U 61948ED3
-F0 "MainBus_CardEdge.sch" 50
-F1 "MainBus_CardEdge.sch" 50
-$EndSheet
 $EndSCHEMATC

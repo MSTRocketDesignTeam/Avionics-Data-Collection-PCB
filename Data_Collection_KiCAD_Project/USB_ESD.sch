@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 9
 Title "USB Connector and ESD Protection"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -14,7 +14,7 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:USB_B_Micro-Connector J?
+L Data_Collection_KiCAD_Project-rescue:USB_B_Micro-Connector-Data_Collection_KiCAD_Project-rescue J?
 U 1 1 616146B0
 P 2150 3950
 F 0 "J?" H 2300 4300 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 2300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616146B6
 P 2150 4350
 F 0 "#PWR?" H 2150 4100 50  0001 C CNN
@@ -38,7 +38,7 @@ $EndComp
 NoConn ~ 2050 4350
 NoConn ~ 2450 4150
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+5V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616146BE
 P 3300 3350
 F 0 "#PWR?" H 3300 3200 50  0001 C CNN
@@ -49,7 +49,7 @@ F 3 "" H 3300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:USBLC6-2SC6-Power_Protection U?
+L Data_Collection_KiCAD_Project-rescue:USBLC6-2SC6-Power_Protection-Data_Collection_KiCAD_Project-rescue U?
 U 1 1 616146C5
 P 7400 4050
 F 0 "U?" H 7650 4400 50  0000 C CNN
@@ -60,7 +60,7 @@ F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 7600 4400 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616146CD
 P 7400 4450
 F 0 "#PWR?" H 7400 4200 50  0001 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 7400 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+5V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616146D7
 P 7400 3650
 F 0 "#PWR?" H 7400 3500 50  0001 C CNN
@@ -96,7 +96,7 @@ D+
 Text HLabel 7800 4150 2    50   Output ~ 0
 D-
 $Comp
-L Data_Collection_KiCAD_Project-rescue:Ferrite_Bead_Small-Device FB?
+L Data_Collection_KiCAD_Project-rescue:Ferrite_Bead_Small-Device-Data_Collection_KiCAD_Project-rescue FB?
 U 1 1 617A596A
 P 2800 3750
 F 0 "FB?" V 2563 3750 50  0000 C CNN
@@ -118,7 +118,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3900 5100 3750
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 617B9DBE
 P 5100 4050
 AR Path="/617B9DBE" Ref="C?"  Part="1" 
@@ -147,7 +147,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 3900 3900 3750
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 617B9DD7
 P 3900 4050
 AR Path="/617B9DD7" Ref="C?"  Part="1" 
@@ -185,7 +185,7 @@ F 12 "Active" H 4600 4950 60  0001 L CNN "Status"
 $EndComp
 Connection ~ 5100 3750
 $Comp
-L Data_Collection_KiCAD_Project-rescue:R-Device R?
+L Data_Collection_KiCAD_Project-rescue:R-Device-Data_Collection_KiCAD_Project-rescue R?
 U 1 1 617B9DEE
 P 4750 3950
 AR Path="/617B9DEE" Ref="R?"  Part="1" 
@@ -199,7 +199,7 @@ F 3 "~" H 4750 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:R-Device R?
+L Data_Collection_KiCAD_Project-rescue:R-Device-Data_Collection_KiCAD_Project-rescue R?
 U 1 1 617B9DF4
 P 4400 4350
 AR Path="/617B9DF4" Ref="R?"  Part="1" 
@@ -220,7 +220,7 @@ Connection ~ 3900 3750
 Text Notes 3750 5300 0    50   ~ 0
 LM317 Equation:\nVout = 1.25(1 + R2/R1)\nLet R1 = 240Ω, Vout = 3.3V\nR1 = 393.6Ω ≈ 390Ω
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 617BD52E
 P 5100 2900
 AR Path="/617BD52E" Ref="#PWR?"  Part="1" 
@@ -233,7 +233,7 @@ F 3 "" H 5100 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:LED-Device D?
+L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 617BEEA5
 P 5650 3750
 F 0 "D?" H 5643 3495 50  0000 C CNN
@@ -244,7 +244,7 @@ F 3 "~" H 5650 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:R-Device R?
+L Data_Collection_KiCAD_Project-rescue:R-Device-Data_Collection_KiCAD_Project-rescue R?
 U 1 1 617BF66F
 P 6000 4150
 AR Path="/617BF66F" Ref="R?"  Part="1" 
@@ -262,7 +262,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3750 5800 3750
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 617B9DC9
 P 4400 4500
 AR Path="/617B9DC9" Ref="#PWR?"  Part="1" 
@@ -276,7 +276,7 @@ F 3 "" H 4400 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 617C00BC
 P 3900 4200
 AR Path="/617C00BC" Ref="#PWR?"  Part="1" 
@@ -290,7 +290,7 @@ F 3 "" H 3900 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 617C0723
 P 5100 4200
 AR Path="/617C0723" Ref="#PWR?"  Part="1" 
@@ -304,7 +304,7 @@ F 3 "" H 5100 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 617C0CB1
 P 6000 4300
 AR Path="/617C0CB1" Ref="#PWR?"  Part="1" 
@@ -340,7 +340,7 @@ Wire Notes Line
 Text Notes 1600 4850 0    50   ~ 0
 USB shield to remain floating for USB Devices\nCan be connected to board enclosure if possible
 $Comp
-L Data_Collection_KiCAD_Project-rescue:D_Zener-Device D?
+L Data_Collection_KiCAD_Project-rescue:D_Zener-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 617F9817
 P 3500 3750
 F 0 "D?" H 3500 3533 50  0000 C CNN
@@ -360,7 +360,7 @@ Connection ~ 3300 3750
 Wire Wire Line
 	3300 3750 2900 3750
 $Comp
-L Data_Collection_KiCAD_Project-rescue:D_Zener-Device D?
+L Data_Collection_KiCAD_Project-rescue:D_Zener-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 617FB0E6
 P 4400 3300
 F 0 "D?" H 4400 3517 50  0000 C CNN
