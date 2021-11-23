@@ -124,93 +124,32 @@ NoConn ~ 9400 4200
 $Comp
 L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 61E9E710
-P 9950 5300
+P 9950 5650
 AR Path="/61E9E710" Ref="D?"  Part="1" 
 AR Path="/61E8EFE4/61E9E710" Ref="D?"  Part="1" 
-F 0 "D?" V 9989 5182 50  0000 R CNN
-F 1 "LED" V 9898 5182 50  0000 R CNN
-F 2 "" H 9950 5300 50  0001 C CNN
-F 3 "~" H 9950 5300 50  0001 C CNN
-	1    9950 5300
+F 0 "D?" V 9989 5532 50  0000 R CNN
+F 1 "Green" V 9898 5532 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Castellated" H 9950 5650 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 9950 5650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/SML-D12P8WT86/1641798" V 9950 5650 50  0001 C CNN "Digikey"
+	1    9950 5650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
-U 1 1 61E9E716
-P 10300 5300
-AR Path="/61E9E716" Ref="D?"  Part="1" 
-AR Path="/61E8EFE4/61E9E716" Ref="D?"  Part="1" 
-F 0 "D?" V 10339 5182 50  0000 R CNN
-F 1 "LED" V 10248 5182 50  0000 R CNN
-F 2 "" H 10300 5300 50  0001 C CNN
-F 3 "~" H 10300 5300 50  0001 C CNN
-	1    10300 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
-U 1 1 61E9E71C
-P 10650 5300
-AR Path="/61E9E71C" Ref="D?"  Part="1" 
-AR Path="/61E8EFE4/61E9E71C" Ref="D?"  Part="1" 
-F 0 "D?" V 10689 5182 50  0000 R CNN
-F 1 "LED" V 10598 5182 50  0000 R CNN
-F 2 "" H 10650 5300 50  0001 C CNN
-F 3 "~" H 10650 5300 50  0001 C CNN
-	1    10650 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9950 5150 9950 5000
 Wire Wire Line
 	9950 5000 9400 5000
 $Comp
 L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 61E9E724
-P 9950 5450
+P 9950 5800
 AR Path="/61E9E724" Ref="#PWR?"  Part="1" 
 AR Path="/61E8EFE4/61E9E724" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9950 5200 50  0001 C CNN
-F 1 "GND" H 9955 5277 50  0000 C CNN
-F 2 "" H 9950 5450 50  0001 C CNN
-F 3 "" H 9950 5450 50  0001 C CNN
-	1    9950 5450
+F 0 "#PWR?" H 9950 5550 50  0001 C CNN
+F 1 "GND" H 9955 5627 50  0000 C CNN
+F 2 "" H 9950 5800 50  0001 C CNN
+F 3 "" H 9950 5800 50  0001 C CNN
+	1    9950 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
-U 1 1 61E9E72A
-P 10300 5450
-AR Path="/61E9E72A" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E72A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10300 5200 50  0001 C CNN
-F 1 "GND" H 10305 5277 50  0000 C CNN
-F 2 "" H 10300 5450 50  0001 C CNN
-F 3 "" H 10300 5450 50  0001 C CNN
-	1    10300 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
-U 1 1 61E9E730
-P 10650 5450
-AR Path="/61E9E730" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E730" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10650 5200 50  0001 C CNN
-F 1 "GND" H 10655 5277 50  0000 C CNN
-F 2 "" H 10650 5450 50  0001 C CNN
-F 3 "" H 10650 5450 50  0001 C CNN
-	1    10650 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 4700 10300 5150
-Wire Wire Line
-	9400 4700 10300 4700
-Wire Wire Line
-	10650 5150 10650 4600
-Wire Wire Line
-	9400 4600 10650 4600
 Wire Notes Line
 	10950 6250 10950 2400
 Text Notes 6600 5450 0    50   ~ 0
@@ -556,4 +495,61 @@ Wire Notes Line
 	750  3550 750  2700
 Text Notes 800  2650 0    50   ~ 0
 I2C Pullup Resistors
+$Comp
+L Device:R_US R?
+U 1 1 619EFD59
+P 9950 5350
+F 0 "R?" H 10018 5396 50  0000 L CNN
+F 1 "80" H 10018 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9990 5340 50  0001 C CNN
+F 3 "~" H 9950 5350 50  0001 C CNN
+	1    9950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 619F2A76
+P 10350 5350
+F 0 "R?" H 10418 5396 50  0000 L CNN
+F 1 "80" H 10418 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10390 5340 50  0001 C CNN
+F 3 "~" H 10350 5350 50  0001 C CNN
+	1    10350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
+U 1 1 619F2F50
+P 10350 5650
+AR Path="/619F2F50" Ref="D?"  Part="1" 
+AR Path="/61E8EFE4/619F2F50" Ref="D?"  Part="1" 
+F 0 "D?" V 10389 5532 50  0000 R CNN
+F 1 "Red" V 10298 5532 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Castellated" H 10350 5650 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 10350 5650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/SML-D12U8WT86/1641799" V 10350 5650 50  0001 C CNN "Digikey"
+	1    10350 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+U 1 1 619F33E0
+P 10350 5800
+AR Path="/619F33E0" Ref="#PWR?"  Part="1" 
+AR Path="/61E8EFE4/619F33E0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10350 5550 50  0001 C CNN
+F 1 "GND" H 10355 5627 50  0000 C CNN
+F 2 "" H 10350 5800 50  0001 C CNN
+F 3 "" H 10350 5800 50  0001 C CNN
+	1    10350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 4700 10350 4700
+Wire Wire Line
+	9950 5000 9950 5200
+Wire Wire Line
+	10350 4700 10350 5200
+Text Notes 9700 6100 0    50   ~ 0
+Assuming ~~2.1V Vf @ 15mA
 $EndSCHEMATC
