@@ -251,7 +251,7 @@ AR Path="/617BF66F" Ref="R?"  Part="1"
 AR Path="/615A5159/617BF66F" Ref="R?"  Part="1" 
 AR Path="/615EE01A/617BF66F" Ref="R?"  Part="1" 
 F 0 "R?" H 6070 4196 50  0000 L CNN
-F 1 "1k5" H 6070 4105 50  0000 L CNN
+F 1 "1k5 ?????" H 6070 4105 50  0000 L CNN
 F 2 "" V 5930 4150 50  0001 C CNN
 F 3 "~" H 6000 4150 50  0001 C CNN
 	1    6000 4150
@@ -339,17 +339,6 @@ Wire Notes Line
 	1850 4650 3200 4650
 Text Notes 1600 4850 0    50   ~ 0
 USB shield to remain floating for USB Devices\nCan be connected to board enclosure if possible
-$Comp
-L Data_Collection_KiCAD_Project-rescue:D_Zener-Device-Data_Collection_KiCAD_Project-rescue D?
-U 1 1 617F9817
-P 3500 3750
-F 0 "D?" H 3500 3533 50  0000 C CNN
-F 1 "D_Zener" H 3500 3624 50  0000 C CNN
-F 2 "" H 3500 3750 50  0001 C CNN
-F 3 "~" H 3500 3750 50  0001 C CNN
-	1    3500 3750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3650 3750 3900 3750
 Wire Wire Line
@@ -359,17 +348,6 @@ Wire Wire Line
 Connection ~ 3300 3750
 Wire Wire Line
 	3300 3750 2900 3750
-$Comp
-L Data_Collection_KiCAD_Project-rescue:D_Zener-Device-Data_Collection_KiCAD_Project-rescue D?
-U 1 1 617FB0E6
-P 4400 3300
-F 0 "D?" H 4400 3517 50  0000 C CNN
-F 1 "D_Zener" H 4400 3426 50  0000 C CNN
-F 2 "" H 4400 3300 50  0001 C CNN
-F 3 "~" H 4400 3300 50  0001 C CNN
-	1    4400 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4550 3300 4750 3300
 Wire Wire Line
@@ -386,4 +364,26 @@ Wire Notes Line
 	5400 3000 5400 4950
 Wire Wire Line
 	5100 2900 5100 3750
+$Comp
+L Device:D D?
+U 1 1 619DA3D1
+P 4400 3300
+F 0 "D?" H 4400 3517 50  0000 C CNN
+F 1 "D" H 4400 3426 50  0000 C CNN
+F 2 "" H 4400 3300 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 619DB167
+P 3500 3750
+F 0 "D?" H 3500 3533 50  0000 C CNN
+F 1 "D" H 3500 3624 50  0000 C CNN
+F 2 "" H 3500 3750 50  0001 C CNN
+F 3 "~" H 3500 3750 50  0001 C CNN
+	1    3500 3750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

@@ -502,4 +502,58 @@ Text HLabel 8200 3000 0    50   Input ~ 0
 NRST
 Text HLabel 2700 1250 2    50   Output ~ 0
 PVD_IN
+Text HLabel 1200 3450 2    50   Input ~ 0
+I2C1_SDA
+Text HLabel 1200 3150 2    50   Input ~ 0
+I2C1_SCL
+$Comp
+L Device:R_US R?
+U 1 1 619DE947
+P 1050 3150
+F 0 "R?" V 845 3150 50  0000 C CNN
+F 1 "4.7K" V 936 3150 50  0000 C CNN
+F 2 "" V 1090 3140 50  0001 C CNN
+F 3 "~" H 1050 3150 50  0001 C CNN
+	1    1050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 619DFE15
+P 1050 3450
+F 0 "R?" V 845 3450 50  0000 C CNN
+F 1 "4.7K" V 936 3450 50  0000 C CNN
+F 2 "" V 1090 3440 50  0001 C CNN
+F 3 "~" H 1050 3450 50  0001 C CNN
+	1    1050 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  3450 900  3150
+Connection ~ 900  3150
+$Comp
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
+U 1 1 619E313D
+P 900 2950
+AR Path="/619E313D" Ref="#PWR?"  Part="1" 
+AR Path="/61E8EFE4/619E313D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 900 2800 50  0001 C CNN
+F 1 "+3.3V" H 915 3123 50  0000 C CNN
+F 2 "" H 900 2950 50  0001 C CNN
+F 3 "" H 900 2950 50  0001 C CNN
+	1    900  2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2950 900  3150
+Wire Notes Line
+	750  2700 1700 2700
+Wire Notes Line
+	1700 2700 1700 3550
+Wire Notes Line
+	1700 3550 750  3550
+Wire Notes Line
+	750  3550 750  2700
+Text Notes 800  2650 0    50   ~ 0
+I2C Pullup Resistors
 $EndSCHEMATC
