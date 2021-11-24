@@ -13,75 +13,8 @@ Comment2 "Intended as initial pre-production design"
 Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
-$Comp
-L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR04
-U 1 1 61577BBB
-P 10650 5050
-F 0 "#PWR04" H 10650 4900 50  0001 C CNN
-F 1 "+5V" H 10665 5223 50  0000 C CNN
-F 2 "" H 10650 5050 50  0001 C CNN
-F 3 "" H 10650 5050 50  0001 C CNN
-	1    10650 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR02
-U 1 1 61579C7C
-P 9450 4700
-F 0 "#PWR02" H 9450 4550 50  0001 C CNN
-F 1 "+3.3V" H 9465 4873 50  0000 C CNN
-F 2 "" H 9450 4700 50  0001 C CNN
-F 3 "" H 9450 4700 50  0001 C CNN
-	1    9450 4700
-	1    0    0    -1  
-$EndComp
-Text Notes 10550 4400 2    100  ~ 0
-Main System Bus
 Text Notes 2850 1300 2    100  ~ 0
 Microcontroller Chip
-$Comp
-L SparkFun-Connectors:CONN_05X2RA J2
-U 1 1 6196C043
-P 5700 6950
-F 0 "J2" H 5700 7460 45  0000 C CNN
-F 1 "ARM 10 Pin" H 5700 7376 45  0000 C CNN
-F 2 "2X5-RA" H 5700 7350 20  0001 C CNN
-F 3 "" H 5700 6950 50  0001 C CNN
-F 4 "SWD Connector" H 5700 7281 60  0000 C CNN "Description"
-	1    5700 6950
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 5950 7050
-NoConn ~ 5450 6950
-NoConn ~ 5450 7050
-$Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C1
-U 1 1 619D380E
-P 5400 7350
-F 0 "C1" H 5515 7396 50  0000 L CNN
-F 1 "100nF" H 5515 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 7200 50  0001 C CNN
-F 3 "~" H 5400 7350 50  0001 C CNN
-	1    5400 7350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR05
-U 1 1 619D3F11
-P 5400 7500
-F 0 "#PWR05" H 5400 7250 50  0001 C CNN
-F 1 "GND" H 5405 7327 50  0000 C CNN
-F 2 "" H 5400 7500 50  0001 C CNN
-F 3 "" H 5400 7500 50  0001 C CNN
-	1    5400 7500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 7150 5400 7200
-Text Notes 4950 6350 0    100  ~ 0
-SWD Connector
-Text Notes 6600 7650 2    50   ~ 0
-NRST cap protects\nagainst parasitic resets.
 $Comp
 L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR011
 U 1 1 616E7AC6
@@ -294,8 +227,6 @@ F19 "EXT_SCL" I L 1550 4350 50
 F20 "EXT_I2C_Alert" B L 1550 4200 50 
 $EndSheet
 Wire Wire Line
-	5400 7150 5450 7150
-Wire Wire Line
 	5500 2350 5350 2350
 Wire Wire Line
 	5500 2450 5500 2350
@@ -374,46 +305,6 @@ Wire Wire Line
 	2550 5200 3150 5200
 Wire Wire Line
 	2550 5350 3150 5350
-Wire Wire Line
-	6150 6750 5950 6750
-Wire Wire Line
-	6150 6750 6150 6700
-$Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR08
-U 1 1 619AF36E
-P 6150 6700
-F 0 "#PWR08" H 6150 6550 50  0001 C CNN
-F 1 "+3.3V" H 6165 6873 50  0000 C CNN
-F 2 "" H 6150 6700 50  0001 C CNN
-F 3 "" H 6150 6700 50  0001 C CNN
-	1    6150 6700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 7150 6050 6950
-Connection ~ 6050 7150
-Wire Wire Line
-	5950 7150 6050 7150
-Wire Wire Line
-	6050 6950 6050 6850
-Connection ~ 6050 6950
-Wire Wire Line
-	5950 6950 6050 6950
-Wire Wire Line
-	6050 6850 5950 6850
-Wire Wire Line
-	6050 7200 6050 7150
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR07
-U 1 1 6196C349
-P 6050 7200
-F 0 "#PWR07" H 6050 6950 50  0001 C CNN
-F 1 "GND" H 6055 7027 50  0000 C CNN
-F 2 "" H 6050 7200 50  0001 C CNN
-F 3 "" H 6050 7200 50  0001 C CNN
-	1    6050 7200
-	-1   0    0    -1  
-$EndComp
 Text Label 1500 5050 2    50   ~ 0
 NRST
 Text Label 1500 5200 2    50   ~ 0
@@ -432,41 +323,10 @@ Entry Wire Line
 	1150 5150 1250 5050
 Wire Wire Line
 	1250 5050 1550 5050
-Entry Wire Line
-	4800 7050 4900 7150
-Wire Wire Line
-	4900 7150 5400 7150
-Connection ~ 5400 7150
-Entry Wire Line
-	4800 6750 4900 6850
-Entry Wire Line
-	4800 6650 4900 6750
-Wire Wire Line
-	4900 6750 5450 6750
-Text Label 5400 6750 2    50   ~ 0
-SWDIO
-Wire Wire Line
-	4900 6850 5450 6850
-Text Label 5400 6850 2    50   ~ 0
-SWCLK
-Text Label 5400 7150 2    50   ~ 0
-NRST
 Text Label 1550 4500 2    50   ~ 0
 EXT_SDA
 Text Label 1550 4350 2    50   ~ 0
 EXT_SCL
-Text Label 10200 4900 0    50   ~ 0
-EXT_SDA
-Text Label 9700 5100 2    50   ~ 0
-EXT_SCL
-Wire Notes Line
-	4950 6400 4950 7750
-Wire Notes Line
-	4950 7750 6650 7750
-Wire Notes Line
-	6650 7750 6650 6400
-Wire Notes Line
-	4950 6400 6650 6400
 Text Notes 5150 1700 0    47   ~ 0
 0x28\n
 Text Notes 7050 1700 0    50   ~ 0
@@ -545,73 +405,6 @@ Wire Wire Line
 	9650 1800 9650 1400
 Wire Wire Line
 	9650 1400 10150 1400
-$Comp
-L SparkFun-Connectors:CONN_06X2PTH_FEMALE J1
-U 1 1 617A50A2
-P 9950 5150
-F 0 "J1" H 9950 5710 45  0000 C CNN
-F 1 "Main Bus" H 9950 5626 45  0000 C CNN
-F 2 "2X6" H 9950 5600 20  0001 C CNN
-F 3 "" H 9950 5150 50  0001 C CNN
-F 4 "2x6 Header" H 9950 5531 60  0000 C CNN "Field4"
-	1    9950 5150
-	1    0    0    -1  
-$EndComp
-Text Label 9700 4900 2    50   ~ 0
-GND
-NoConn ~ 9700 5300
-NoConn ~ 9700 5400
-NoConn ~ 10200 5400
-NoConn ~ 10200 5300
-NoConn ~ 10200 5200
-Text Label 9700 5200 2    50   ~ 0
-INT
-Wire Wire Line
-	10200 5100 10650 5100
-Wire Wire Line
-	10650 5100 10650 5050
-Wire Wire Line
-	9700 5000 9450 5000
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR03
-U 1 1 618118F6
-P 10450 5200
-F 0 "#PWR03" H 10450 4950 50  0001 C CNN
-F 1 "GND" H 10455 5027 50  0000 C CNN
-F 2 "" H 10450 5200 50  0001 C CNN
-F 3 "" H 10450 5200 50  0001 C CNN
-	1    10450 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10450 5200 10450 5000
-Wire Wire Line
-	10450 5000 10200 5000
-Wire Wire Line
-	9450 4700 9450 5000
-Wire Wire Line
-	9700 4900 9250 4900
-Wire Wire Line
-	9250 4900 9250 5050
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR01
-U 1 1 6181AAF8
-P 9250 5050
-F 0 "#PWR01" H 9250 4800 50  0001 C CNN
-F 1 "GND" H 9255 4877 50  0000 C CNN
-F 2 "" H 9250 5050 50  0001 C CNN
-F 3 "" H 9250 5050 50  0001 C CNN
-	1    9250 5050
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	10800 4450 10800 5650
-Wire Notes Line
-	10800 5650 9100 5650
-Wire Notes Line
-	9100 4450 9100 5650
-Wire Notes Line
-	9100 4450 10800 4450
 $Sheet
 S 1550 5750 1150 1900
 U 619DD6DC
@@ -735,8 +528,6 @@ Wire Bus Line
 	3250 4300 9400 4300
 Wire Bus Line
 	3250 2750 3250 3100
-Wire Bus Line
-	4800 5900 4800 7050
 Wire Bus Line
 	3250 3100 9400 3100
 Wire Bus Line

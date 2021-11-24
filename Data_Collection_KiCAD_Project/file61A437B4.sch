@@ -106,40 +106,40 @@ Text HLabel 5250 2400 0    50   Input ~ 0
 SWDIO
 Text HLabel 5250 2500 0    50   Input ~ 0
 SWCLK
-Text HLabel 5250 2600 0    50   Input ~ 0
+Text HLabel 4450 2600 0    50   Input ~ 0
 NRST
 $Comp
 L Device:C_Small C?
 U 1 1 61A55586
-P 5050 2700
+P 4450 2700
 AR Path="/61A55586" Ref="C?"  Part="1" 
 AR Path="/61A437B5/61A55586" Ref="C?"  Part="1" 
 AR Path="/619DD6DC/61A55586" Ref="C?"  Part="1" 
-F 0 "C?" H 5142 2746 50  0000 L CNN
-F 1 "100nF" H 5142 2655 50  0000 L CNN
-F 2 "" H 5050 2700 50  0001 C CNN
-F 3 "~" H 5050 2700 50  0001 C CNN
-	1    5050 2700
-	0    1    1    0   
+F 0 "C?" H 4550 2800 50  0000 L CNN
+F 1 "100nF" H 4550 2700 50  0000 L CNN
+F 2 "" H 4450 2700 50  0001 C CNN
+F 3 "~" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5150 2700 5250 2700
 $Comp
 L power:GND #PWR?
 U 1 1 61A5558D
-P 4950 2700
+P 4450 2800
 AR Path="/61A5558D" Ref="#PWR?"  Part="1" 
 AR Path="/61A437B5/61A5558D" Ref="#PWR?"  Part="1" 
 AR Path="/619DD6DC/61A5558D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4950 2450 50  0001 C CNN
-F 1 "GND" H 4955 2527 50  0000 C CNN
-F 2 "" H 4950 2700 50  0001 C CNN
-F 3 "" H 4950 2700 50  0001 C CNN
-	1    4950 2700
-	0    1    1    0   
+F 0 "#PWR?" H 4450 2550 50  0001 C CNN
+F 1 "GND" H 4455 2627 50  0000 C CNN
+F 2 "" H 4450 2800 50  0001 C CNN
+F 3 "" H 4450 2800 50  0001 C CNN
+	1    4450 2800
+	1    0    0    -1  
 $EndComp
 Text HLabel 5250 2800 0    50   Input ~ 0
 Fire
 Text HLabel 5250 2900 0    50   Input ~ 0
 Fire_redundant
+Wire Wire Line
+	4450 2600 5250 2600
 $EndSCHEMATC
