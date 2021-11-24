@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title "MCP9608 Temperature Sensor"
 Date "2021-10-01"
 Rev "v1.0.4"

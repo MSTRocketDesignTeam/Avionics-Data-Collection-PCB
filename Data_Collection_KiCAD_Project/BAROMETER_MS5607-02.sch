@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title "MS5607-02BA Barometer Chip"
 Date "2021-10-01"
 Rev "v1.0.4"

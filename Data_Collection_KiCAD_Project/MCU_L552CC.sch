@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title "STM32L552CC Schematic"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -116,7 +116,6 @@ NoConn ~ 8200 4500
 NoConn ~ 8200 4600
 NoConn ~ 8200 4700
 NoConn ~ 8200 5000
-NoConn ~ 8200 5400
 NoConn ~ 9400 5700
 NoConn ~ 9400 5200
 NoConn ~ 9400 5100
@@ -606,4 +605,6 @@ Text HLabel 1200 4550 2    50   Input ~ 0
 EXT_SDA
 Text HLabel 1200 4250 2    50   Input ~ 0
 EXT_SCL
+Text HLabel 8200 5400 0    50   BiDi ~ 0
+EXT_I2C_Alert
 $EndSCHEMATC

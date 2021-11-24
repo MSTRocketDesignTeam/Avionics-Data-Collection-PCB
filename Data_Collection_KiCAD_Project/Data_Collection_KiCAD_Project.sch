@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Data Collection PCB Schematic"
 Date "2021-10-01"
 Rev "v1.0.4"
@@ -16,26 +16,26 @@ $EndDescr
 $Comp
 L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR04
 U 1 1 61577BBB
-P 2400 6950
-F 0 "#PWR04" H 2400 6800 50  0001 C CNN
-F 1 "+5V" H 2415 7123 50  0000 C CNN
-F 2 "" H 2400 6950 50  0001 C CNN
-F 3 "" H 2400 6950 50  0001 C CNN
-	1    2400 6950
+P 10650 5050
+F 0 "#PWR04" H 10650 4900 50  0001 C CNN
+F 1 "+5V" H 10665 5223 50  0000 C CNN
+F 2 "" H 10650 5050 50  0001 C CNN
+F 3 "" H 10650 5050 50  0001 C CNN
+	1    10650 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR02
 U 1 1 61579C7C
-P 1200 6600
-F 0 "#PWR02" H 1200 6450 50  0001 C CNN
-F 1 "+3.3V" H 1215 6773 50  0000 C CNN
-F 2 "" H 1200 6600 50  0001 C CNN
-F 3 "" H 1200 6600 50  0001 C CNN
-	1    1200 6600
+P 9450 4700
+F 0 "#PWR02" H 9450 4550 50  0001 C CNN
+F 1 "+3.3V" H 9465 4873 50  0000 C CNN
+F 2 "" H 9450 4700 50  0001 C CNN
+F 3 "" H 9450 4700 50  0001 C CNN
+	1    9450 4700
 	1    0    0    -1  
 $EndComp
-Text Notes 2300 6300 2    100  ~ 0
+Text Notes 10550 4400 2    100  ~ 0
 Main System Bus
 Text Notes 2850 1300 2    100  ~ 0
 Microcontroller Chip
@@ -291,6 +291,7 @@ F16 "NRST" I L 1550 5050 50
 F17 "PVD_IN" I L 1550 4850 50 
 F18 "EXT_SDA" I L 1550 4500 50 
 F19 "EXT_SCL" I L 1550 4350 50 
+F20 "EXT_I2C_Alert" B L 1550 4200 50 
 $EndSheet
 Wire Wire Line
 	5400 7150 5450 7150
@@ -423,8 +424,6 @@ Wire Wire Line
 	1250 5350 1550 5350
 Wire Wire Line
 	1250 5200 1550 5200
-Wire Bus Line
-	4800 5900 1150 5900
 Entry Wire Line
 	1150 5450 1250 5350
 Entry Wire Line
@@ -456,9 +455,9 @@ Text Label 1550 4500 2    50   ~ 0
 EXT_SDA
 Text Label 1550 4350 2    50   ~ 0
 EXT_SCL
-Text Label 1950 6800 0    50   ~ 0
+Text Label 10200 4900 0    50   ~ 0
 EXT_SDA
-Text Label 1450 7000 2    50   ~ 0
+Text Label 9700 5100 2    50   ~ 0
 EXT_SCL
 Wire Notes Line
 	4950 6400 4950 7750
@@ -549,70 +548,181 @@ Wire Wire Line
 $Comp
 L SparkFun-Connectors:CONN_06X2PTH_FEMALE J1
 U 1 1 617A50A2
-P 1700 7050
-F 0 "J1" H 1700 7610 45  0000 C CNN
-F 1 "Main Bus" H 1700 7526 45  0000 C CNN
-F 2 "2X6" H 1700 7500 20  0001 C CNN
-F 3 "" H 1700 7050 50  0001 C CNN
-F 4 "2x6 Header" H 1700 7431 60  0000 C CNN "Field4"
-	1    1700 7050
+P 9950 5150
+F 0 "J1" H 9950 5710 45  0000 C CNN
+F 1 "Main Bus" H 9950 5626 45  0000 C CNN
+F 2 "2X6" H 9950 5600 20  0001 C CNN
+F 3 "" H 9950 5150 50  0001 C CNN
+F 4 "2x6 Header" H 9950 5531 60  0000 C CNN "Field4"
+	1    9950 5150
 	1    0    0    -1  
 $EndComp
-Text Label 1450 6800 2    50   ~ 0
+Text Label 9700 4900 2    50   ~ 0
 GND
-NoConn ~ 1450 7200
-NoConn ~ 1450 7300
-NoConn ~ 1950 7300
-NoConn ~ 1950 7200
-NoConn ~ 1950 7100
-Text Label 1450 7100 2    50   ~ 0
+NoConn ~ 9700 5300
+NoConn ~ 9700 5400
+NoConn ~ 10200 5400
+NoConn ~ 10200 5300
+NoConn ~ 10200 5200
+Text Label 9700 5200 2    50   ~ 0
 INT
 Wire Wire Line
-	1950 7000 2400 7000
+	10200 5100 10650 5100
 Wire Wire Line
-	2400 7000 2400 6950
+	10650 5100 10650 5050
 Wire Wire Line
-	1450 6900 1200 6900
+	9700 5000 9450 5000
 $Comp
 L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR03
 U 1 1 618118F6
-P 2200 7100
-F 0 "#PWR03" H 2200 6850 50  0001 C CNN
-F 1 "GND" H 2205 6927 50  0000 C CNN
-F 2 "" H 2200 7100 50  0001 C CNN
-F 3 "" H 2200 7100 50  0001 C CNN
-	1    2200 7100
+P 10450 5200
+F 0 "#PWR03" H 10450 4950 50  0001 C CNN
+F 1 "GND" H 10455 5027 50  0000 C CNN
+F 2 "" H 10450 5200 50  0001 C CNN
+F 3 "" H 10450 5200 50  0001 C CNN
+	1    10450 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 7100 2200 6900
+	10450 5200 10450 5000
 Wire Wire Line
-	2200 6900 1950 6900
+	10450 5000 10200 5000
 Wire Wire Line
-	1200 6600 1200 6900
+	9450 4700 9450 5000
 Wire Wire Line
-	1450 6800 1000 6800
+	9700 4900 9250 4900
 Wire Wire Line
-	1000 6800 1000 6950
+	9250 4900 9250 5050
 $Comp
 L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR01
 U 1 1 6181AAF8
-P 1000 6950
-F 0 "#PWR01" H 1000 6700 50  0001 C CNN
-F 1 "GND" H 1005 6777 50  0000 C CNN
-F 2 "" H 1000 6950 50  0001 C CNN
-F 3 "" H 1000 6950 50  0001 C CNN
-	1    1000 6950
+P 9250 5050
+F 0 "#PWR01" H 9250 4800 50  0001 C CNN
+F 1 "GND" H 9255 4877 50  0000 C CNN
+F 2 "" H 9250 5050 50  0001 C CNN
+F 3 "" H 9250 5050 50  0001 C CNN
+	1    9250 5050
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	2550 6350 2550 7550
+	10800 4450 10800 5650
 Wire Notes Line
-	2550 7550 850  7550
+	10800 5650 9100 5650
 Wire Notes Line
-	850  6350 850  7550
+	9100 4450 9100 5650
 Wire Notes Line
-	850  6350 2550 6350
+	9100 4450 10800 4450
+$Sheet
+S 1550 5750 1150 1900
+U 619DD6DC
+F0 "Main Bus" 50
+F1 "file61A437B4.sch" 50
+F2 "t_mosi" I L 1550 5850 50 
+F3 "t_miso" I L 1550 6000 50 
+F4 "t_clk" I L 1550 6150 50 
+F5 "Alert_scl" I L 1550 6350 50 
+F6 "Alert_sda" I L 1550 6500 50 
+F7 "Alert_Active" I L 1550 6650 50 
+F8 "SWDIO" I L 1550 6850 50 
+F9 "SWCLK" I L 1550 7000 50 
+F10 "NRST" I L 1550 7150 50 
+F11 "Fire" I L 1550 7350 50 
+F12 "Fire_redundant" I L 1550 7500 50 
+$EndSheet
+Entry Wire Line
+	1150 4600 1250 4500
+Entry Wire Line
+	1150 4450 1250 4350
+Entry Wire Line
+	1150 4000 1250 3900
+Entry Wire Line
+	1150 3800 1250 3700
+Entry Wire Line
+	1150 3600 1250 3500
+Wire Wire Line
+	1250 4350 1550 4350
+Wire Wire Line
+	1250 4500 1550 4500
+Wire Wire Line
+	1250 3900 1550 3900
+Wire Wire Line
+	1250 3700 1550 3700
+Wire Wire Line
+	1250 3500 1550 3500
+Entry Wire Line
+	1150 5900 1250 6000
+Entry Wire Line
+	1150 6050 1250 6150
+Entry Wire Line
+	1150 5750 1250 5850
+Entry Wire Line
+	1150 6250 1250 6350
+Entry Wire Line
+	1150 6400 1250 6500
+Entry Wire Line
+	1150 6550 1250 6650
+Wire Wire Line
+	1250 5850 1550 5850
+Wire Wire Line
+	1250 6000 1550 6000
+Wire Wire Line
+	1250 6150 1550 6150
+Wire Wire Line
+	1250 6350 1550 6350
+Wire Wire Line
+	1250 6500 1550 6500
+Wire Wire Line
+	1250 6650 1550 6650
+Text Label 1550 6350 2    50   ~ 0
+EXT_SCL
+Text Label 1550 6500 2    50   ~ 0
+EXT_SDA
+Text Label 1550 7150 2    50   ~ 0
+NRST
+Text Label 1550 7000 2    50   ~ 0
+SWCLK
+Text Label 1550 6850 2    50   ~ 0
+SWDIO
+Entry Wire Line
+	1150 6750 1250 6850
+Entry Wire Line
+	1150 6900 1250 7000
+Entry Wire Line
+	1150 7050 1250 7150
+Entry Wire Line
+	1150 7250 1250 7350
+Entry Wire Line
+	1150 7400 1250 7500
+Wire Wire Line
+	1550 6850 1250 6850
+Wire Wire Line
+	1550 7000 1250 7000
+Wire Wire Line
+	1550 7150 1250 7150
+Wire Wire Line
+	1550 7350 1250 7350
+Wire Wire Line
+	1550 7500 1250 7500
+Text Label 1550 3900 2    50   ~ 0
+SPI2_MOSI
+Text Label 1550 3700 2    50   ~ 0
+SPI2_SCK
+Text Label 1550 3500 2    50   ~ 0
+SPI2_MISO
+Text Label 1550 6000 2    50   ~ 0
+SPI2_MISO
+Text Label 1600 6150 2    50   ~ 0
+SPI2_SCK
+Text Label 1550 5850 2    50   ~ 0
+SPI2_MOSI
+Text Label 1550 6650 2    50   ~ 0
+I2C_ALERT
+Text Label 1550 4200 2    50   ~ 0
+I2C_ALERT
+Entry Wire Line
+	1150 4300 1250 4200
+Wire Wire Line
+	1250 4200 1550 4200
 Wire Bus Line
 	3250 1700 3250 1900
 Wire Bus Line
@@ -626,11 +736,11 @@ Wire Bus Line
 Wire Bus Line
 	3250 2750 3250 3100
 Wire Bus Line
-	1150 5150 1150 5900
-Wire Bus Line
 	4800 5900 4800 7050
 Wire Bus Line
 	3250 3100 9400 3100
 Wire Bus Line
 	3250 1900 10900 1900
+Wire Bus Line
+	1150 3600 1150 7400
 $EndSCHEMATC
