@@ -14,10 +14,10 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:USB_B_Micro-Connector-Data_Collection_KiCAD_Project-rescue J?
+L Data_Collection_KiCAD_Project-rescue:USB_B_Micro-Connector-Data_Collection_KiCAD_Project-rescue J3
 U 1 1 616146B0
 P 2150 3950
-F 0 "J?" H 2300 4300 50  0000 C CNN
+F 0 "J3" H 2300 4300 50  0000 C CNN
 F 1 "USB_B_Micro" H 2450 3600 50  0000 C CNN
 F 2 "" H 2300 3900 50  0001 C CNN
 F 3 "~" H 2300 3900 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 2300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR012
 U 1 1 616146B6
 P 2150 4350
-F 0 "#PWR?" H 2150 4100 50  0001 C CNN
+F 0 "#PWR012" H 2150 4100 50  0001 C CNN
 F 1 "GND" H 2155 4177 50  0000 C CNN
 F 2 "" H 2150 4350 50  0001 C CNN
 F 3 "" H 2150 4350 50  0001 C CNN
@@ -38,21 +38,21 @@ $EndComp
 NoConn ~ 2050 4350
 NoConn ~ 2450 4150
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR013
 U 1 1 616146BE
-P 3300 3350
-F 0 "#PWR?" H 3300 3200 50  0001 C CNN
-F 1 "+5V" H 3315 3523 50  0000 C CNN
-F 2 "" H 3300 3350 50  0001 C CNN
-F 3 "" H 3300 3350 50  0001 C CNN
-	1    3300 3350
+P 3650 3350
+F 0 "#PWR013" H 3650 3200 50  0001 C CNN
+F 1 "+5V" H 3665 3523 50  0000 C CNN
+F 2 "" H 3650 3350 50  0001 C CNN
+F 3 "" H 3650 3350 50  0001 C CNN
+	1    3650 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:USBLC6-2SC6-Power_Protection-Data_Collection_KiCAD_Project-rescue U?
+L Data_Collection_KiCAD_Project-rescue:USBLC6-2SC6-Power_Protection-Data_Collection_KiCAD_Project-rescue U2
 U 1 1 616146C5
 P 7400 4050
-F 0 "U?" H 7650 4400 50  0000 C CNN
+F 0 "U2" H 7650 4400 50  0000 C CNN
 F 1 "USBLC6-2SC6" H 7700 3700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7400 3550 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 7600 4400 50  0001 C CNN
@@ -60,10 +60,10 @@ F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 7600 4400 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR019
 U 1 1 616146CD
 P 7400 4450
-F 0 "#PWR?" H 7400 4200 50  0001 C CNN
+F 0 "#PWR019" H 7400 4200 50  0001 C CNN
 F 1 "GND" H 7405 4277 50  0000 C CNN
 F 2 "" H 7400 4450 50  0001 C CNN
 F 3 "" H 7400 4450 50  0001 C CNN
@@ -71,10 +71,10 @@ F 3 "" H 7400 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR018
 U 1 1 616146D7
 P 7400 3650
-F 0 "#PWR?" H 7400 3500 50  0001 C CNN
+F 0 "#PWR018" H 7400 3500 50  0001 C CNN
 F 1 "+5V" H 7415 3823 50  0000 C CNN
 F 2 "" H 7400 3650 50  0001 C CNN
 F 3 "" H 7400 3650 50  0001 C CNN
@@ -96,10 +96,10 @@ D+
 Text HLabel 7800 4150 2    50   Output ~ 0
 D-
 $Comp
-L Data_Collection_KiCAD_Project-rescue:Ferrite_Bead_Small-Device-Data_Collection_KiCAD_Project-rescue FB?
+L Data_Collection_KiCAD_Project-rescue:Ferrite_Bead_Small-Device-Data_Collection_KiCAD_Project-rescue FB1
 U 1 1 617A596A
 P 2800 3750
-F 0 "FB?" V 2563 3750 50  0000 C CNN
+F 0 "FB1" V 2563 3750 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 2654 3750 50  0000 C CNN
 F 2 "" V 2730 3750 50  0001 C CNN
 F 3 "~" H 2800 3750 50  0001 C CNN
@@ -123,10 +123,10 @@ U 1 1 617B9DBE
 P 5100 4050
 AR Path="/617B9DBE" Ref="C?"  Part="1" 
 AR Path="/615A5159/617B9DBE" Ref="C?"  Part="1" 
-AR Path="/615EE01A/617B9DBE" Ref="C?"  Part="1" 
-F 0 "C?" H 5215 4096 50  0000 L CNN
+AR Path="/615EE01A/617B9DBE" Ref="C3"  Part="1" 
+F 0 "C3" H 5215 4096 50  0000 L CNN
 F 1 "1uF" H 5215 4005 50  0000 L CNN
-F 2 "" H 5138 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 3900 50  0001 C CNN
 F 3 "~" H 5100 4050 50  0001 C CNN
 	1    5100 4050
 	1    0    0    -1  
@@ -152,10 +152,10 @@ U 1 1 617B9DD7
 P 3900 4050
 AR Path="/617B9DD7" Ref="C?"  Part="1" 
 AR Path="/615A5159/617B9DD7" Ref="C?"  Part="1" 
-AR Path="/615EE01A/617B9DD7" Ref="C?"  Part="1" 
-F 0 "C?" H 4015 4096 50  0000 L CNN
+AR Path="/615EE01A/617B9DD7" Ref="C2"  Part="1" 
+F 0 "C2" H 4015 4096 50  0000 L CNN
 F 1 "0.1uF" H 4015 4005 50  0000 L CNN
-F 2 "" H 3938 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 3900 50  0001 C CNN
 F 3 "~" H 3900 4050 50  0001 C CNN
 	1    3900 4050
 	1    0    0    -1  
@@ -166,8 +166,8 @@ U 1 1 617B9DE6
 P 4400 3750
 AR Path="/617B9DE6" Ref="U?"  Part="1" 
 AR Path="/615A5159/617B9DE6" Ref="U?"  Part="1" 
-AR Path="/615EE01A/617B9DE6" Ref="U?"  Part="1" 
-F 0 "U?" H 4400 4037 60  0000 C CNN
+AR Path="/615EE01A/617B9DE6" Ref="U1"  Part="1" 
+F 0 "U1" H 4400 4037 60  0000 C CNN
 F 1 "LM317T" H 4400 3931 60  0000 C CNN
 F 2 "digikey-footprints:TO-220-3" H 4600 3950 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf" H 4600 4050 60  0001 L CNN
@@ -190,10 +190,10 @@ U 1 1 617B9DEE
 P 4750 3950
 AR Path="/617B9DEE" Ref="R?"  Part="1" 
 AR Path="/615A5159/617B9DEE" Ref="R?"  Part="1" 
-AR Path="/615EE01A/617B9DEE" Ref="R?"  Part="1" 
-F 0 "R?" H 4820 3996 50  0000 L CNN
+AR Path="/615EE01A/617B9DEE" Ref="R2"  Part="1" 
+F 0 "R2" H 4820 3996 50  0000 L CNN
 F 1 "240" H 4820 3905 50  0000 L CNN
-F 2 "" V 4680 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 3950 50  0001 C CNN
 F 3 "~" H 4750 3950 50  0001 C CNN
 	1    4750 3950
 	1    0    0    -1  
@@ -204,10 +204,10 @@ U 1 1 617B9DF4
 P 4400 4350
 AR Path="/617B9DF4" Ref="R?"  Part="1" 
 AR Path="/615A5159/617B9DF4" Ref="R?"  Part="1" 
-AR Path="/615EE01A/617B9DF4" Ref="R?"  Part="1" 
-F 0 "R?" H 4470 4396 50  0000 L CNN
+AR Path="/615EE01A/617B9DF4" Ref="R1"  Part="1" 
+F 0 "R1" H 4470 4396 50  0000 L CNN
 F 1 "390" H 4470 4305 50  0000 L CNN
-F 2 "" V 4330 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4350 50  0001 C CNN
 F 3 "~" H 4400 4350 50  0001 C CNN
 	1    4400 4350
 	1    0    0    -1  
@@ -216,7 +216,6 @@ Text Notes 3750 2950 0    100  ~ 0
 3.3V Regulator
 Wire Wire Line
 	3900 3750 4100 3750
-Connection ~ 3900 3750
 Text Notes 3750 5300 0    50   ~ 0
 LM317 Equation:\nVout = 1.25(1 + R2/R1)\nLet R1 = 240Ω, Vout = 3.3V\nR1 = 393.6Ω ≈ 390Ω
 $Comp
@@ -224,8 +223,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 617BD52E
 P 5100 2900
 AR Path="/617BD52E" Ref="#PWR?"  Part="1" 
-AR Path="/615EE01A/617BD52E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5100 2750 50  0001 C CNN
+AR Path="/615EE01A/617BD52E" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 5100 2750 50  0001 C CNN
 F 1 "+3.3V" H 5115 3073 50  0000 C CNN
 F 2 "" H 5100 2900 50  0001 C CNN
 F 3 "" H 5100 2900 50  0001 C CNN
@@ -233,42 +232,13 @@ F 3 "" H 5100 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
-U 1 1 617BEEA5
-P 5650 3750
-F 0 "D?" H 5643 3495 50  0000 C CNN
-F 1 "GREEN" H 5643 3586 50  0000 C CNN
-F 2 "" H 5650 3750 50  0001 C CNN
-F 3 "~" H 5650 3750 50  0001 C CNN
-	1    5650 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:R-Device-Data_Collection_KiCAD_Project-rescue R?
-U 1 1 617BF66F
-P 6000 4150
-AR Path="/617BF66F" Ref="R?"  Part="1" 
-AR Path="/615A5159/617BF66F" Ref="R?"  Part="1" 
-AR Path="/615EE01A/617BF66F" Ref="R?"  Part="1" 
-F 0 "R?" H 6070 4196 50  0000 L CNN
-F 1 "1k5 ?????" H 6070 4105 50  0000 L CNN
-F 2 "" V 5930 4150 50  0001 C CNN
-F 3 "~" H 6000 4150 50  0001 C CNN
-	1    6000 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 4000 6000 3750
-Wire Wire Line
-	6000 3750 5800 3750
-$Comp
 L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 617B9DC9
 P 4400 4500
 AR Path="/617B9DC9" Ref="#PWR?"  Part="1" 
 AR Path="/615A5159/617B9DC9" Ref="#PWR?"  Part="1" 
-AR Path="/615EE01A/617B9DC9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4400 4250 50  0001 C CNN
+AR Path="/615EE01A/617B9DC9" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 4400 4250 50  0001 C CNN
 F 1 "GND" H 4405 4327 50  0000 C CNN
 F 2 "" H 4400 4500 50  0001 C CNN
 F 3 "" H 4400 4500 50  0001 C CNN
@@ -281,8 +251,8 @@ U 1 1 617C00BC
 P 3900 4200
 AR Path="/617C00BC" Ref="#PWR?"  Part="1" 
 AR Path="/615A5159/617C00BC" Ref="#PWR?"  Part="1" 
-AR Path="/615EE01A/617C00BC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3900 3950 50  0001 C CNN
+AR Path="/615EE01A/617C00BC" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 3900 3950 50  0001 C CNN
 F 1 "GND" H 3905 4027 50  0000 C CNN
 F 2 "" H 3900 4200 50  0001 C CNN
 F 3 "" H 3900 4200 50  0001 C CNN
@@ -295,30 +265,14 @@ U 1 1 617C0723
 P 5100 4200
 AR Path="/617C0723" Ref="#PWR?"  Part="1" 
 AR Path="/615A5159/617C0723" Ref="#PWR?"  Part="1" 
-AR Path="/615EE01A/617C0723" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5100 3950 50  0001 C CNN
+AR Path="/615EE01A/617C0723" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 5100 3950 50  0001 C CNN
 F 1 "GND" H 5105 4027 50  0000 C CNN
 F 2 "" H 5100 4200 50  0001 C CNN
 F 3 "" H 5100 4200 50  0001 C CNN
 	1    5100 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
-U 1 1 617C0CB1
-P 6000 4300
-AR Path="/617C0CB1" Ref="#PWR?"  Part="1" 
-AR Path="/615A5159/617C0CB1" Ref="#PWR?"  Part="1" 
-AR Path="/615EE01A/617C0CB1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6000 4050 50  0001 C CNN
-F 1 "GND" H 6005 4127 50  0000 C CNN
-F 2 "" H 6000 4300 50  0001 C CNN
-F 3 "" H 6000 4300 50  0001 C CNN
-	1    6000 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 3750 5100 3750
 Text Notes 7450 3350 2    100  ~ 0
 ESD Protection
 Wire Notes Line
@@ -339,23 +293,6 @@ Wire Notes Line
 	1850 4650 3200 4650
 Text Notes 1600 4850 0    50   ~ 0
 USB shield to remain floating for USB Devices\nCan be connected to board enclosure if possible
-Wire Wire Line
-	3650 3750 3900 3750
-Wire Wire Line
-	3350 3750 3300 3750
-Wire Wire Line
-	3300 3350 3300 3750
-Connection ~ 3300 3750
-Wire Wire Line
-	3300 3750 2900 3750
-Wire Wire Line
-	4550 3300 4750 3300
-Wire Wire Line
-	4750 3300 4750 3750
-Wire Wire Line
-	3900 3300 4250 3300
-Wire Wire Line
-	3900 3300 3900 3750
 Wire Notes Line
 	3750 3000 5400 3000
 Wire Notes Line
@@ -365,25 +302,23 @@ Wire Notes Line
 Wire Wire Line
 	5100 2900 5100 3750
 $Comp
-L Device:D D?
-U 1 1 619DA3D1
-P 4400 3300
-F 0 "D?" H 4400 3517 50  0000 C CNN
-F 1 "D" H 4400 3426 50  0000 C CNN
-F 2 "" H 4400 3300 50  0001 C CNN
-F 3 "~" H 4400 3300 50  0001 C CNN
-	1    4400 3300
+L SparkFun-DiscreteSemi:DIODE-SHOTTKY_MBRA140 D?
+U 1 1 61A08B7E
+P 3450 3750
+F 0 "D?" H 3450 3977 50  0000 C CNN
+F 1 "DIODE-SHOTTKY_MBRA140" H 3450 4050 50  0000 C CNN
+F 2 "Silicon-Standard:SMA-DIODE" H 4100 3600 50  0001 C CNN
+F 3 "" H 3450 3750 50  0001 C CNN
+F 4 "DIO-08053" H 3450 3885 50  0001 C CNN "Field4"
+	1    3450 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D D?
-U 1 1 619DB167
-P 3500 3750
-F 0 "D?" H 3500 3533 50  0000 C CNN
-F 1 "D" H 3500 3624 50  0000 C CNN
-F 2 "" H 3500 3750 50  0001 C CNN
-F 3 "~" H 3500 3750 50  0001 C CNN
-	1    3500 3750
-	-1   0    0    1   
-$EndComp
+Wire Wire Line
+	3650 3350 3650 3750
+Wire Wire Line
+	2900 3750 3250 3750
+Wire Wire Line
+	3650 3750 3900 3750
+Connection ~ 3650 3750
+Connection ~ 3900 3750
 $EndSCHEMATC

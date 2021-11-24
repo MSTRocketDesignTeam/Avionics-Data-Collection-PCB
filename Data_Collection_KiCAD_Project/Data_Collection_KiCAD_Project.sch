@@ -14,10 +14,10 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR04
 U 1 1 61577BBB
 P 2400 6950
-F 0 "#PWR?" H 2400 6800 50  0001 C CNN
+F 0 "#PWR04" H 2400 6800 50  0001 C CNN
 F 1 "+5V" H 2415 7123 50  0000 C CNN
 F 2 "" H 2400 6950 50  0001 C CNN
 F 3 "" H 2400 6950 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 2400 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR02
 U 1 1 61579C7C
 P 1200 6600
-F 0 "#PWR?" H 1200 6450 50  0001 C CNN
+F 0 "#PWR02" H 1200 6450 50  0001 C CNN
 F 1 "+3.3V" H 1215 6773 50  0000 C CNN
 F 2 "" H 1200 6600 50  0001 C CNN
 F 3 "" H 1200 6600 50  0001 C CNN
@@ -40,10 +40,10 @@ Main System Bus
 Text Notes 2850 1300 2    100  ~ 0
 Microcontroller Chip
 $Comp
-L SparkFun-Connectors:CONN_05X2RA J?
+L SparkFun-Connectors:CONN_05X2RA J2
 U 1 1 6196C043
 P 5700 6950
-F 0 "J?" H 5700 7460 45  0000 C CNN
+F 0 "J2" H 5700 7460 45  0000 C CNN
 F 1 "ARM 10 Pin" H 5700 7376 45  0000 C CNN
 F 2 "2X5-RA" H 5700 7350 20  0001 C CNN
 F 3 "" H 5700 6950 50  0001 C CNN
@@ -55,21 +55,21 @@ NoConn ~ 5950 7050
 NoConn ~ 5450 6950
 NoConn ~ 5450 7050
 $Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
+L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C1
 U 1 1 619D380E
 P 5400 7350
-F 0 "C?" H 5515 7396 50  0000 L CNN
+F 0 "C1" H 5515 7396 50  0000 L CNN
 F 1 "100nF" H 5515 7305 50  0000 L CNN
-F 2 "" H 5438 7200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 7200 50  0001 C CNN
 F 3 "~" H 5400 7350 50  0001 C CNN
 	1    5400 7350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR05
 U 1 1 619D3F11
 P 5400 7500
-F 0 "#PWR?" H 5400 7250 50  0001 C CNN
+F 0 "#PWR05" H 5400 7250 50  0001 C CNN
 F 1 "GND" H 5405 7327 50  0000 C CNN
 F 2 "" H 5400 7500 50  0001 C CNN
 F 3 "" H 5400 7500 50  0001 C CNN
@@ -83,10 +83,10 @@ SWD Connector
 Text Notes 6600 7650 2    50   ~ 0
 NRST cap protects\nagainst parasitic resets.
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR011
 U 1 1 616E7AC6
 P 9400 1550
-F 0 "#PWR?" H 9400 1300 50  0001 C CNN
+F 0 "#PWR011" H 9400 1300 50  0001 C CNN
 F 1 "GND" H 9550 1450 50  0000 C CNN
 F 2 "" H 9400 1550 50  0001 C CNN
 F 3 "" H 9400 1550 50  0001 C CNN
@@ -94,10 +94,10 @@ F 3 "" H 9400 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR010
 U 1 1 616FEE96
 P 9400 1000
-F 0 "#PWR?" H 9400 850 50  0001 C CNN
+F 0 "#PWR010" H 9400 850 50  0001 C CNN
 F 1 "+3.3V" H 9415 1173 50  0000 C CNN
 F 2 "" H 9400 1000 50  0001 C CNN
 F 3 "" H 9400 1000 50  0001 C CNN
@@ -105,10 +105,10 @@ F 3 "" H 9400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR09
 U 1 1 6176C380
 P 7350 1550
-F 0 "#PWR?" H 7350 1300 50  0001 C CNN
+F 0 "#PWR09" H 7350 1300 50  0001 C CNN
 F 1 "GND" H 7500 1450 50  0000 C CNN
 F 2 "" H 7350 1550 50  0001 C CNN
 F 3 "" H 7350 1550 50  0001 C CNN
@@ -299,10 +299,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 2450 5500 2350
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR06
 U 1 1 617E2922
 P 5500 2450
-F 0 "#PWR?" H 5500 2200 50  0001 C CNN
+F 0 "#PWR06" H 5500 2200 50  0001 C CNN
 F 1 "GND" H 5505 2277 50  0000 C CNN
 F 2 "" H 5500 2450 50  0001 C CNN
 F 3 "" H 5500 2450 50  0001 C CNN
@@ -378,10 +378,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 6750 6150 6700
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR08
 U 1 1 619AF36E
 P 6150 6700
-F 0 "#PWR?" H 6150 6550 50  0001 C CNN
+F 0 "#PWR08" H 6150 6550 50  0001 C CNN
 F 1 "+3.3V" H 6165 6873 50  0000 C CNN
 F 2 "" H 6150 6700 50  0001 C CNN
 F 3 "" H 6150 6700 50  0001 C CNN
@@ -403,10 +403,10 @@ Wire Wire Line
 Wire Wire Line
 	6050 7200 6050 7150
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR07
 U 1 1 6196C349
 P 6050 7200
-F 0 "#PWR?" H 6050 6950 50  0001 C CNN
+F 0 "#PWR07" H 6050 6950 50  0001 C CNN
 F 1 "GND" H 6055 7027 50  0000 C CNN
 F 2 "" H 6050 7200 50  0001 C CNN
 F 3 "" H 6050 7200 50  0001 C CNN
@@ -547,10 +547,10 @@ Wire Wire Line
 Wire Wire Line
 	9650 1400 10150 1400
 $Comp
-L SparkFun-Connectors:CONN_06X2PTH_FEMALE J?
+L SparkFun-Connectors:CONN_06X2PTH_FEMALE J1
 U 1 1 617A50A2
 P 1700 7050
-F 0 "J?" H 1700 7610 45  0000 C CNN
+F 0 "J1" H 1700 7610 45  0000 C CNN
 F 1 "Main Bus" H 1700 7526 45  0000 C CNN
 F 2 "2X6" H 1700 7500 20  0001 C CNN
 F 3 "" H 1700 7050 50  0001 C CNN
@@ -574,10 +574,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 6900 1200 6900
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR03
 U 1 1 618118F6
 P 2200 7100
-F 0 "#PWR?" H 2200 6850 50  0001 C CNN
+F 0 "#PWR03" H 2200 6850 50  0001 C CNN
 F 1 "GND" H 2205 6927 50  0000 C CNN
 F 2 "" H 2200 7100 50  0001 C CNN
 F 3 "" H 2200 7100 50  0001 C CNN
@@ -595,10 +595,10 @@ Wire Wire Line
 Wire Wire Line
 	1000 6800 1000 6950
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR01
 U 1 1 6181AAF8
 P 1000 6950
-F 0 "#PWR?" H 1000 6700 50  0001 C CNN
+F 0 "#PWR01" H 1000 6700 50  0001 C CNN
 F 1 "GND" H 1005 6777 50  0000 C CNN
 F 2 "" H 1000 6950 50  0001 C CNN
 F 3 "" H 1000 6950 50  0001 C CNN

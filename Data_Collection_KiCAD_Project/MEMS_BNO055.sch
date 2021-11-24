@@ -18,8 +18,8 @@ L Data_Collection_KiCAD_Project-rescue:BNO055-Sensor_Motion-Data_Collection_KiCA
 U 1 1 61663BA8
 P 5650 3550
 AR Path="/61663BA8" Ref="U?"  Part="1" 
-AR Path="/615A5159/61663BA8" Ref="U?"  Part="1" 
-F 0 "U?" H 5650 4600 50  0000 C CNN
+AR Path="/615A5159/61663BA8" Ref="U8"  Part="1" 
+F 0 "U8" H 5650 4600 50  0000 C CNN
 F 1 "BNO055" H 5650 4500 50  0000 C CNN
 F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 5900 2900 50  0001 L CNN
 F 3 "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf" H 5650 3750 50  0001 C CNN
@@ -38,8 +38,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 6166AFE6
 P 5200 2700
 AR Path="/6166AFE6" Ref="#PWR?"  Part="1" 
-AR Path="/615A5159/6166AFE6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5200 2550 50  0001 C CNN
+AR Path="/615A5159/6166AFE6" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 5200 2550 50  0001 C CNN
 F 1 "+3.3V" H 5215 2873 50  0000 C CNN
 F 2 "" H 5200 2700 50  0001 C CNN
 F 3 "" H 5200 2700 50  0001 C CNN
@@ -50,10 +50,10 @@ Wire Wire Line
 	5550 2700 5200 2700
 Connection ~ 5550 2700
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR051
 U 1 1 6166C199
 P 6400 2750
-F 0 "#PWR?" H 6400 2500 50  0001 C CNN
+F 0 "#PWR051" H 6400 2500 50  0001 C CNN
 F 1 "GND" H 6405 2577 50  0000 C CNN
 F 2 "" H 6400 2750 50  0001 C CNN
 F 3 "" H 6400 2750 50  0001 C CNN
@@ -61,10 +61,10 @@ F 3 "" H 6400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR050
 U 1 1 6166D1D4
 P 5550 4350
-F 0 "#PWR?" H 5550 4100 50  0001 C CNN
+F 0 "#PWR050" H 5550 4100 50  0001 C CNN
 F 1 "GND" H 5555 4177 50  0000 C CNN
 F 2 "" H 5550 4350 50  0001 C CNN
 F 3 "" H 5550 4350 50  0001 C CNN
@@ -79,10 +79,10 @@ Connection ~ 5550 4250
 Text HLabel 5050 3450 0    50   Input ~ 0
 ~BNO055_BTL
 $Comp
-L Data_Collection_KiCAD_Project-rescue:Crystal_Small-Device-Data_Collection_KiCAD_Project-rescue Y?
+L Data_Collection_KiCAD_Project-rescue:Crystal_Small-Device-Data_Collection_KiCAD_Project-rescue Y2
 U 1 1 6166FF64
 P 6450 3300
-F 0 "Y?" V 6404 3388 50  0000 L CNN
+F 0 "Y2" V 6404 3388 50  0000 L CNN
 F 1 "32.768kHz" V 6500 3400 50  0000 L CNN
 F 2 "" H 6450 3300 50  0001 C CNN
 F 3 "~" H 6450 3300 50  0001 C CNN
@@ -94,10 +94,10 @@ L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Proj
 U 1 1 6167196C
 P 6300 2700
 AR Path="/6167196C" Ref="C?"  Part="1" 
-AR Path="/615A5159/6167196C" Ref="C?"  Part="1" 
-F 0 "C?" V 6071 2700 50  0000 C CNN
+AR Path="/615A5159/6167196C" Ref="C20"  Part="1" 
+F 0 "C20" V 6071 2700 50  0000 C CNN
 F 1 "0.1uF" V 6162 2700 50  0000 C CNN
-F 2 "" H 6300 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6300 2700 50  0001 C CNN
 F 3 "~" H 6300 2700 50  0001 C CNN
 	1    6300 2700
 	0    1    1    0   
@@ -120,10 +120,10 @@ L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Proj
 U 1 1 6167A718
 P 6750 3050
 AR Path="/6167A718" Ref="C?"  Part="1" 
-AR Path="/615A5159/6167A718" Ref="C?"  Part="1" 
-F 0 "C?" V 6521 3050 50  0000 C CNN
+AR Path="/615A5159/6167A718" Ref="C22"  Part="1" 
+F 0 "C22" V 6521 3050 50  0000 C CNN
 F 1 "0.1uF" V 6612 3050 50  0000 C CNN
-F 2 "" H 6750 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6750 3050 50  0001 C CNN
 F 3 "~" H 6750 3050 50  0001 C CNN
 	1    6750 3050
 	0    1    1    0   
@@ -133,10 +133,10 @@ L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Proj
 U 1 1 6167C82F
 P 6750 3550
 AR Path="/6167C82F" Ref="C?"  Part="1" 
-AR Path="/615A5159/6167C82F" Ref="C?"  Part="1" 
-F 0 "C?" V 6850 3550 50  0000 C CNN
+AR Path="/615A5159/6167C82F" Ref="C23"  Part="1" 
+F 0 "C23" V 6850 3550 50  0000 C CNN
 F 1 "0.1uF" V 6950 3550 50  0000 C CNN
-F 2 "" H 6750 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6750 3550 50  0001 C CNN
 F 3 "~" H 6750 3550 50  0001 C CNN
 	1    6750 3550
 	0    1    1    0   
@@ -148,10 +148,10 @@ Wire Wire Line
 	6450 3050 6650 3050
 Connection ~ 6450 3050
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR053
 U 1 1 6167EB61
 P 7100 3550
-F 0 "#PWR?" H 7100 3300 50  0001 C CNN
+F 0 "#PWR053" H 7100 3300 50  0001 C CNN
 F 1 "GND" H 7105 3377 50  0000 C CNN
 F 2 "" H 7100 3550 50  0001 C CNN
 F 3 "" H 7100 3550 50  0001 C CNN
@@ -170,10 +170,10 @@ SDA
 Text HLabel 5050 3850 0    50   BiDi ~ 0
 SCL
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR048
 U 1 1 61681CEA
 P 4850 4100
-F 0 "#PWR?" H 4850 3850 50  0001 C CNN
+F 0 "#PWR048" H 4850 3850 50  0001 C CNN
 F 1 "GND" H 4855 3927 50  0000 C CNN
 F 2 "" H 4850 4100 50  0001 C CNN
 F 3 "" H 4850 4100 50  0001 C CNN
@@ -208,10 +208,10 @@ Text HLabel 5050 3050 0    50   Input ~ 0
 Text HLabel 5050 3250 0    50   Output ~ 0
 BNO055_INT
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR052
 U 1 1 616939D5
 P 6700 4350
-F 0 "#PWR?" H 6700 4100 50  0001 C CNN
+F 0 "#PWR052" H 6700 4100 50  0001 C CNN
 F 1 "GND" H 6705 4177 50  0000 C CNN
 F 2 "" H 6700 4350 50  0001 C CNN
 F 3 "" H 6700 4350 50  0001 C CNN
@@ -223,10 +223,10 @@ L Data_Collection_KiCAD_Project-rescue:C_Small-Device-Data_Collection_KiCAD_Proj
 U 1 1 616964F3
 P 6450 4050
 AR Path="/616964F3" Ref="C?"  Part="1" 
-AR Path="/615A5159/616964F3" Ref="C?"  Part="1" 
-F 0 "C?" V 6550 4050 50  0000 C CNN
+AR Path="/615A5159/616964F3" Ref="C21"  Part="1" 
+F 0 "C21" V 6550 4050 50  0000 C CNN
 F 1 "0.1uF" V 6650 4050 50  0000 C CNN
-F 2 "" H 6450 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6450 4050 50  0001 C CNN
 F 3 "~" H 6450 4050 50  0001 C CNN
 	1    6450 4050
 	0    1    1    0   

@@ -18,8 +18,8 @@ L Data_Collection_KiCAD_Project-rescue:MS5607-02BA-Sensor_Pressure-Data_Collecti
 U 1 1 6161026E
 P 5900 3650
 AR Path="/6161026E" Ref="U?"  Part="1" 
-AR Path="/615B3F6F/6161026E" Ref="U?"  Part="1" 
-F 0 "U?" H 5850 4450 50  0000 L CNN
+AR Path="/615B3F6F/6161026E" Ref="U7"  Part="1" 
+F 0 "U7" H 5850 4450 50  0000 L CNN
 F 1 "MS5607-02BA" H 5600 4350 50  0000 L CNN
 F 2 "Package_LGA:LGA-8_3x5mm_P1.25mm" H 5900 3650 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035" H 5900 3650 50  0001 C CNN
@@ -33,8 +33,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 61610274
 P 6350 3150
 AR Path="/61610274" Ref="#PWR?"  Part="1" 
-AR Path="/615B3F6F/61610274" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6350 3000 50  0001 C CNN
+AR Path="/615B3F6F/61610274" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 6350 3000 50  0001 C CNN
 F 1 "+3.3V" H 6365 3323 50  0000 C CNN
 F 2 "" H 6350 3150 50  0001 C CNN
 F 3 "" H 6350 3150 50  0001 C CNN
@@ -48,8 +48,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 6161027B
 P 5900 4150
 AR Path="/6161027B" Ref="#PWR?"  Part="1" 
-AR Path="/615B3F6F/6161027B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5900 3900 50  0001 C CNN
+AR Path="/615B3F6F/6161027B" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 5900 3900 50  0001 C CNN
 F 1 "GND" H 5905 3977 50  0000 C CNN
 F 2 "" H 5900 4150 50  0001 C CNN
 F 3 "" H 5900 4150 50  0001 C CNN
@@ -63,10 +63,10 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61610282
 P 6350 3650
 AR Path="/61610282" Ref="C?"  Part="1" 
-AR Path="/615B3F6F/61610282" Ref="C?"  Part="1" 
-F 0 "C?" H 6465 3696 50  0000 L CNN
+AR Path="/615B3F6F/61610282" Ref="C19"  Part="1" 
+F 0 "C19" H 6465 3696 50  0000 L CNN
 F 1 "100nF" H 6465 3605 50  0000 L CNN
-F 2 "" H 6388 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 3500 50  0001 C CNN
 F 3 "~" H 6350 3650 50  0001 C CNN
 	1    6350 3650
 	1    0    0    -1  
