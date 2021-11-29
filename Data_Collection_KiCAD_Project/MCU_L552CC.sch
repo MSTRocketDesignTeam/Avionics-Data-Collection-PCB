@@ -32,8 +32,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 61E9E6C6
 P 8700 6000
 AR Path="/61E9E6C6" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E6C6" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 8700 5750 50  0001 C CNN
+AR Path="/61E8EFE4/61E9E6C6" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 8700 5750 50  0001 C CNN
 F 1 "GND" H 8705 5827 50  0000 C CNN
 F 2 "" H 8700 6000 50  0001 C CNN
 F 3 "" H 8700 6000 50  0001 C CNN
@@ -62,8 +62,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 61E9E6D6
 P 9200 2700
 AR Path="/61E9E6D6" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E6D6" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 9200 2550 50  0001 C CNN
+AR Path="/61E8EFE4/61E9E6D6" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 9200 2550 50  0001 C CNN
 F 1 "+3.3V" H 9215 2873 50  0000 C CNN
 F 2 "" H 9200 2700 50  0001 C CNN
 F 3 "" H 9200 2700 50  0001 C CNN
@@ -100,8 +100,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 61E9E6FD
 P 6700 3300
 AR Path="/61E9E6FD" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E6FD" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 6700 3050 50  0001 C CNN
+AR Path="/61E8EFE4/61E9E6FD" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 6700 3050 50  0001 C CNN
 F 1 "GND" H 6705 3127 50  0000 C CNN
 F 2 "" H 6700 3300 50  0001 C CNN
 F 3 "" H 6700 3300 50  0001 C CNN
@@ -125,8 +125,8 @@ L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-
 U 1 1 61E9E710
 P 9950 5650
 AR Path="/61E9E710" Ref="D?"  Part="1" 
-AR Path="/61E8EFE4/61E9E710" Ref="D3"  Part="1" 
-F 0 "D3" V 9989 5532 50  0000 R CNN
+AR Path="/61E8EFE4/61E9E710" Ref="D2"  Part="1" 
+F 0 "D2" V 9989 5532 50  0000 R CNN
 F 1 "Green" V 9898 5532 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Castellated" H 9950 5650 50  0001 C CNN
 F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 9950 5650 50  0001 C CNN
@@ -141,8 +141,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 61E9E724
 P 9950 5800
 AR Path="/61E9E724" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E724" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 9950 5550 50  0001 C CNN
+AR Path="/61E8EFE4/61E9E724" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 9950 5550 50  0001 C CNN
 F 1 "GND" H 9955 5627 50  0000 C CNN
 F 2 "" H 9950 5800 50  0001 C CNN
 F 3 "" H 9950 5800 50  0001 C CNN
@@ -171,8 +171,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61E9E742
 P 6850 4650
 AR Path="/61E9E742" Ref="C?"  Part="1" 
-AR Path="/61E8EFE4/61E9E742" Ref="C16"  Part="1" 
-F 0 "C16" H 6965 4696 50  0000 L CNN
+AR Path="/61E8EFE4/61E9E742" Ref="C15"  Part="1" 
+F 0 "C15" H 6965 4696 50  0000 L CNN
 F 1 "30pF" H 6965 4605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 4500 50  0001 C CNN
 F 3 "~" H 6850 4650 50  0001 C CNN
@@ -184,8 +184,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61E9E748
 P 7350 4650
 AR Path="/61E9E748" Ref="C?"  Part="1" 
-AR Path="/61E8EFE4/61E9E748" Ref="C17"  Part="1" 
-F 0 "C17" H 7465 4696 50  0000 L CNN
+AR Path="/61E8EFE4/61E9E748" Ref="C16"  Part="1" 
+F 0 "C16" H 7465 4696 50  0000 L CNN
 F 1 "30pF" H 7465 4605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7388 4500 50  0001 C CNN
 F 3 "~" H 7350 4650 50  0001 C CNN
@@ -201,8 +201,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 61E9E750
 P 6850 4800
 AR Path="/61E9E750" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E750" Ref="#PWR036"  Part="1" 
-F 0 "#PWR036" H 6850 4550 50  0001 C CNN
+AR Path="/61E8EFE4/61E9E750" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 6850 4550 50  0001 C CNN
 F 1 "GND" H 6855 4627 50  0000 C CNN
 F 2 "" H 6850 4800 50  0001 C CNN
 F 3 "" H 6850 4800 50  0001 C CNN
@@ -214,8 +214,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 61E9E756
 P 7350 4800
 AR Path="/61E9E756" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61E9E756" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 7350 4550 50  0001 C CNN
+AR Path="/61E8EFE4/61E9E756" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 7350 4550 50  0001 C CNN
 F 1 "GND" H 7355 4627 50  0000 C CNN
 F 2 "" H 7350 4800 50  0001 C CNN
 F 3 "" H 7350 4800 50  0001 C CNN
@@ -251,8 +251,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 61EA2645
 P 900 1700
 AR Path="/61EA2645" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61EA2645" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 900 1450 50  0001 C CNN
+AR Path="/61E8EFE4/61EA2645" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 900 1450 50  0001 C CNN
 F 1 "GND" H 905 1527 50  0000 C CNN
 F 2 "" H 900 1700 50  0001 C CNN
 F 3 "" H 900 1700 50  0001 C CNN
@@ -264,8 +264,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61EA264B
 P 900 1450
 AR Path="/61EA264B" Ref="C?"  Part="1" 
-AR Path="/61E8EFE4/61EA264B" Ref="C11"  Part="1" 
-F 0 "C11" H 1015 1496 50  0000 L CNN
+AR Path="/61E8EFE4/61EA264B" Ref="C10"  Part="1" 
+F 0 "C10" H 1015 1496 50  0000 L CNN
 F 1 "1uF" H 1015 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 1300 50  0001 C CNN
 F 3 "~" H 900 1450 50  0001 C CNN
@@ -277,8 +277,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 61EA2651
 P 900 1200
 AR Path="/61EA2651" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61EA2651" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 900 1050 50  0001 C CNN
+AR Path="/61E8EFE4/61EA2651" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 900 1050 50  0001 C CNN
 F 1 "+3.3V" H 915 1373 50  0000 C CNN
 F 2 "" H 900 1200 50  0001 C CNN
 F 3 "" H 900 1200 50  0001 C CNN
@@ -294,8 +294,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61EA2659
 P 1300 1450
 AR Path="/61EA2659" Ref="C?"  Part="1" 
-AR Path="/61E8EFE4/61EA2659" Ref="C12"  Part="1" 
-F 0 "C12" H 1415 1496 50  0000 L CNN
+AR Path="/61E8EFE4/61EA2659" Ref="C11"  Part="1" 
+F 0 "C11" H 1415 1496 50  0000 L CNN
 F 1 "100nF" H 1415 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1338 1300 50  0001 C CNN
 F 3 "~" H 1300 1450 50  0001 C CNN
@@ -307,8 +307,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61EA265F
 P 1750 1450
 AR Path="/61EA265F" Ref="C?"  Part="1" 
-AR Path="/61E8EFE4/61EA265F" Ref="C13"  Part="1" 
-F 0 "C13" H 1865 1496 50  0000 L CNN
+AR Path="/61E8EFE4/61EA265F" Ref="C12"  Part="1" 
+F 0 "C12" H 1865 1496 50  0000 L CNN
 F 1 "100nF" H 1865 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 1300 50  0001 C CNN
 F 3 "~" H 1750 1450 50  0001 C CNN
@@ -320,8 +320,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61EA2665
 P 2200 1450
 AR Path="/61EA2665" Ref="C?"  Part="1" 
-AR Path="/61E8EFE4/61EA2665" Ref="C14"  Part="1" 
-F 0 "C14" H 2315 1496 50  0000 L CNN
+AR Path="/61E8EFE4/61EA2665" Ref="C13"  Part="1" 
+F 0 "C13" H 2315 1496 50  0000 L CNN
 F 1 "100nF" H 2315 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 1300 50  0001 C CNN
 F 3 "~" H 2200 1450 50  0001 C CNN
@@ -367,8 +367,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 61EA267F
 P 2650 1450
 AR Path="/61EA267F" Ref="C?"  Part="1" 
-AR Path="/61E8EFE4/61EA267F" Ref="C15"  Part="1" 
-F 0 "C15" H 2765 1496 50  0000 L CNN
+AR Path="/61E8EFE4/61EA267F" Ref="C14"  Part="1" 
+F 0 "C14" H 2765 1496 50  0000 L CNN
 F 1 "100nF" H 2765 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2688 1300 50  0001 C CNN
 F 3 "~" H 2650 1450 50  0001 C CNN
@@ -474,8 +474,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 619E313D
 P 900 2950
 AR Path="/619E313D" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/619E313D" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 900 2800 50  0001 C CNN
+AR Path="/61E8EFE4/619E313D" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 900 2800 50  0001 C CNN
 F 1 "+3.3V" H 915 3123 50  0000 C CNN
 F 2 "" H 900 2950 50  0001 C CNN
 F 3 "" H 900 2950 50  0001 C CNN
@@ -521,8 +521,8 @@ L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-
 U 1 1 619F2F50
 P 10350 5650
 AR Path="/619F2F50" Ref="D?"  Part="1" 
-AR Path="/61E8EFE4/619F2F50" Ref="D4"  Part="1" 
-F 0 "D4" V 10389 5532 50  0000 R CNN
+AR Path="/61E8EFE4/619F2F50" Ref="D3"  Part="1" 
+F 0 "D3" V 10389 5532 50  0000 R CNN
 F 1 "Red" V 10298 5532 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Castellated" H 10350 5650 50  0001 C CNN
 F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 10350 5650 50  0001 C CNN
@@ -535,8 +535,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 619F33E0
 P 10350 5800
 AR Path="/619F33E0" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/619F33E0" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 10350 5550 50  0001 C CNN
+AR Path="/61E8EFE4/619F33E0" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 10350 5550 50  0001 C CNN
 F 1 "GND" H 10355 5627 50  0000 C CNN
 F 2 "" H 10350 5800 50  0001 C CNN
 F 3 "" H 10350 5800 50  0001 C CNN
@@ -581,8 +581,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 61A01FA8
 P 900 4050
 AR Path="/61A01FA8" Ref="#PWR?"  Part="1" 
-AR Path="/61E8EFE4/61A01FA8" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 900 3900 50  0001 C CNN
+AR Path="/61E8EFE4/61A01FA8" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 900 3900 50  0001 C CNN
 F 1 "+3.3V" H 915 4223 50  0000 C CNN
 F 2 "" H 900 4050 50  0001 C CNN
 F 3 "" H 900 4050 50  0001 C CNN

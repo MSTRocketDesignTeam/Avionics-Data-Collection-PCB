@@ -18,8 +18,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 6161184E
 P 4150 2700
 AR Path="/6161184E" Ref="#PWR?"  Part="1" 
-AR Path="/615FC266/6161184E" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 4150 2550 50  0001 C CNN
+AR Path="/615FC266/6161184E" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 4150 2550 50  0001 C CNN
 F 1 "+3.3V" H 4165 2873 50  0000 C CNN
 F 2 "" H 4150 2700 50  0001 C CNN
 F 3 "" H 4150 2700 50  0001 C CNN
@@ -33,8 +33,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 61611855
 P 4950 3600
 AR Path="/61611855" Ref="#PWR?"  Part="1" 
-AR Path="/615FC266/61611855" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 4950 3350 50  0001 C CNN
+AR Path="/615FC266/61611855" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 4950 3350 50  0001 C CNN
 F 1 "GND" H 4955 3427 50  0000 C CNN
 F 2 "" H 4950 3600 50  0001 C CNN
 F 3 "" H 4950 3600 50  0001 C CNN
@@ -56,8 +56,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 6161186E
 P 3850 3150
 AR Path="/6161186E" Ref="C?"  Part="1" 
-AR Path="/615FC266/6161186E" Ref="C18"  Part="1" 
-F 0 "C18" H 3965 3196 50  0000 L CNN
+AR Path="/615FC266/6161186E" Ref="C17"  Part="1" 
+F 0 "C17" H 3965 3196 50  0000 L CNN
 F 1 "100nF" H 3965 3105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3888 3000 50  0001 C CNN
 F 3 "~" H 3850 3150 50  0001 C CNN
@@ -92,8 +92,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 617DF3FC
 P 5500 3450
 AR Path="/617DF3FC" Ref="#PWR?"  Part="1" 
-AR Path="/615FC266/617DF3FC" Ref="#PWR045"  Part="1" 
-F 0 "#PWR045" H 5500 3200 50  0001 C CNN
+AR Path="/615FC266/617DF3FC" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 5500 3200 50  0001 C CNN
 F 1 "GND" H 5505 3277 50  0000 C CNN
 F 2 "" H 5500 3450 50  0001 C CNN
 F 3 "" H 5500 3450 50  0001 C CNN
@@ -108,8 +108,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 617DFAF5
 P 3850 3300
 AR Path="/617DFAF5" Ref="#PWR?"  Part="1" 
-AR Path="/615FC266/617DFAF5" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 3850 3050 50  0001 C CNN
+AR Path="/615FC266/617DFAF5" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 3850 3050 50  0001 C CNN
 F 1 "GND" H 3855 3127 50  0000 C CNN
 F 2 "" H 3850 3300 50  0001 C CNN
 F 3 "" H 3850 3300 50  0001 C CNN

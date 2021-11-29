@@ -18,8 +18,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 6160E311
 P 5500 4150
 AR Path="/6160E311" Ref="#PWR?"  Part="1" 
-AR Path="/615C1FB4/6160E311" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 5500 3900 50  0001 C CNN
+AR Path="/615C1FB4/6160E311" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 5500 3900 50  0001 C CNN
 F 1 "GND" H 5505 3977 50  0000 C CNN
 F 2 "" H 5500 4150 50  0001 C CNN
 F 3 "" H 5500 4150 50  0001 C CNN
@@ -31,8 +31,8 @@ L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project
 U 1 1 6160E323
 P 5950 2950
 AR Path="/6160E323" Ref="#PWR?"  Part="1" 
-AR Path="/615C1FB4/6160E323" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 5950 2800 50  0001 C CNN
+AR Path="/615C1FB4/6160E323" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 5950 2800 50  0001 C CNN
 F 1 "+3.3V" H 5965 3123 50  0000 C CNN
 F 2 "" H 5950 2950 50  0001 C CNN
 F 3 "" H 5950 2950 50  0001 C CNN
@@ -54,8 +54,8 @@ L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-re
 U 1 1 6160E331
 P 6500 3600
 AR Path="/6160E331" Ref="C?"  Part="1" 
-AR Path="/615C1FB4/6160E331" Ref="C4"  Part="1" 
-F 0 "C4" H 6615 3646 50  0000 L CNN
+AR Path="/615C1FB4/6160E331" Ref="C3"  Part="1" 
+F 0 "C3" H 6615 3646 50  0000 L CNN
 F 1 "100nF" H 6615 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 3450 50  0001 C CNN
 F 3 "~" H 6500 3600 50  0001 C CNN
@@ -95,8 +95,8 @@ L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-r
 U 1 1 618848DE
 P 6500 3750
 AR Path="/618848DE" Ref="#PWR?"  Part="1" 
-AR Path="/615C1FB4/618848DE" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 6500 3500 50  0001 C CNN
+AR Path="/615C1FB4/618848DE" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 6500 3500 50  0001 C CNN
 F 1 "GND" H 6505 3577 50  0000 C CNN
 F 2 "" H 6500 3750 50  0001 C CNN
 F 3 "" H 6500 3750 50  0001 C CNN

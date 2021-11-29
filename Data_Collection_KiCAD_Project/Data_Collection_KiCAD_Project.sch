@@ -16,10 +16,10 @@ $EndDescr
 Text Notes 2850 1300 2    100  ~ 0
 Microcontroller Chip
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR011
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR04
 U 1 1 616E7AC6
 P 9400 1550
-F 0 "#PWR011" H 9400 1300 50  0001 C CNN
+F 0 "#PWR04" H 9400 1300 50  0001 C CNN
 F 1 "GND" H 9550 1450 50  0000 C CNN
 F 2 "" H 9400 1550 50  0001 C CNN
 F 3 "" H 9400 1550 50  0001 C CNN
@@ -27,10 +27,10 @@ F 3 "" H 9400 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR010
+L Data_Collection_KiCAD_Project-rescue:+3.3V-power-Data_Collection_KiCAD_Project-rescue #PWR03
 U 1 1 616FEE96
 P 9400 1000
-F 0 "#PWR010" H 9400 850 50  0001 C CNN
+F 0 "#PWR03" H 9400 850 50  0001 C CNN
 F 1 "+3.3V" H 9415 1173 50  0000 C CNN
 F 2 "" H 9400 1000 50  0001 C CNN
 F 3 "" H 9400 1000 50  0001 C CNN
@@ -38,10 +38,10 @@ F 3 "" H 9400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR09
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR02
 U 1 1 6176C380
 P 7350 1550
-F 0 "#PWR09" H 7350 1300 50  0001 C CNN
+F 0 "#PWR02" H 7350 1300 50  0001 C CNN
 F 1 "GND" H 7500 1450 50  0000 C CNN
 F 2 "" H 7350 1550 50  0001 C CNN
 F 3 "" H 7350 1550 50  0001 C CNN
@@ -231,10 +231,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 2450 5500 2350
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR06
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR01
 U 1 1 617E2922
 P 5500 2450
-F 0 "#PWR06" H 5500 2200 50  0001 C CNN
+F 0 "#PWR01" H 5500 2200 50  0001 C CNN
 F 1 "GND" H 5505 2277 50  0000 C CNN
 F 2 "" H 5500 2450 50  0001 C CNN
 F 3 "" H 5500 2450 50  0001 C CNN
