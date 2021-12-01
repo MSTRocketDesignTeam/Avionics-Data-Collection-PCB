@@ -405,23 +405,6 @@ Wire Wire Line
 	9650 1800 9650 1400
 Wire Wire Line
 	9650 1400 10150 1400
-$Sheet
-S 1550 5750 1150 1900
-U 619DD6DC
-F0 "Main Bus" 50
-F1 "file61A437B4.sch" 50
-F2 "t_mosi" I L 1550 5850 50 
-F3 "t_miso" I L 1550 6000 50 
-F4 "t_clk" I L 1550 6150 50 
-F5 "Alert_scl" I L 1550 6350 50 
-F6 "Alert_sda" I L 1550 6500 50 
-F7 "Alert_Active" I L 1550 6650 50 
-F8 "SWDIO" I L 1550 6850 50 
-F9 "SWCLK" I L 1550 7000 50 
-F10 "NRST" I L 1550 7150 50 
-F11 "Fire" I L 1550 7350 50 
-F12 "Fire_redundant" I L 1550 7500 50 
-$EndSheet
 Entry Wire Line
 	1150 4600 1250 4500
 Entry Wire Line
@@ -516,6 +499,111 @@ Entry Wire Line
 	1150 4300 1250 4200
 Wire Wire Line
 	1250 4200 1550 4200
+$Sheet
+S 1550 5750 1150 1900
+U 619DD6DC
+F0 "Main Bus" 50
+F1 "DSUB.sch" 50
+F2 "t_mosi" I L 1550 5850 50 
+F3 "t_miso" I L 1550 6000 50 
+F4 "t_clk" I L 1550 6150 50 
+F5 "Alert_scl" I L 1550 6350 50 
+F6 "Alert_sda" I L 1550 6500 50 
+F7 "Alert_Active" I L 1550 6650 50 
+F8 "SWDIO" I L 1550 6850 50 
+F9 "SWCLK" I L 1550 7000 50 
+F10 "NRST" I L 1550 7150 50 
+F11 "Fire" I L 1550 7350 50 
+F12 "Fire_redundant" I L 1550 7500 50 
+$EndSheet
+$Comp
+L dk_Test-Points:RCT-0C TP1
+U 1 1 61A7EB52
+P 4400 1150
+F 0 "TP1" V 4400 1050 50  0000 C CNN
+F 1 "Debug Pad" V 4266 1197 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4600 1350 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 1450 60  0001 L CNN
+F 4 "A106144CT-ND" H 4600 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 4600 1650 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 4600 1750 60  0001 L CNN "Category"
+F 7 "Test Points" H 4600 1850 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 1950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 4600 2050 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 4600 2150 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 4600 2250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4600 2350 60  0001 L CNN "Status"
+	1    4400 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Test-Points:RCT-0C TP2
+U 1 1 61A84AF6
+P 4400 1300
+F 0 "TP2" V 4400 1200 50  0000 C CNN
+F 1 "Debug Pad" V 4266 1347 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4600 1500 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 1600 60  0001 L CNN
+F 4 "A106144CT-ND" H 4600 1700 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 4600 1800 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 4600 1900 60  0001 L CNN "Category"
+F 7 "Test Points" H 4600 2000 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 2100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 4600 2200 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 4600 2300 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 4600 2400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4600 2500 60  0001 L CNN "Status"
+	1    4400 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1150 4500 1150
+Wire Wire Line
+	4650 1300 4500 1300
+$Comp
+L dk_Test-Points:RCT-0C TP3
+U 1 1 61A8A234
+P 9950 1100
+F 0 "TP3" V 9950 1000 50  0000 C CNN
+F 1 "Debug Pad" V 9816 1147 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10150 1300 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 1400 60  0001 L CNN
+F 4 "A106144CT-ND" H 10150 1500 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 10150 1600 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 10150 1700 60  0001 L CNN "Category"
+F 7 "Test Points" H 10150 1800 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 1900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 10150 2000 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 10150 2100 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 10150 2200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10150 2300 60  0001 L CNN "Status"
+	1    9950 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Test-Points:RCT-0C TP4
+U 1 1 61A902C0
+P 9950 1250
+F 0 "TP4" V 9950 1150 50  0000 C CNN
+F 1 "Debug Pad" V 9816 1297 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10150 1450 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 1550 60  0001 L CNN
+F 4 "A106144CT-ND" H 10150 1650 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 10150 1750 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 10150 1850 60  0001 L CNN "Category"
+F 7 "Test Points" H 10150 1950 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 2050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 10150 2150 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 10150 2250 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 10150 2350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10150 2450 60  0001 L CNN "Status"
+	1    9950 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 1100 10050 1100
+Wire Wire Line
+	10150 1250 10050 1250
 Wire Bus Line
 	3250 1700 3250 1900
 Wire Bus Line

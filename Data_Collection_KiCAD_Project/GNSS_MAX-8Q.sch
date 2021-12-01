@@ -14,19 +14,6 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:L-Device-Data_Collection_KiCAD_Project-rescue L?
-U 1 1 616192D0
-P 3650 5950
-AR Path="/616192D0" Ref="L?"  Part="1" 
-AR Path="/615A5F2C/616192D0" Ref="L1"  Part="1" 
-F 0 "L1" H 3703 5996 50  0000 L CNN
-F 1 "27nH" H 3703 5905 50  0000 L CNN
-F 2 "" H 3650 5950 50  0001 C CNN
-F 3 "~" H 3650 5950 50  0001 C CNN
-	1    3650 5950
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
 U 1 1 616192D6
 P 4000 6500
@@ -77,19 +64,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 6250 50  0001 C CNN
 F 3 "~" H 4350 6250 50  0001 C CNN
 	1    4350 6250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:FDC6330L-Transistor_FET-Data_Collection_KiCAD_Project-rescue Q?
-U 1 1 616192EF
-P 4000 5650
-AR Path="/616192EF" Ref="Q?"  Part="1" 
-AR Path="/615A5F2C/616192EF" Ref="Q1"  Part="1" 
-F 0 "Q1" H 4000 6192 50  0000 C CNN
-F 1 "FDC6330L" H 4000 6101 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3950 5075 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF" H 3900 5550 50  0001 C CNN
-	1    4000 5650
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4700 5400 4700 5350
@@ -142,37 +116,12 @@ Connection ~ 4350 6050
 Wire Wire Line
 	4900 5350 4950 5350
 Connection ~ 4900 5350
-$Comp
-L Data_Collection_KiCAD_Project-rescue:R-Device-Data_Collection_KiCAD_Project-rescue R?
-U 1 1 61619311
-P 3650 5550
-AR Path="/61619311" Ref="R?"  Part="1" 
-AR Path="/615A5F2C/61619311" Ref="R3"  Part="1" 
-F 0 "R3" H 3720 5596 50  0000 L CNN
-F 1 "10k" H 3720 5505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 5550 50  0001 C CNN
-F 3 "~" H 3650 5550 50  0001 C CNN
-	1    3650 5550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 6050 4950 6050
-Wire Wire Line
-	3650 5800 3650 5700
-Wire Wire Line
-	3650 6100 3650 6150
-Wire Wire Line
-	3650 6150 3600 6150
 Text Notes 3250 5050 0    50   ~ 0
                   See Page 17 of \nhttps://www.u-blox.com/en/docs/UBX-15030059
 Wire Notes Line
 	5500 6750 5500 4850
-Wire Wire Line
-	3650 5350 3650 5400
-Wire Wire Line
-	3700 5350 3650 5350
-Wire Notes Line
-	3000 4850 3000 6750
 Wire Notes Line
 	3000 4850 5500 4850
 Wire Notes Line
@@ -227,7 +176,7 @@ AR Path="/6161C976" Ref="J?"  Part="1"
 AR Path="/615A5F2C/6161C976" Ref="J2"  Part="1" 
 F 0 "J2" H 9500 3175 50  0000 L CNN
 F 1 "Conn_Coaxial" H 9500 3084 50  0000 L CNN
-F 2 "" H 9400 3200 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical" H 9400 3200 50  0001 C CNN
 F 3 " ~" H 9400 3200 50  0001 C CNN
 	1    9400 3200
 	1    0    0    -1  
@@ -471,8 +420,6 @@ Wire Notes Line
 	3350 2400 3350 1200
 Wire Notes Line
 	3350 1200 1050 1200
-Text HLabel 3600 6150 0    50   Output ~ 0
-GPS_ANT_NET
 Wire Notes Line
 	10050 4150 10050 2050
 Wire Notes Line
@@ -483,4 +430,57 @@ Wire Notes Line
 	6450 4150 10050 4150
 Text Notes 3000 4800 0    100  ~ 0
 MAX-8Q LNA And Active\nAntenna Matching Network
+Wire Notes Line
+	3000 4850 3000 6750
+$Comp
+L Data_Collection_KiCAD_Project-rescue:L-Device-Data_Collection_KiCAD_Project-rescue L?
+U 1 1 616192D0
+P 3650 5950
+AR Path="/616192D0" Ref="L?"  Part="1" 
+AR Path="/615A5F2C/616192D0" Ref="L1"  Part="1" 
+F 0 "L1" H 3703 5996 50  0000 L CNN
+F 1 "27nH" H 3703 5905 50  0000 L CNN
+F 2 "Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" H 3650 5950 50  0001 C CNN
+F 3 "~" H 3650 5950 50  0001 C CNN
+	1    3650 5950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Data_Collection_KiCAD_Project-rescue:R-Device-Data_Collection_KiCAD_Project-rescue R?
+U 1 1 61619311
+P 3650 5550
+AR Path="/61619311" Ref="R?"  Part="1" 
+AR Path="/615A5F2C/61619311" Ref="R3"  Part="1" 
+F 0 "R3" H 3720 5596 50  0000 L CNN
+F 1 "10k" H 3720 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 5550 50  0001 C CNN
+F 3 "~" H 3650 5550 50  0001 C CNN
+	1    3650 5550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5800 3650 5700
+Wire Wire Line
+	3650 6100 3650 6150
+Wire Wire Line
+	3650 6150 3600 6150
+Text HLabel 3600 6150 0    50   Output ~ 0
+GPS_ANT_NET
+Wire Wire Line
+	3700 5350 3650 5350
+Wire Wire Line
+	3650 5350 3650 5400
+$Comp
+L Transistor_FET:FDC6330L Q?
+U 1 1 616192EF
+P 4000 5650
+AR Path="/616192EF" Ref="Q?"  Part="1" 
+AR Path="/615A5F2C/616192EF" Ref="Q1"  Part="1" 
+F 0 "Q1" H 4000 6192 50  0000 C CNN
+F 1 "SI1040X-T1-GE3" H 4000 6101 50  0000 C CNN
+F 2 "SC-89:SC-89" H 3950 5075 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF" H 3900 5550 50  0001 C CNN
+	1    4000 5650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
