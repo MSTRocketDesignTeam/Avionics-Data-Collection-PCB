@@ -442,6 +442,7 @@ F 0 "L1" H 3703 5996 50  0000 L CNN
 F 1 "27nH" H 3703 5905 50  0000 L CNN
 F 2 "Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" H 3650 5950 50  0001 C CNN
 F 3 "~" H 3650 5950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/abracon-llc/AIUR-04-273J/2343571" H 3650 5950 50  0001 C CNN "Digikey"
 	1    3650 5950
 	-1   0    0    -1  
 $EndComp
