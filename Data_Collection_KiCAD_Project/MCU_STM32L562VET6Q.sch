@@ -397,7 +397,7 @@ AR Path="/61AA0E68" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA0E68" Ref="TP5"  Part="1" 
 F 0 "TP5" V 800 6850 50  0000 C CNN
 F 1 "Debug Pad" V 666 6997 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 7150 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1000 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1000 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1000 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1000 7450 60  0001 L CNN "MPN"
@@ -419,7 +419,7 @@ AR Path="/61AA62F9" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA62F9" Ref="TP6"  Part="1" 
 F 0 "TP6" V 1000 6850 50  0000 C CNN
 F 1 "Debug Pad" V 866 6997 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1200 7150 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1200 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1200 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1200 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1200 7450 60  0001 L CNN "MPN"
@@ -447,7 +447,7 @@ AR Path="/61AA6F38" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA6F38" Ref="TP7"  Part="1" 
 F 0 "TP7" V 1300 6850 50  0000 C CNN
 F 1 "Debug Pad" V 1166 6997 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1500 7150 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1500 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1500 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1500 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1500 7450 60  0001 L CNN "MPN"
@@ -469,7 +469,7 @@ AR Path="/61AA759B" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA759B" Ref="TP8"  Part="1" 
 F 0 "TP8" V 1500 6850 50  0000 C CNN
 F 1 "Debug Pad" V 1366 6997 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1700 7150 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1700 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1700 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1700 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1700 7450 60  0001 L CNN "MPN"
@@ -505,7 +505,7 @@ AR Path="/61AB5FD8" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AB5FD8" Ref="TP9"  Part="1" 
 F 0 "TP9" V 2000 6900 50  0000 C CNN
 F 1 "Debug Pad" V 1866 7047 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2200 7200 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2200 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2200 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 2200 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 2200 7500 60  0001 L CNN "MPN"
@@ -531,7 +531,7 @@ AR Path="/61AB868A" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AB868A" Ref="TP10"  Part="1" 
 F 0 "TP10" V 2200 6900 50  0000 C CNN
 F 1 "Debug Pad" V 2066 7047 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2400 7200 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2400 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2400 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 2400 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 2400 7500 60  0001 L CNN "MPN"
@@ -569,7 +569,7 @@ AR Path="/61ADD0A6" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61ADD0A6" Ref="TP11"  Part="1" 
 F 0 "TP11" V 2800 6900 50  0000 C CNN
 F 1 "Debug Pad" V 2666 7047 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3000 7200 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3000 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3000 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 3000 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 3000 7500 60  0001 L CNN "MPN"
@@ -591,7 +591,7 @@ AR Path="/61ADD68B" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61ADD68B" Ref="TP12"  Part="1" 
 F 0 "TP12" V 3050 6900 50  0000 C CNN
 F 1 "Debug Pad" V 2916 7047 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3250 7200 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3250 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3250 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 3250 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 3250 7500 60  0001 L CNN "MPN"
@@ -613,7 +613,7 @@ AR Path="/61ADDB04" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61ADDB04" Ref="TP13"  Part="1" 
 F 0 "TP13" V 3300 6900 50  0000 C CNN
 F 1 "Debug Pad" V 3166 7047 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3500 7200 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3500 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3500 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 3500 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 3500 7500 60  0001 L CNN "MPN"
@@ -991,7 +991,7 @@ AR Path="/61B55D71" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B55D71" Ref="TP15"  Part="1" 
 F 0 "TP15" V 9100 3500 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3647 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3800 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 9300 3800 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3900 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 4000 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4100 60  0001 L CNN "MPN"
@@ -1013,7 +1013,7 @@ AR Path="/61B5C473" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B5C473" Ref="TP16"  Part="1" 
 F 0 "TP16" V 9100 3600 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3747 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3900 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 9300 3900 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 4000 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 4100 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4200 60  0001 L CNN "MPN"
@@ -1035,7 +1035,7 @@ AR Path="/61B5C94C" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B5C94C" Ref="TP14"  Part="1" 
 F 0 "TP14" V 9100 3400 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3547 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3700 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 9300 3700 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3800 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 3900 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4000 60  0001 L CNN "MPN"
@@ -1049,4 +1049,86 @@ F 12 "Active" H 9300 4700 60  0001 L CNN "Status"
 	1    9100 3500
 	0    -1   -1   0   
 $EndComp
+$Comp
+L dk_Test-Points:RCT-0C TP?
+U 1 1 61A90B48
+P 3850 7000
+AR Path="/61A90B48" Ref="TP?"  Part="1" 
+AR Path="/61E8EFE4/61A90B48" Ref="TP?"  Part="1" 
+F 0 "TP?" V 3850 6900 50  0000 C CNN
+F 1 "Debug Pad" V 3716 7047 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4050 7200 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4050 7300 60  0001 L CNN
+F 4 "A106144CT-ND" H 4050 7400 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 4050 7500 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 4050 7600 60  0001 L CNN "Category"
+F 7 "Test Points" H 4050 7700 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4050 7800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 4050 7900 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 4050 8000 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 4050 8100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4050 8200 60  0001 L CNN "Status"
+	1    3850 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Test-Points:RCT-0C TP?
+U 1 1 61A90B5B
+P 4100 7000
+AR Path="/61A90B5B" Ref="TP?"  Part="1" 
+AR Path="/61E8EFE4/61A90B5B" Ref="TP?"  Part="1" 
+F 0 "TP?" V 4100 6900 50  0000 C CNN
+F 1 "Debug Pad" V 3966 7047 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4300 7200 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4300 7300 60  0001 L CNN
+F 4 "A106144CT-ND" H 4300 7400 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 4300 7500 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 4300 7600 60  0001 L CNN "Category"
+F 7 "Test Points" H 4300 7700 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4300 7800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 4300 7900 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 4300 8000 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 4300 8100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4300 8200 60  0001 L CNN "Status"
+	1    4100 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Test-Points:RCT-0C TP?
+U 1 1 61A90B6E
+P 4350 7000
+AR Path="/61A90B6E" Ref="TP?"  Part="1" 
+AR Path="/61E8EFE4/61A90B6E" Ref="TP?"  Part="1" 
+F 0 "TP?" V 4350 6900 50  0000 C CNN
+F 1 "Debug Pad" V 4216 7047 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4550 7200 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4550 7300 60  0001 L CNN
+F 4 "A106144CT-ND" H 4550 7400 60  0001 L CNN "Digi-Key_PN"
+F 5 "RCT-0C" H 4550 7500 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 4550 7600 60  0001 L CNN "Category"
+F 7 "Test Points" H 4550 7700 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4550 7800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 4550 7900 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT NATURAL" H 4550 8000 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 4550 8100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4550 8200 60  0001 L CNN "Status"
+	1    4350 7000
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	3650 6750 4550 6750
+Wire Notes Line
+	4550 6750 4550 7650
+Wire Notes Line
+	4550 7650 3650 7650
+Wire Notes Line
+	3650 7650 3650 6750
+Text Notes 3650 6700 0    50   ~ 0
+SPI 2  Debug 
+Text HLabel 3850 7100 3    50   Input ~ 0
+SPI2_SCK
+Text HLabel 4350 7100 3    50   Input ~ 0
+SPI2_MOSI
+Text HLabel 4100 7100 3    50   Input ~ 0
+SPI2_MISO
 $EndSCHEMATC

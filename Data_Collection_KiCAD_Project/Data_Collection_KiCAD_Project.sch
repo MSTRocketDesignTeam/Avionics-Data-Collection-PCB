@@ -497,7 +497,7 @@ U 1 1 61A7EB52
 P 4400 1150
 F 0 "TP1" V 4400 1050 50  0000 C CNN
 F 1 "Debug Pad" V 4266 1197 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4600 1350 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4600 1350 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 1450 60  0001 L CNN
 F 4 "A106144CT-ND" H 4600 1550 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 4600 1650 60  0001 L CNN "MPN"
@@ -517,7 +517,7 @@ U 1 1 61A84AF6
 P 4400 1300
 F 0 "TP2" V 4400 1200 50  0000 C CNN
 F 1 "Debug Pad" V 4266 1347 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4600 1500 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4600 1500 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 1600 60  0001 L CNN
 F 4 "A106144CT-ND" H 4600 1700 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 4600 1800 60  0001 L CNN "MPN"
@@ -541,7 +541,7 @@ U 1 1 61A8A234
 P 9950 1100
 F 0 "TP3" V 9950 1000 50  0000 C CNN
 F 1 "Debug Pad" V 9816 1147 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10150 1300 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 10150 1300 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 1400 60  0001 L CNN
 F 4 "A106144CT-ND" H 10150 1500 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 10150 1600 60  0001 L CNN "MPN"
@@ -561,7 +561,7 @@ U 1 1 61A902C0
 P 9950 1250
 F 0 "TP4" V 9950 1150 50  0000 C CNN
 F 1 "Debug Pad" V 9816 1297 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10150 1450 60  0001 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 10150 1450 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 1550 60  0001 L CNN
 F 4 "A106144CT-ND" H 10150 1650 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 10150 1750 60  0001 L CNN "MPN"
