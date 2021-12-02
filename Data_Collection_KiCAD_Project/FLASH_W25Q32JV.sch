@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 5 10
 Title "W25Q32JVSS Flash Chip"
 Date "2021-10-01"
 Rev "v1.0.4"

@@ -221,9 +221,9 @@ SPI1_MISO
 Text HLabel 6800 5700 3    50   Input ~ 0
 SPI1_MOSI
 Text HLabel 9000 2900 2    50   Input ~ 0
-USB_DM
+USB_D-
 Text HLabel 9000 2800 2    50   Input ~ 0
-USB_DP
+USB_D+
 Text HLabel 9000 2700 2    50   Input ~ 0
 SWDIO
 Text HLabel 8700 1500 1    50   Input ~ 0
@@ -1054,8 +1054,8 @@ L dk_Test-Points:RCT-0C TP?
 U 1 1 61A90B48
 P 3850 7000
 AR Path="/61A90B48" Ref="TP?"  Part="1" 
-AR Path="/61E8EFE4/61A90B48" Ref="TP?"  Part="1" 
-F 0 "TP?" V 3850 6900 50  0000 C CNN
+AR Path="/61E8EFE4/61A90B48" Ref="TP17"  Part="1" 
+F 0 "TP17" V 3850 6900 50  0000 C CNN
 F 1 "Debug Pad" V 3716 7047 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4050 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4050 7300 60  0001 L CNN
@@ -1076,8 +1076,8 @@ L dk_Test-Points:RCT-0C TP?
 U 1 1 61A90B5B
 P 4100 7000
 AR Path="/61A90B5B" Ref="TP?"  Part="1" 
-AR Path="/61E8EFE4/61A90B5B" Ref="TP?"  Part="1" 
-F 0 "TP?" V 4100 6900 50  0000 C CNN
+AR Path="/61E8EFE4/61A90B5B" Ref="TP18"  Part="1" 
+F 0 "TP18" V 4100 6900 50  0000 C CNN
 F 1 "Debug Pad" V 3966 7047 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4300 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4300 7300 60  0001 L CNN
@@ -1098,8 +1098,8 @@ L dk_Test-Points:RCT-0C TP?
 U 1 1 61A90B6E
 P 4350 7000
 AR Path="/61A90B6E" Ref="TP?"  Part="1" 
-AR Path="/61E8EFE4/61A90B6E" Ref="TP?"  Part="1" 
-F 0 "TP?" V 4350 6900 50  0000 C CNN
+AR Path="/61E8EFE4/61A90B6E" Ref="TP19"  Part="1" 
+F 0 "TP19" V 4350 6900 50  0000 C CNN
 F 1 "Debug Pad" V 4216 7047 50  0001 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4550 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4550 7300 60  0001 L CNN
