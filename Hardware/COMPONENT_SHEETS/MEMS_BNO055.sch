@@ -50,10 +50,10 @@ Wire Wire Line
 	5550 2700 5200 2700
 Connection ~ 5550 2700
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR0102
 U 1 1 6166C199
 P 6400 2750
-F 0 "#PWR?" H 6400 2500 50  0001 C CNN
+F 0 "#PWR0102" H 6400 2500 50  0001 C CNN
 F 1 "GND" H 6405 2577 50  0000 C CNN
 F 2 "" H 6400 2750 50  0001 C CNN
 F 3 "" H 6400 2750 50  0001 C CNN
@@ -61,10 +61,10 @@ F 3 "" H 6400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR0103
 U 1 1 6166D1D4
 P 5550 4350
-F 0 "#PWR?" H 5550 4100 50  0001 C CNN
+F 0 "#PWR0103" H 5550 4100 50  0001 C CNN
 F 1 "GND" H 5555 4177 50  0000 C CNN
 F 2 "" H 5550 4350 50  0001 C CNN
 F 3 "" H 5550 4350 50  0001 C CNN
@@ -79,10 +79,10 @@ Connection ~ 5550 4250
 Text HLabel 5050 3450 0    50   Input ~ 0
 ~BNO055_BTL
 $Comp
-L Data_Collection_KiCAD_Project-rescue:Crystal_Small-Device-Data_Collection_KiCAD_Project-rescue Y?
+L Data_Collection_KiCAD_Project-rescue:Crystal_Small-Device-Data_Collection_KiCAD_Project-rescue Y2
 U 1 1 6166FF64
 P 6450 3300
-F 0 "Y?" V 6404 3388 50  0000 L CNN
+F 0 "Y2" V 6404 3388 50  0000 L CNN
 F 1 "32.768kHz" V 6500 3400 50  0000 L CNN
 F 2 "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style2" H 6450 3300 50  0001 C CNN
 F 3 "~" H 6450 3300 50  0001 C CNN
@@ -148,10 +148,10 @@ Wire Wire Line
 	6450 3050 6650 3050
 Connection ~ 6450 3050
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR0104
 U 1 1 6167EB61
 P 7100 3550
-F 0 "#PWR?" H 7100 3300 50  0001 C CNN
+F 0 "#PWR0104" H 7100 3300 50  0001 C CNN
 F 1 "GND" H 7105 3377 50  0000 C CNN
 F 2 "" H 7100 3550 50  0001 C CNN
 F 3 "" H 7100 3550 50  0001 C CNN
@@ -170,10 +170,10 @@ SDA
 Text HLabel 5050 3850 0    50   BiDi ~ 0
 SCL
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR0105
 U 1 1 61681CEA
 P 4850 4100
-F 0 "#PWR?" H 4850 3850 50  0001 C CNN
+F 0 "#PWR0105" H 4850 3850 50  0001 C CNN
 F 1 "GND" H 4855 3927 50  0000 C CNN
 F 2 "" H 4850 4100 50  0001 C CNN
 F 3 "" H 4850 4100 50  0001 C CNN
@@ -208,10 +208,10 @@ Text HLabel 5050 3050 0    50   Input ~ 0
 Text HLabel 5050 3250 0    50   Output ~ 0
 BNO055_INT
 $Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
+L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR0106
 U 1 1 616939D5
 P 6700 4350
-F 0 "#PWR?" H 6700 4100 50  0001 C CNN
+F 0 "#PWR0106" H 6700 4100 50  0001 C CNN
 F 1 "GND" H 6705 4177 50  0000 C CNN
 F 2 "" H 6700 4350 50  0001 C CNN
 F 3 "" H 6700 4350 50  0001 C CNN

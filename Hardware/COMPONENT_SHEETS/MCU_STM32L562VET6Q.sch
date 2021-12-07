@@ -233,10 +233,10 @@ NRST
 Text HLabel 1200 3450 2    50   Input ~ 0
 I2C1_SDA
 $Comp
-L Device:R_US R?
+L Device:R_US R6
 U 1 1 619DE947
 P 1050 3150
-F 0 "R?" V 845 3150 50  0000 C CNN
+F 0 "R6" V 845 3150 50  0000 C CNN
 F 1 "4.7K" V 936 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1090 3140 50  0001 C CNN
 F 3 "~" H 1050 3150 50  0001 C CNN
@@ -244,10 +244,10 @@ F 3 "~" H 1050 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R7
 U 1 1 619DFE15
 P 1050 3450
-F 0 "R?" V 845 3450 50  0000 C CNN
+F 0 "R7" V 845 3450 50  0000 C CNN
 F 1 "4.7K" V 936 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1090 3440 50  0001 C CNN
 F 3 "~" H 1050 3450 50  0001 C CNN
@@ -283,10 +283,10 @@ Wire Notes Line
 Text Notes 800  2650 0    50   ~ 0
 I2C1 Pullup Resistors
 $Comp
-L Device:R_US R?
+L Device:R_US R10
 U 1 1 619EFD59
 P 5200 2500
-F 0 "R?" H 5268 2546 50  0000 L CNN
+F 0 "R10" H 5268 2546 50  0000 L CNN
 F 1 "80" H 5268 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5240 2490 50  0001 C CNN
 F 3 "~" H 5200 2500 50  0001 C CNN
@@ -294,10 +294,10 @@ F 3 "~" H 5200 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R11
 U 1 1 619F2A76
 P 7400 6000
-F 0 "R?" H 7468 6046 50  0000 L CNN
+F 0 "R11" H 7468 6046 50  0000 L CNN
 F 1 "80" H 7468 5955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7440 5990 50  0001 C CNN
 F 3 "~" H 7400 6000 50  0001 C CNN
@@ -334,10 +334,10 @@ $EndComp
 Text Notes 4400 2400 0    50   ~ 0
 Assuming ~~2.1V Vf @ 15mA
 $Comp
-L Device:R_US R?
+L Device:R_US R8
 U 1 1 61A01F9A
 P 1050 4250
-F 0 "R?" V 845 4250 50  0000 C CNN
+F 0 "R8" V 845 4250 50  0000 C CNN
 F 1 "DNP" V 936 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1090 4240 50  0001 C CNN
 F 3 "~" H 1050 4250 50  0001 C CNN
@@ -345,10 +345,10 @@ F 3 "~" H 1050 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R9
 U 1 1 61A01FA0
 P 1050 4550
-F 0 "R?" V 845 4550 50  0000 C CNN
+F 0 "R9" V 845 4550 50  0000 C CNN
 F 1 "DNP" V 936 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1090 4540 50  0001 C CNN
 F 3 "~" H 1050 4550 50  0001 C CNN
@@ -397,7 +397,7 @@ AR Path="/61AA0E68" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA0E68" Ref="TP5"  Part="1" 
 F 0 "TP5" V 800 6850 50  0000 C CNN
 F 1 "Debug Pad" V 666 6997 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1000 7150 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1000 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1000 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1000 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1000 7450 60  0001 L CNN "MPN"
@@ -419,7 +419,7 @@ AR Path="/61AA62F9" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA62F9" Ref="TP6"  Part="1" 
 F 0 "TP6" V 1000 6850 50  0000 C CNN
 F 1 "Debug Pad" V 866 6997 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1200 7150 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1200 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1200 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1200 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1200 7450 60  0001 L CNN "MPN"
@@ -447,7 +447,7 @@ AR Path="/61AA6F38" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA6F38" Ref="TP7"  Part="1" 
 F 0 "TP7" V 1300 6850 50  0000 C CNN
 F 1 "Debug Pad" V 1166 6997 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1500 7150 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1500 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1500 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1500 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1500 7450 60  0001 L CNN "MPN"
@@ -469,7 +469,7 @@ AR Path="/61AA759B" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AA759B" Ref="TP8"  Part="1" 
 F 0 "TP8" V 1500 6850 50  0000 C CNN
 F 1 "Debug Pad" V 1366 6997 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1700 7150 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1700 7150 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 1700 7250 60  0001 L CNN
 F 4 "A106144CT-ND" H 1700 7350 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 1700 7450 60  0001 L CNN "MPN"
@@ -505,7 +505,7 @@ AR Path="/61AB5FD8" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AB5FD8" Ref="TP9"  Part="1" 
 F 0 "TP9" V 2000 6900 50  0000 C CNN
 F 1 "Debug Pad" V 1866 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2200 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2200 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2200 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 2200 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 2200 7500 60  0001 L CNN "MPN"
@@ -531,7 +531,7 @@ AR Path="/61AB868A" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61AB868A" Ref="TP10"  Part="1" 
 F 0 "TP10" V 2200 6900 50  0000 C CNN
 F 1 "Debug Pad" V 2066 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2400 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2400 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 2400 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 2400 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 2400 7500 60  0001 L CNN "MPN"
@@ -569,7 +569,7 @@ AR Path="/61ADD0A6" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61ADD0A6" Ref="TP11"  Part="1" 
 F 0 "TP11" V 2800 6900 50  0000 C CNN
 F 1 "Debug Pad" V 2666 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3000 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3000 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3000 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 3000 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 3000 7500 60  0001 L CNN "MPN"
@@ -591,7 +591,7 @@ AR Path="/61ADD68B" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61ADD68B" Ref="TP12"  Part="1" 
 F 0 "TP12" V 3050 6900 50  0000 C CNN
 F 1 "Debug Pad" V 2916 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3250 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3250 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3250 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 3250 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 3250 7500 60  0001 L CNN "MPN"
@@ -613,7 +613,7 @@ AR Path="/61ADDB04" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61ADDB04" Ref="TP13"  Part="1" 
 F 0 "TP13" V 3300 6900 50  0000 C CNN
 F 1 "Debug Pad" V 3166 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3500 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3500 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 3500 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 3500 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 3500 7500 60  0001 L CNN "MPN"
@@ -653,10 +653,10 @@ $EndComp
 Wire Wire Line
 	6300 1350 6300 1500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 61A8732C
 P 6400 900
-F 0 "#PWR?" H 6400 650 50  0001 C CNN
+F 0 "#PWR0116" H 6400 650 50  0001 C CNN
 F 1 "GND" H 6405 727 50  0000 C CNN
 F 2 "" H 6400 900 50  0001 C CNN
 F 3 "" H 6400 900 50  0001 C CNN
@@ -687,10 +687,10 @@ Wire Wire Line
 Wire Wire Line
 	5550 3250 5550 3400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 61A92097
 P 5750 3100
-F 0 "#PWR?" H 5750 2850 50  0001 C CNN
+F 0 "#PWR0117" H 5750 2850 50  0001 C CNN
 F 1 "GND" H 5755 2927 50  0000 C CNN
 F 2 "" H 5750 3100 50  0001 C CNN
 F 3 "" H 5750 3100 50  0001 C CNN
@@ -736,10 +736,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 2400 9300 2350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 61A9AE08
 P 9500 2550
-F 0 "#PWR?" H 9500 2300 50  0001 C CNN
+F 0 "#PWR0118" H 9500 2300 50  0001 C CNN
 F 1 "GND" H 9505 2377 50  0000 C CNN
 F 2 "" H 9500 2550 50  0001 C CNN
 F 3 "" H 9500 2550 50  0001 C CNN
@@ -750,28 +750,13 @@ Wire Wire Line
 	9000 2500 9500 2500
 Wire Wire Line
 	9500 2500 9500 2550
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 61A9E67D
-P 5400 4400
-F 0 "JP?" H 5400 4175 50  0000 C CNN
-F 1 "VDDA Bridge" H 5400 4266 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5400 4400 50  0001 C CNN
-F 3 "~" H 5400 4400 50  0001 C CNN
-	1    5400 4400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5050 4200 5050 4400
-Wire Wire Line
-	5050 4400 5250 4400
-Wire Wire Line
-	5550 4400 6000 4400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 61AA89F7
 P 6300 5800
-F 0 "#PWR?" H 6300 5550 50  0001 C CNN
+F 0 "#PWR0119" H 6300 5550 50  0001 C CNN
 F 1 "GND" H 6305 5627 50  0000 C CNN
 F 2 "" H 6300 5800 50  0001 C CNN
 F 3 "" H 6300 5800 50  0001 C CNN
@@ -800,10 +785,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 6400 6300 6300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0120
 U 1 1 61AB6206
 P 8550 5900
-F 0 "#PWR?" H 8550 5650 50  0001 C CNN
+F 0 "#PWR0120" H 8550 5650 50  0001 C CNN
 F 1 "GND" H 8555 5727 50  0000 C CNN
 F 2 "" H 8550 5900 50  0001 C CNN
 F 3 "" H 8550 5900 50  0001 C CNN
@@ -852,21 +837,6 @@ F 3 "" H 7650 6400 50  0001 C CNN
 	1    7650 6400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 61AC362B
-P 8000 6450
-F 0 "JP?" H 8000 6655 50  0000 C CNN
-F 1 "VDD_SMPS" H 8000 6564 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8000 6450 50  0001 C CNN
-F 3 "~" H 8000 6450 50  0001 C CNN
-	1    8000 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 6450 8150 6450
-Wire Wire Line
-	7850 6450 7650 6450
 Wire Wire Line
 	7650 6450 7650 6400
 $Comp
@@ -934,10 +904,10 @@ Wire Wire Line
 	4150 3800 4300 3800
 Connection ~ 4150 3800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 61AF7202
 P 4150 3950
-F 0 "#PWR?" H 4150 3700 50  0001 C CNN
+F 0 "#PWR0121" H 4150 3700 50  0001 C CNN
 F 1 "GND" H 4155 3777 50  0000 C CNN
 F 2 "" H 4150 3950 50  0001 C CNN
 F 3 "" H 4150 3950 50  0001 C CNN
@@ -974,7 +944,7 @@ AR Path="/61B55D71" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B55D71" Ref="TP15"  Part="1" 
 F 0 "TP15" V 9100 3500 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3647 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 9300 3800 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3800 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3900 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 4000 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4100 60  0001 L CNN "MPN"
@@ -996,7 +966,7 @@ AR Path="/61B5C473" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B5C473" Ref="TP16"  Part="1" 
 F 0 "TP16" V 9100 3600 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3747 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 9300 3900 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3900 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 4000 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 4100 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4200 60  0001 L CNN "MPN"
@@ -1018,7 +988,7 @@ AR Path="/61B5C94C" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B5C94C" Ref="TP14"  Part="1" 
 F 0 "TP14" V 9100 3400 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3547 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 9300 3700 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3700 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3800 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 3900 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4000 60  0001 L CNN "MPN"
@@ -1040,7 +1010,7 @@ AR Path="/61A90B48" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61A90B48" Ref="TP17"  Part="1" 
 F 0 "TP17" V 3850 6900 50  0000 C CNN
 F 1 "Debug Pad" V 3716 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4050 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4050 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4050 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 4050 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 4050 7500 60  0001 L CNN "MPN"
@@ -1062,7 +1032,7 @@ AR Path="/61A90B5B" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61A90B5B" Ref="TP18"  Part="1" 
 F 0 "TP18" V 4100 6900 50  0000 C CNN
 F 1 "Debug Pad" V 3966 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4300 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4300 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4300 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 4300 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 4300 7500 60  0001 L CNN "MPN"
@@ -1084,7 +1054,7 @@ AR Path="/61A90B6E" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61A90B6E" Ref="TP19"  Part="1" 
 F 0 "TP19" V 4350 6900 50  0000 C CNN
 F 1 "Debug Pad" V 4216 7047 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4550 7200 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4550 7200 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4550 7300 60  0001 L CNN
 F 4 "A106144CT-ND" H 4550 7400 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 4550 7500 60  0001 L CNN "MPN"
@@ -1115,10 +1085,10 @@ SPI2_MOSI
 Text HLabel 4100 7100 3    50   Input ~ 0
 SPI2_MISO
 $Comp
-L Charges_KiCAD_Project-rescue:STM32L562VET6Q-SamacSys_Parts IC?
+L Data_Collection_KiCAD_Project-rescue:STM32L562VET6Q-SamacSys_Parts-Charges_KiCAD_Project-rescue IC1
 U 1 1 61A82AF4
 P 6000 2400
-F 0 "IC?" H 7500 1450 50  0000 L CNN
+F 0 "IC1" H 7500 1450 50  0000 L CNN
 F 1 "STM32L562VET6Q" H 7250 1350 50  0000 L CNN
 F 2 "STM32L562VET6Q:STM32L562VET6Q" H 8850 3100 50  0001 L CNN
 F 3 "https://www.st.com/resource/en/datasheet/stm32l562ve.pdf" H 8850 3000 50  0001 L CNN
@@ -1131,4 +1101,8 @@ F 9 "STM32L562VET6Q" H 8850 2400 50  0001 L CNN "Manufacturer_Part_Number"
 	1    6000 2400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5050 4400 6000 4400
+Wire Wire Line
+	7650 6450 8300 6450
 $EndSCHEMATC

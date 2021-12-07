@@ -410,7 +410,7 @@ U 1 1 61A7EB52
 P 4400 1150
 F 0 "TP1" V 4400 1050 50  0000 C CNN
 F 1 "Debug Pad" V 4266 1197 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4600 1350 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4600 1350 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 1450 60  0001 L CNN
 F 4 "A106144CT-ND" H 4600 1550 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 4600 1650 60  0001 L CNN "MPN"
@@ -430,7 +430,7 @@ U 1 1 61A84AF6
 P 4400 1300
 F 0 "TP2" V 4400 1200 50  0000 C CNN
 F 1 "Debug Pad" V 4266 1347 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4600 1500 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4600 1500 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 4600 1600 60  0001 L CNN
 F 4 "A106144CT-ND" H 4600 1700 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 4600 1800 60  0001 L CNN "MPN"
@@ -454,7 +454,7 @@ U 1 1 61A8A234
 P 9950 1100
 F 0 "TP3" V 9950 1000 50  0000 C CNN
 F 1 "Debug Pad" V 9816 1147 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 10150 1300 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10150 1300 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 1400 60  0001 L CNN
 F 4 "A106144CT-ND" H 10150 1500 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 10150 1600 60  0001 L CNN "MPN"
@@ -474,7 +474,7 @@ U 1 1 61A902C0
 P 9950 1250
 F 0 "TP4" V 9950 1150 50  0000 C CNN
 F 1 "Debug Pad" V 9816 1297 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 10150 1450 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10150 1450 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 10150 1550 60  0001 L CNN
 F 4 "A106144CT-ND" H 10150 1650 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 10150 1750 60  0001 L CNN "MPN"
@@ -492,24 +492,6 @@ Wire Wire Line
 	10150 1100 10050 1100
 Wire Wire Line
 	10150 1250 10050 1250
-Wire Bus Line
-	3250 1700 3250 1900
-Wire Bus Line
-	3250 4100 3250 4300
-Wire Bus Line
-	3250 5300 3250 5500
-Wire Bus Line
-	3250 5500 9400 5500
-Wire Bus Line
-	3250 4300 9400 4300
-Wire Bus Line
-	3250 2750 3250 3100
-Wire Bus Line
-	3250 3100 9400 3100
-Wire Bus Line
-	3250 1900 10900 1900
-Wire Bus Line
-	1150 3600 1150 7400
 $Sheet
 S 4650 1000 700  700 
 U 615A5159
@@ -621,4 +603,22 @@ F10 "Fire" I L 1550 7350 50
 F11 "Fire_redundant" I L 1550 7500 50 
 F12 "t_clk" I L 1550 6150 50 
 $EndSheet
+Wire Bus Line
+	3250 1700 3250 1900
+Wire Bus Line
+	3250 4100 3250 4300
+Wire Bus Line
+	3250 5300 3250 5500
+Wire Bus Line
+	3250 5500 9400 5500
+Wire Bus Line
+	3250 4300 9400 4300
+Wire Bus Line
+	3250 2750 3250 3100
+Wire Bus Line
+	3250 3100 9400 3100
+Wire Bus Line
+	3250 1900 10900 1900
+Wire Bus Line
+	1150 3600 1150 7400
 $EndSCHEMATC
