@@ -77,17 +77,6 @@ F 3 "" H 6700 2000 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0123
-U 1 1 61A491E6
-P 5700 1900
-F 0 "#PWR0123" H 5700 1750 50  0001 C CNN
-F 1 "+5V" V 5715 2028 50  0000 L CNN
-F 2 "" H 5700 1900 50  0001 C CNN
-F 3 "" H 5700 1900 50  0001 C CNN
-	1    5700 1900
-	0    -1   1    0   
-$EndComp
-$Comp
 L power:+3.3V #PWR0124
 U 1 1 61A4AB5D
 P 6700 3600
@@ -163,15 +152,8 @@ F 3 "" H 6200 4000 50  0001 C CNN
 	1    6200 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0129
-U 1 1 61A49AB4
-P 5700 3600
-F 0 "#PWR0129" H 5700 3450 50  0001 C CNN
-F 1 "+5V" V 5715 3728 50  0000 L CNN
-F 2 "" H 5700 3600 50  0001 C CNN
-F 3 "" H 5700 3600 50  0001 C CNN
-	1    5700 3600
-	0    -1   1    0   
-$EndComp
+NoConn ~ 5700 1900
+NoConn ~ 5700 3600
+Text Notes 1600 2750 0    50   ~ 0
+I have disconnected the 5V DSUB from the Data Collection \nbecause I do not want a situation to arise where the small linear \nregulator is powering the other boards on the bus. 5V on this\n board is only for usb power.
 $EndSCHEMATC
