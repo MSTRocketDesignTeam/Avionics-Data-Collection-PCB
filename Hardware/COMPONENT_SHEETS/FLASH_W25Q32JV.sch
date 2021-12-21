@@ -59,7 +59,7 @@ AR Path="/6161186E" Ref="C?"  Part="1"
 AR Path="/615FC266/6161186E" Ref="C17"  Part="1" 
 F 0 "C17" H 3965 3196 50  0000 L CNN
 F 1 "100nF" H 3965 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3888 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3888 3000 50  0001 C CNN
 F 3 "~" H 3850 3150 50  0001 C CNN
 	1    3850 3150
 	1    0    0    -1  

@@ -14,29 +14,17 @@ Comment3 "Schematic depicting logical connections between components"
 Comment4 ""
 $EndDescr
 $Comp
-L Data_Collection_KiCAD_Project-rescue:USB_B_Micro-Connector-Data_Collection_KiCAD_Project-rescue J1
-U 1 1 616146B0
-P 2150 3950
-F 0 "J1" H 2300 4300 50  0000 C CNN
-F 1 "USB_B_Micro" H 2450 3600 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 2300 3900 50  0001 C CNN
-F 3 "~" H 2300 3900 50  0001 C CNN
-	1    2150 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR0112
 U 1 1 616146B6
-P 2150 4350
-F 0 "#PWR0112" H 2150 4100 50  0001 C CNN
-F 1 "GND" H 2155 4177 50  0000 C CNN
-F 2 "" H 2150 4350 50  0001 C CNN
-F 3 "" H 2150 4350 50  0001 C CNN
-	1    2150 4350
+P 2400 4300
+F 0 "#PWR0112" H 2400 4050 50  0001 C CNN
+F 1 "GND" H 2405 4127 50  0000 C CNN
+F 2 "" H 2400 4300 50  0001 C CNN
+F 3 "" H 2400 4300 50  0001 C CNN
+	1    2400 4300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2050 4350
-NoConn ~ 2450 4150
+NoConn ~ 2300 4050
 $Comp
 L Data_Collection_KiCAD_Project-rescue:+5V-power-Data_Collection_KiCAD_Project-rescue #PWR0113
 U 1 1 616146BE
@@ -81,15 +69,15 @@ F 3 "" H 7400 3650 50  0001 C CNN
 	1    7400 3650
 	1    0    0    -1  
 $EndComp
-Text Notes 2950 3350 2    100  ~ 0
+Text Notes 2900 2750 2    100  ~ 0
 USB Connector
 Text HLabel 7000 3950 0    50   Input ~ 0
 USB_CONN_D+
 Text HLabel 7800 3950 2    50   Input ~ 0
 USB_CONN_D-
-Text HLabel 2450 3950 2    50   Output ~ 0
+Text HLabel 2300 3950 2    50   Output ~ 0
 USB_CONN_D+
-Text HLabel 2450 4050 2    50   Output ~ 0
+Text HLabel 2300 3850 2    50   Output ~ 0
 USB_CONN_D-
 Text HLabel 7000 4150 0    50   Output ~ 0
 D+
@@ -101,13 +89,11 @@ U 1 1 617A596A
 P 2800 3750
 F 0 "FB1" V 2563 3750 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 2654 3750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" V 2730 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" V 2730 3750 50  0001 C CNN
 F 3 "~" H 2800 3750 50  0001 C CNN
 	1    2800 3750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2700 3750 2450 3750
 Wire Notes Line
 	3750 4950 5400 4950
 Text Notes 3750 4900 0    50   ~ 0
@@ -126,7 +112,7 @@ AR Path="/615A5159/617B9DBE" Ref="C?"  Part="1"
 AR Path="/615EE01A/617B9DBE" Ref="C2"  Part="1" 
 F 0 "C2" H 5215 4096 50  0000 L CNN
 F 1 "1uF" H 5215 4005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5138 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5138 3900 50  0001 C CNN
 F 3 "~" H 5100 4050 50  0001 C CNN
 	1    5100 4050
 	1    0    0    -1  
@@ -155,7 +141,7 @@ AR Path="/615A5159/617B9DD7" Ref="C?"  Part="1"
 AR Path="/615EE01A/617B9DD7" Ref="C1"  Part="1" 
 F 0 "C1" H 4015 4096 50  0000 L CNN
 F 1 "0.1uF" H 4015 4005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3938 3900 50  0001 C CNN
 F 3 "~" H 3900 4050 50  0001 C CNN
 	1    3900 4050
 	1    0    0    -1  
@@ -193,7 +179,7 @@ AR Path="/615A5159/617B9DEE" Ref="R?"  Part="1"
 AR Path="/615EE01A/617B9DEE" Ref="R2"  Part="1" 
 F 0 "R2" H 4820 3996 50  0000 L CNN
 F 1 "240" H 4820 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 3950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4680 3950 50  0001 C CNN
 F 3 "~" H 4750 3950 50  0001 C CNN
 	1    4750 3950
 	1    0    0    -1  
@@ -207,7 +193,7 @@ AR Path="/615A5159/617B9DF4" Ref="R?"  Part="1"
 AR Path="/615EE01A/617B9DF4" Ref="R1"  Part="1" 
 F 0 "R1" H 4470 4396 50  0000 L CNN
 F 1 "390" H 4470 4305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4330 4350 50  0001 C CNN
 F 3 "~" H 4400 4350 50  0001 C CNN
 	1    4400 4350
 	1    0    0    -1  
@@ -283,14 +269,6 @@ Wire Notes Line
 	8500 3400 6300 3400
 Wire Notes Line
 	6300 3400 6300 4700
-Wire Notes Line
-	3200 4650 3200 3400
-Wire Notes Line
-	3200 3400 1850 3400
-Wire Notes Line
-	1850 3400 1850 4650
-Wire Notes Line
-	1850 4650 3200 4650
 Text Notes 1600 4850 0    50   ~ 0
 USB shield to remain floating for USB Devices\nCan be connected to board enclosure if possible
 Wire Notes Line
@@ -314,7 +292,7 @@ U 1 1 61B1913C
 P 3400 3750
 F 0 "D1" H 3400 3533 50  0000 C CNN
 F 1 "D_Schottky" H 3400 3624 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 3400 3750 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 3750 50  0001 C CNN
 F 3 "~" H 3400 3750 50  0001 C CNN
 	1    3400 3750
 	-1   0    0    1   
@@ -322,4 +300,31 @@ $EndComp
 Wire Wire Line
 	3550 3750 3650 3750
 Connection ~ 3650 3750
+$Comp
+L dk_USB-DVI-HDMI-Connectors:10118192-0001LF J1
+U 1 1 61C12C59
+P 2000 3950
+F 0 "J1" H 2064 4695 60  0000 C CNN
+F 1 "10118192-0001LF" H 2064 4589 60  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical" H 2200 4150 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 2200 4250 60  0001 L CNN
+F 4 "609-4613-1-ND" H 2200 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "10118192-0001LF" H 2200 4450 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2200 4550 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 2200 4650 60  0001 L CNN "Family"
+F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 2200 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-fci/10118192-0001LF/609-4613-1-ND/2785378" H 2200 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 2200 4950 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (FCI)" H 2200 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2200 5150 60  0001 L CNN "Status"
+	1    2000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3750 2700 3750
+Wire Wire Line
+	2400 4300 2400 4150
+Wire Wire Line
+	2400 4150 2300 4150
+NoConn ~ 1900 4550
 $EndSCHEMATC

@@ -34,7 +34,7 @@ AR Path="/616192DC" Ref="C?"  Part="1"
 AR Path="/615A5F2C/616192DC" Ref="C9"  Part="1" 
 F 0 "C9" H 5015 5596 50  0000 L CNN
 F 1 "1nF" H 5015 5505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4938 5400 50  0001 C CNN
 F 3 "~" H 4900 5550 50  0001 C CNN
 	1    4900 5550
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/616192E2" Ref="R?"  Part="1"
 AR Path="/615A5F2C/616192E2" Ref="R5"  Part="1" 
 F 0 "R5" H 4770 5596 50  0000 L CNN
 F 1 "100k" H 4770 5505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 5550 50  0001 C CNN
 F 3 "~" H 4700 5550 50  0001 C CNN
 	1    4700 5550
 	-1   0    0    1   
@@ -60,7 +60,7 @@ AR Path="/616192E8" Ref="R?"  Part="1"
 AR Path="/615A5F2C/616192E8" Ref="R4"  Part="1" 
 F 0 "R4" H 4420 6296 50  0000 L CNN
 F 1 "10k" H 4420 6205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 6250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4280 6250 50  0001 C CNN
 F 3 "~" H 4350 6250 50  0001 C CNN
 	1    4350 6250
 	1    0    0    -1  
@@ -211,7 +211,7 @@ AR Path="/6161C99E" Ref="C?"  Part="1"
 AR Path="/615A5F2C/6161C99E" Ref="C4"  Part="1" 
 F 0 "C4" H 1315 1746 50  0000 L CNN
 F 1 "1uF" H 1315 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1238 1550 50  0001 C CNN
 F 3 "~" H 1200 1700 50  0001 C CNN
 	1    1200 1700
 	1    0    0    -1  
@@ -241,7 +241,7 @@ AR Path="/6161C9AC" Ref="C?"  Part="1"
 AR Path="/615A5F2C/6161C9AC" Ref="C5"  Part="1" 
 F 0 "C5" H 1715 1746 50  0000 L CNN
 F 1 "100nF" H 1715 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1638 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1638 1550 50  0001 C CNN
 F 3 "~" H 1600 1700 50  0001 C CNN
 	1    1600 1700
 	1    0    0    -1  
@@ -254,7 +254,7 @@ AR Path="/6161C9B2" Ref="C?"  Part="1"
 AR Path="/615A5F2C/6161C9B2" Ref="C6"  Part="1" 
 F 0 "C6" H 2165 1746 50  0000 L CNN
 F 1 "100nF" H 2165 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2088 1550 50  0001 C CNN
 F 3 "~" H 2050 1700 50  0001 C CNN
 	1    2050 1700
 	1    0    0    -1  
@@ -267,7 +267,7 @@ AR Path="/6161C9B8" Ref="C?"  Part="1"
 AR Path="/615A5F2C/6161C9B8" Ref="C7"  Part="1" 
 F 0 "C7" H 2615 1746 50  0000 L CNN
 F 1 "100nF" H 2615 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2538 1550 50  0001 C CNN
 F 3 "~" H 2500 1700 50  0001 C CNN
 	1    2500 1700
 	1    0    0    -1  
@@ -314,7 +314,7 @@ AR Path="/6161C9D2" Ref="C?"  Part="1"
 AR Path="/615A5F2C/6161C9D2" Ref="C8"  Part="1" 
 F 0 "C8" H 3065 1746 50  0000 L CNN
 F 1 "100nF" H 3065 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2988 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2988 1550 50  0001 C CNN
 F 3 "~" H 2950 1700 50  0001 C CNN
 	1    2950 1700
 	1    0    0    -1  
@@ -441,7 +441,7 @@ AR Path="/615A5F2C/616192D0" Ref="L1"  Part="1"
 AR Path="/61E8EFE4/616192D0" Ref="L1"  Part="1" 
 F 0 "L1" H 3703 5996 50  0000 L CNN
 F 1 "27nH" H 3703 5905 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 3650 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3650 5950 50  0001 C CNN
 F 3 "~" H 3650 5950 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/murata-electronics/LQG15HS27NJ02D/662877" H 3650 5950 50  0001 C CNN "Digikey"
 F 5 "LQG15HS27NJ02" H 3650 5950 50  0001 C CNN "Field5"
@@ -456,7 +456,7 @@ AR Path="/61619311" Ref="R?"  Part="1"
 AR Path="/615A5F2C/61619311" Ref="R3"  Part="1" 
 F 0 "R3" H 3720 5596 50  0000 L CNN
 F 1 "10k" H 3720 5505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3580 5550 50  0001 C CNN
 F 3 "~" H 3650 5550 50  0001 C CNN
 	1    3650 5550
 	-1   0    0    -1  
