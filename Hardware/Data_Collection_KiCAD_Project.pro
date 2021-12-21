@@ -1,4 +1,4 @@
-update=12/20/2021 1:13:51 PM
+update=12/21/21 02:21:39
 version=1
 last_client=kicad
 [general]
@@ -266,7 +266,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DIFF_90_USB
-Clearance=0.2
+Clearance=0.05
 TrackWidth=0.175006
 ViaDiameter=0.4
 ViaDrill=0.2

@@ -196,29 +196,29 @@ Wire Notes Line
 	3050 950  700  950 
 Text Notes 750  2400 0    50   ~ 0
 PVD_IN is the Power Voltage Dropout pin,\nused to detect and respond to brownout conditions.
-Text HLabel 6800 1500 1    50   Input ~ 0
+Text HLabel 9000 4000 2    50   Input ~ 0
 I2C1_SCL
-Text HLabel 6700 1500 1    50   Input ~ 0
+Text HLabel 9000 3900 2    50   Input ~ 0
 I2C1_SDA
-Text HLabel 9000 4700 2    50   Input ~ 0
+Text HLabel 6600 5700 3    50   Input ~ 0
 SPI2_SCK
 Text HLabel 8200 5700 3    50   Input ~ 0
 EXT_SDA
 Text HLabel 8100 5700 3    50   Input ~ 0
 EXT_SCL
-Text HLabel 9000 4600 2    50   Input ~ 0
+Text HLabel 6700 5700 3    50   Input ~ 0
 SPI2_MISO
-Text HLabel 9000 4500 2    50   Input ~ 0
+Text HLabel 6800 5700 3    50   Input ~ 0
 SPI2_MOSI
-Text HLabel 6600 5700 3    50   Input ~ 0
+Text HLabel 8500 1500 1    50   Input ~ 0
 SPI1_SCK
 Text HLabel 9000 3100 2    50   Input ~ 0
 USART2_TX
 Text HLabel 9000 3000 2    50   Input ~ 0
 USART2_RX
-Text HLabel 6700 5700 3    50   Input ~ 0
+Text HLabel 8400 1500 1    50   Input ~ 0
 SPI1_MISO
-Text HLabel 6800 5700 3    50   Input ~ 0
+Text HLabel 8300 1500 1    50   Input ~ 0
 SPI1_MOSI
 Text HLabel 9000 2900 2    50   Input ~ 0
 USB_D-
@@ -730,7 +730,7 @@ AR Path="/61B55D71" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B55D71" Ref="TP15"  Part="1" 
 F 0 "TP15" V 9100 3500 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3647 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3800 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3800 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3900 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 4000 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4100 60  0001 L CNN "MPN"
@@ -752,7 +752,7 @@ AR Path="/61B5C473" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B5C473" Ref="TP16"  Part="1" 
 F 0 "TP16" V 9100 3600 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3747 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3900 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3900 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 4000 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 4100 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4200 60  0001 L CNN "MPN"
@@ -774,7 +774,7 @@ AR Path="/61B5C94C" Ref="TP?"  Part="1"
 AR Path="/61E8EFE4/61B5C94C" Ref="TP14"  Part="1" 
 F 0 "TP14" V 9100 3400 50  0000 C CNN
 F 1 "Debug Pad" V 8966 3547 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3700 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3700 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3800 60  0001 L CNN
 F 4 "A106144CT-ND" H 9300 3900 60  0001 L CNN "Digi-Key_PN"
 F 5 "RCT-0C" H 9300 4000 60  0001 L CNN "MPN"

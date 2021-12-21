@@ -145,7 +145,7 @@ AR Path="/61D5E9EE" Ref="J?"  Part="1"
 AR Path="/619DD6DC/61D5E9EE" Ref="J3"  Part="1" 
 F 0 "J3" V 6019 1600 50  0000 C CNN
 F 1 "L717SDC37P1ACH4F" V 6110 1600 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-37_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm" H 8450 1900 50  0001 L CNN
+F 2 "RDT_Custom_Footprints:L717SDC37P1ACH4F" H 8450 1900 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/l717sdxxxp1ach4f.pdf" H 8450 1800 50  0001 L CNN
 F 4 "D-Sub Standard Connectors 37P Sz C Std Density Pin Screwlock 4-40" H 8450 1700 50  0001 L CNN "Description"
 F 5 "12.93" H 8450 1600 50  0001 L CNN "Height"
