@@ -51,19 +51,6 @@ Wire Notes Line
 	5950 3950 5950 2300
 Text Notes 5150 2250 2    100  ~ 0
 Flash Storage Chip
-$Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
-U 1 1 6161186E
-P 3850 3150
-AR Path="/6161186E" Ref="C?"  Part="1" 
-AR Path="/615FC266/6161186E" Ref="C17"  Part="1" 
-F 0 "C17" H 3965 3196 50  0000 L CNN
-F 1 "100nF" H 3965 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3888 3000 50  0001 C CNN
-F 3 "~" H 3850 3150 50  0001 C CNN
-	1    3850 3150
-	1    0    0    -1  
-$EndComp
 Text HLabel 4450 3300 0    50   Input ~ 0
 CLK
 Text HLabel 5450 3000 2    50   Input ~ 0
@@ -103,19 +90,6 @@ $EndComp
 Wire Wire Line
 	5500 3450 5500 3400
 Connection ~ 5500 3400
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
-U 1 1 617DFAF5
-P 3850 3300
-AR Path="/617DFAF5" Ref="#PWR?"  Part="1" 
-AR Path="/615FC266/617DFAF5" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 3850 3050 50  0001 C CNN
-F 1 "GND" H 3855 3127 50  0000 C CNN
-F 2 "" H 3850 3300 50  0001 C CNN
-F 3 "" H 3850 3300 50  0001 C CNN
-	1    3850 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 3000 3850 2750
 Wire Wire Line
