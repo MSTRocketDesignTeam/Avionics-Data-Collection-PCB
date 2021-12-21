@@ -49,19 +49,6 @@ Wire Notes Line
 	4650 2700 4650 4400
 Text Notes 5600 2650 2    100  ~ 0
 Temp Sensor
-$Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
-U 1 1 6160E331
-P 6500 3600
-AR Path="/6160E331" Ref="C?"  Part="1" 
-AR Path="/615C1FB4/6160E331" Ref="C3"  Part="1" 
-F 0 "C3" H 6615 3646 50  0000 L CNN
-F 1 "100nF" H 6615 3555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6538 3450 50  0001 C CNN
-F 3 "~" H 6500 3600 50  0001 C CNN
-	1    6500 3600
-	1    0    0    -1  
-$EndComp
 Text HLabel 5100 3250 0    50   Input ~ 0
 SDA
 Text HLabel 5100 3350 0    50   Input ~ 0
@@ -87,22 +74,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 5250 4000 50 
 	1    5500 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 3000 6500 3000
-Connection ~ 5950 3000
-$Comp
-L Data_Collection_KiCAD_Project-rescue:GND-power-Data_Collection_KiCAD_Project-rescue #PWR?
-U 1 1 618848DE
-P 6500 3750
-AR Path="/618848DE" Ref="#PWR?"  Part="1" 
-AR Path="/615C1FB4/618848DE" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 6500 3500 50  0001 C CNN
-F 1 "GND" H 6505 3577 50  0000 C CNN
-F 2 "" H 6500 3750 50  0001 C CNN
-F 3 "" H 6500 3750 50  0001 C CNN
-	1    6500 3750
-	1    0    0    -1  
-$EndComp
 Text HLabel 5900 3550 2    50   Input ~ 0
 ALERT
 Wire Notes Line
@@ -111,8 +82,6 @@ Wire Notes Line
 	4650 4400 7000 4400
 Wire Notes Line
 	4650 2700 7000 2700
-Wire Wire Line
-	6500 3000 6500 3450
 Text Notes 6000 4350 0    50   ~ 0
 MCP9804 I2C Addresses:\n     |A2 A1 A0|\n0011|X  X  X |
 $EndSCHEMATC

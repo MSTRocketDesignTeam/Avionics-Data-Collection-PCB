@@ -248,19 +248,6 @@ F 3 "~" H 1600 1700 50  0001 C CNN
 $EndComp
 $Comp
 L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
-U 1 1 6161C9B2
-P 2050 1700
-AR Path="/6161C9B2" Ref="C?"  Part="1" 
-AR Path="/615A5F2C/6161C9B2" Ref="C6"  Part="1" 
-F 0 "C6" H 2165 1746 50  0000 L CNN
-F 1 "100nF" H 2165 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2088 1550 50  0001 C CNN
-F 3 "~" H 2050 1700 50  0001 C CNN
-	1    2050 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 6161C9B8
 P 2500 1700
 AR Path="/6161C9B8" Ref="C?"  Part="1" 
@@ -281,8 +268,6 @@ Wire Wire Line
 	1200 1900 1200 1950
 Wire Wire Line
 	2500 1550 2500 1500
-Wire Wire Line
-	2500 1500 2050 1500
 Connection ~ 1200 1500
 Wire Wire Line
 	1200 1500 1200 1550
@@ -292,20 +277,8 @@ Connection ~ 1600 1500
 Wire Wire Line
 	1600 1500 1200 1500
 Wire Wire Line
-	2050 1550 2050 1500
-Connection ~ 2050 1500
-Wire Wire Line
-	2050 1500 1600 1500
-Wire Wire Line
-	2050 1850 2050 1900
-Connection ~ 2050 1900
-Wire Wire Line
-	2050 1900 2500 1900
-Wire Wire Line
 	1600 1850 1600 1900
 Connection ~ 1600 1900
-Wire Wire Line
-	1600 1900 2050 1900
 $Comp
 L Data_Collection_KiCAD_Project-rescue:C-Device-Data_Collection_KiCAD_Project-rescue C?
 U 1 1 6161C9D2
@@ -486,4 +459,8 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF" H 3900 5550 50  0001 
 	1    4000 5650
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1600 1500 2500 1500
+Wire Wire Line
+	1600 1900 2500 1900
 $EndSCHEMATC

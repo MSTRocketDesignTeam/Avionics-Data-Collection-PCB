@@ -16,15 +16,15 @@ $EndDescr
 $Comp
 L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 61E9E710
-P 4900 2500
+P 7250 6300
 AR Path="/61E9E710" Ref="D?"  Part="1" 
 AR Path="/61E8EFE4/61E9E710" Ref="D2"  Part="1" 
-F 0 "D2" V 4939 2382 50  0000 R CNN
-F 1 "Green" V 4848 2382 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 2500 50  0001 C CNN
-F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 4900 2500 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/SML-D12P8WT86/1641798" V 4900 2500 50  0001 C CNN "Digikey"
-	1    4900 2500
+F 0 "D2" V 7289 6182 50  0000 R CNN
+F 1 "Green" V 7198 6182 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7250 6300 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 7250 6300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/SML-D12P8WT86/1641798" V 7250 6300 50  0001 C CNN "Digikey"
+	1    7250 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -285,19 +285,8 @@ I2C1 Pullup Resistors
 $Comp
 L Device:R_US R10
 U 1 1 619EFD59
-P 5200 2500
-F 0 "R10" H 5268 2546 50  0000 L CNN
-F 1 "80" H 5268 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5240 2490 50  0001 C CNN
-F 3 "~" H 5200 2500 50  0001 C CNN
-	1    5200 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R11
-U 1 1 619F2A76
 P 7400 6000
-F 0 "R11" H 7468 6046 50  0000 L CNN
+F 0 "R10" H 7468 6046 50  0000 L CNN
 F 1 "80" H 7468 5955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7440 5990 50  0001 C CNN
 F 3 "~" H 7400 6000 50  0001 C CNN
@@ -305,17 +294,28 @@ F 3 "~" H 7400 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:R_US R11
+U 1 1 619F2A76
+P 5100 2500
+F 0 "R11" H 5168 2546 50  0000 L CNN
+F 1 "80" H 5168 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5140 2490 50  0001 C CNN
+F 3 "~" H 5100 2500 50  0001 C CNN
+	1    5100 2500
+	0    1    1    0   
+$EndComp
+$Comp
 L Data_Collection_KiCAD_Project-rescue:LED-Device-Data_Collection_KiCAD_Project-rescue D?
 U 1 1 619F2F50
-P 7250 6300
+P 4800 2500
 AR Path="/619F2F50" Ref="D?"  Part="1" 
 AR Path="/61E8EFE4/619F2F50" Ref="D3"  Part="1" 
-F 0 "D3" H 7300 6150 50  0000 R CNN
-F 1 "Red" H 7200 6400 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7250 6300 50  0001 C CNN
-F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 7250 6300 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/SML-D12U8WT86/1641799" V 7250 6300 50  0001 C CNN "Digikey"
-	1    7250 6300
+F 0 "D3" H 4850 2350 50  0000 R CNN
+F 1 "Red" H 4850 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4800 2500 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x8_d13x8-e.pdf" H 4800 2500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/SML-D12U8WT86/1641799" V 4800 2500 50  0001 C CNN "Digikey"
+	1    4800 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -395,10 +395,6 @@ Text HLabel 1150 6900 2    50   Input ~ 0
 I2C1_SCL
 Text HLabel 1150 7000 2    50   Input ~ 0
 I2C1_SDA
-Text HLabel 1150 7350 2    50   Input ~ 0
-EXT_SCL
-Text HLabel 1150 7450 2    50   Input ~ 0
-EXT_SDA
 Wire Notes Line
 	1650 7550 650  7550
 Text HLabel 1050 5800 2    50   Input ~ 0
@@ -711,10 +707,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 4800 10500 4800
 Wire Wire Line
-	6000 2500 5350 2500
-Wire Wire Line
-	4750 2500 4500 2500
-Wire Wire Line
 	4500 2500 4500 2650
 Wire Wire Line
 	7100 6300 6950 6300
@@ -722,72 +714,6 @@ Wire Wire Line
 	7400 6300 7400 6150
 Wire Wire Line
 	7400 5850 7400 5700
-$Comp
-L dk_Test-Points:RCT-0C TP?
-U 1 1 61B55D71
-P 9100 3600
-AR Path="/61B55D71" Ref="TP?"  Part="1" 
-AR Path="/61E8EFE4/61B55D71" Ref="TP15"  Part="1" 
-F 0 "TP15" V 9100 3500 50  0000 C CNN
-F 1 "Debug Pad" V 8966 3647 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3800 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3900 60  0001 L CNN
-F 4 "A106144CT-ND" H 9300 4000 60  0001 L CNN "Digi-Key_PN"
-F 5 "RCT-0C" H 9300 4100 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 9300 4200 60  0001 L CNN "Category"
-F 7 "Test Points" H 9300 4300 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 4400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 9300 4500 60  0001 L CNN "DK_Detail_Page"
-F 10 "PC TEST POINT NATURAL" H 9300 4600 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 9300 4700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9300 4800 60  0001 L CNN "Status"
-	1    9100 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L dk_Test-Points:RCT-0C TP?
-U 1 1 61B5C473
-P 9100 3700
-AR Path="/61B5C473" Ref="TP?"  Part="1" 
-AR Path="/61E8EFE4/61B5C473" Ref="TP16"  Part="1" 
-F 0 "TP16" V 9100 3600 50  0000 C CNN
-F 1 "Debug Pad" V 8966 3747 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3900 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 4000 60  0001 L CNN
-F 4 "A106144CT-ND" H 9300 4100 60  0001 L CNN "Digi-Key_PN"
-F 5 "RCT-0C" H 9300 4200 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 9300 4300 60  0001 L CNN "Category"
-F 7 "Test Points" H 9300 4400 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 4500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 9300 4600 60  0001 L CNN "DK_Detail_Page"
-F 10 "PC TEST POINT NATURAL" H 9300 4700 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 9300 4800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9300 4900 60  0001 L CNN "Status"
-	1    9100 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L dk_Test-Points:RCT-0C TP?
-U 1 1 61B5C94C
-P 9100 3500
-AR Path="/61B5C94C" Ref="TP?"  Part="1" 
-AR Path="/61E8EFE4/61B5C94C" Ref="TP14"  Part="1" 
-F 0 "TP14" V 9100 3400 50  0000 C CNN
-F 1 "Debug Pad" V 8966 3547 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3700 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 3800 60  0001 L CNN
-F 4 "A106144CT-ND" H 9300 3900 60  0001 L CNN "Digi-Key_PN"
-F 5 "RCT-0C" H 9300 4000 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 9300 4100 60  0001 L CNN "Category"
-F 7 "Test Points" H 9300 4200 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English" H 9300 4300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801" H 9300 4400 60  0001 L CNN "DK_Detail_Page"
-F 10 "PC TEST POINT NATURAL" H 9300 4500 60  0001 L CNN "Description"
-F 11 "TE Connectivity AMP Connectors" H 9300 4600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9300 4700 60  0001 L CNN "Status"
-	1    9100 3500
-	0    -1   -1   0   
-$EndComp
 Wire Notes Line
 	3650 6750 4550 6750
 Wire Notes Line
@@ -798,12 +724,6 @@ Wire Notes Line
 	3650 7650 3650 6750
 Text Notes 3650 6700 0    50   ~ 0
 SPI 2  Debug 
-Text HLabel 4050 7100 2    50   Input ~ 0
-SPI2_SCK
-Text HLabel 4050 7300 2    50   Input ~ 0
-SPI2_MOSI
-Text HLabel 4050 7200 2    50   Input ~ 0
-SPI2_MISO
 $Comp
 L Data_Collection_KiCAD_Project-rescue:STM32L562VET6Q-SamacSys_Parts-Charges_KiCAD_Project-rescue IC1
 U 1 1 61A82AF4
@@ -825,17 +745,6 @@ Wire Wire Line
 	5050 4400 6000 4400
 Wire Wire Line
 	7650 6450 8300 6450
-$Comp
-L Connector_Generic:Conn_01x03 J8
-U 1 1 61C1F908
-P 3850 7200
-F 0 "J8" H 3768 6875 50  0000 C CNN
-F 1 "Ext SPI Debug" H 3768 6966 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3850 7200 50  0001 C CNN
-F 3 "~" H 3850 7200 50  0001 C CNN
-	1    3850 7200
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J7
 U 1 1 61C20D7F
@@ -871,17 +780,6 @@ F 3 "~" H 950 7000 50  0001 C CNN
 $EndComp
 Text Notes 650  6500 0    50   ~ 0
 I2C Debug Pts
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 61C2C82E
-P 950 7450
-F 0 "J5" H 868 7125 50  0000 C CNN
-F 1 "EXT I2c Debug" H 868 7216 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 950 7450 50  0001 C CNN
-F 3 "~" H 950 7450 50  0001 C CNN
-	1    950  7450
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	650  6550 650  7550
 Wire Notes Line
@@ -896,4 +794,8 @@ Wire Notes Line
 	1550 6150 650  6150
 Wire Notes Line
 	650  5300 650  6150
+Wire Wire Line
+	5250 2500 6000 2500
+Wire Wire Line
+	4650 2500 4500 2500
 $EndSCHEMATC
