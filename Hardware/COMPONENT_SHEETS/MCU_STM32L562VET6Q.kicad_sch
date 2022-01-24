@@ -2101,7 +2101,7 @@
     (uuid 00000000-0000-0000-0000-000061adedb0)
     (property "Reference" "Y1" (id 0) (at 129.54 90.17 0))
     (property "Value" "32MHz" (id 1) (at 127 90.17 0))
-    (property "Footprint" "Crystal:Crystal_HC49-4H_Vertical" (id 2) (at 121.92 90.17 0)
+    (property "Footprint" "RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T" (id 2) (at 121.92 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 121.92 90.17 0)
