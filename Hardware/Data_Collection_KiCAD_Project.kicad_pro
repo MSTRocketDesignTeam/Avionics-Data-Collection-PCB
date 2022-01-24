@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -113,15 +119,25 @@
       },
       "track_widths": [
         0.0,
-        0.1,
+        0.09,
+        0.127,
+        0.15,
         0.2,
         0.25,
         0.29337,
         0.3,
         0.4,
+        0.5,
+        0.6,
         0.8,
         1.0,
-        1.25
+        1.25,
+        1.5,
+        2.0,
+        3.0,
+        3.5,
+        4.0,
+        5.0
       ],
       "via_dimensions": [
         {
@@ -129,16 +145,20 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.4,
           "drill": 0.2
         },
         {
-          "diameter": 0.55,
-          "drill": 0.25
+          "diameter": 0.45,
+          "drill": 0.3
         },
         {
-          "diameter": 0.6,
-          "drill": 0.3
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false,
@@ -384,6 +404,60 @@
       },
       {
         "bus_width": 12.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Mostly Safe Minimums",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Trace Minimums",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.9,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Trace to Trace Abs. Minimums",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
         "clearance": 0.05,
         "diff_pair_gap": 0.1016,
         "diff_pair_via_gap": 0.25,
@@ -391,7 +465,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DIFF_90_USB",
+        "name": "USB_Diff",
         "nets": [
           "/USB Connector and ESD/USB_CONN_D+",
           "/USB Connector and ESD/USB_CONN_D-",
@@ -401,6 +475,42 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.175006,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Via Different Nets",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.254,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Via Same Net",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6.0
@@ -467,10 +577,6 @@
     [
       "4ba06b66-7669-4c70-b585-f5d4c9c33527",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-000061e8efe4",
-      "STM32L562VET6Q"
     ],
     [
       "00000000-0000-0000-0000-0000619dd6dc",
