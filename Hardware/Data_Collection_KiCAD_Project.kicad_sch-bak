@@ -168,16 +168,16 @@
 
   (no_connect (at 64.77 38.1) (uuid 49f843e3-820d-4d03-b993-0e03ca2dca5f))
   (no_connect (at 64.77 69.85) (uuid 5a54f0f7-06b0-4655-9bbe-e6333bca40e5))
-  (no_connect (at 39.37 74.93) (uuid 5a54f0f7-06b0-4655-9bbe-e6333bca40e6))
-  (no_connect (at 39.37 71.12) (uuid 5a54f0f7-06b0-4655-9bbe-e6333bca40e7))
-  (no_connect (at 39.37 78.74) (uuid 5a54f0f7-06b0-4655-9bbe-e6333bca40e8))
+  (no_connect (at 39.37 74.93) (uuid 5a54f0f7-06b0-4655-9bbe-e6333bca40e5))
+  (no_connect (at 39.37 71.12) (uuid 5a54f0f7-06b0-4655-9bbe-e6333bca40e5))
+  (no_connect (at 39.37 78.74) (uuid 5a54f0f7-06b0-4655-9bbe-e6333bca40e5))
   (no_connect (at 255.27 31.75) (uuid 633292d3-80c5-4986-be82-ce926e9f09f4))
   (no_connect (at 39.37 44.45) (uuid 98c36170-0cbd-4681-9853-fba989ae192f))
-  (no_connect (at 39.37 52.07) (uuid 98c36170-0cbd-4681-9853-fba989ae1930))
-  (no_connect (at 39.37 48.26) (uuid 98c36170-0cbd-4681-9853-fba989ae1931))
-  (no_connect (at 39.37 55.88) (uuid 98c36170-0cbd-4681-9853-fba989ae1932))
+  (no_connect (at 39.37 52.07) (uuid 98c36170-0cbd-4681-9853-fba989ae192f))
+  (no_connect (at 39.37 48.26) (uuid 98c36170-0cbd-4681-9853-fba989ae192f))
+  (no_connect (at 39.37 55.88) (uuid 98c36170-0cbd-4681-9853-fba989ae192f))
   (no_connect (at 39.37 36.83) (uuid cc4f4a6b-5d92-4f5c-ac0e-b393fb5750ba))
-  (no_connect (at 39.37 40.64) (uuid cc4f4a6b-5d92-4f5c-ac0e-b393fb5750bb))
+  (no_connect (at 39.37 40.64) (uuid cc4f4a6b-5d92-4f5c-ac0e-b393fb5750ba))
   (no_connect (at 165.1 36.83) (uuid e97b5984-9f0f-43a4-9b8a-838eef4cceb2))
 
   (bus_entry (at 242.57 48.26) (size 2.54 -2.54)
@@ -222,7 +222,7 @@
   )
   (bus_entry (at 19.05 115.57) (size 2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2a900c92-5c37-486b-ac4c-e1dad1f91651)
+    (uuid 2a900c92-5c37-486b-ac4c-e1dad1f91650)
   )
   (bus_entry (at 82.55 60.96) (size -2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1926,9 +1926,6 @@
     (path "/00000000-0000-0000-0000-0000615b3f6f/00000000-0000-0000-0000-000061610274"
       (reference "#PWR041") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000615a5159/a51cd3d8-67f6-4d4d-a83a-cbb6712d097d"
-      (reference "#PWR042") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061678964/00000000-0000-0000-0000-00006169cc30"
       (reference "#PWR043") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -1988,24 +1985,6 @@
     )
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a17e24"
       (reference "#PWR062") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061678964/5aa4f3e8-7c44-440e-83a1-327b1114eb03"
-      (reference "#PWR063") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000615c1fb4/d90ebf85-5506-4c4f-952a-a5a627fe4fd3"
-      (reference "#PWR064") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000615fc266/4493aa4a-1dc1-4951-a0f1-d6e568a82c57"
-      (reference "#PWR065") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000615a5f2c/62d35964-2c62-434d-a685-9aa1d623a102"
-      (reference "#PWR066") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000615a5f2c/0425953c-fd7b-48d4-ac38-1da243b17706"
-      (reference "#PWR067") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000615a5f2c/8f3197c2-c7a5-4790-8073-48538a639376"
-      (reference "#PWR068") (unit 1) (value "GND") (footprint "")
     )
     (path "/f2100222-bbee-497e-b422-b853b0304182"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -2088,27 +2067,6 @@
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a17df7"
       (reference "C26") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-0000615a5159/8f4c3114-f423-4204-83ae-03c0807b1953"
-      (reference "C27") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061678964/0420b17a-c693-409c-a7bb-4f31c7f8ddfb"
-      (reference "C28") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000615c1fb4/b7220460-d1c7-46ae-a578-b9b3da82df7a"
-      (reference "C29") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000615fc266/5ac9d12a-1c1a-4e94-aabc-63284dfa9c0a"
-      (reference "C30") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000615a5f2c/d967f85b-0226-4f93-9d52-a64e77d6e1de"
-      (reference "C31") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000615a5f2c/863918ef-5b4d-47f3-9d5d-005c1f5eaab3"
-      (reference "C32") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000615a5f2c/da62eb25-433c-4f3c-ac44-9272c2b76ed8"
-      (reference "C33") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-0000615ee01a/23c7d2b5-1a3b-43b1-969c-0d1c7c9d0ba5"
       (reference "D1") (unit 1) (value "D_Schottky_Small") (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
@@ -2137,7 +2095,7 @@
       (reference "J2") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000615ee01a/00000000-0000-0000-0000-000061c12c59"
-      (reference "J3") (unit 1) (value "10118192-0001LF") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
+      (reference "J3") (unit 1) (value "10118192-0001LF") (footprint "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000619dd6dc/00000000-0000-0000-0000-000061c3adee"
       (reference "JP1") (unit 1) (value "5V Disconnect") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
