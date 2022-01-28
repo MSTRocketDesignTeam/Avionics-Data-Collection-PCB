@@ -2140,7 +2140,7 @@
       (reference "J3") (unit 1) (value "10118192-0001LF") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
     )
     (path "/00000000-0000-0000-0000-0000619dd6dc/00000000-0000-0000-0000-000061c3adee"
-      (reference "JP1") (unit 1) (value "5V Disconnect") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "5V Disconnect") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f76154"
       (reference "JP2") (unit 1) (value "Debug Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")

@@ -66,6 +66,12 @@ void Error_Handler(void);
 #define SPI2_MISO_GPIO_Port GPIOA
 #define SPI2_MOSI_Pin GPIO_PIN_7
 #define SPI2_MOSI_GPIO_Port GPIOA
+#define Abort_1_Pin GPIO_PIN_9
+#define Abort_1_GPIO_Port GPIOE
+#define Abort_2_Pin GPIO_PIN_10
+#define Abort_2_GPIO_Port GPIOE
+#define I2C2_EN_Pin GPIO_PIN_15
+#define I2C2_EN_GPIO_Port GPIOE
 #define SPI1_SCK_Pin GPIO_PIN_13
 #define SPI1_SCK_GPIO_Port GPIOB
 #define SPI1_MISO_Pin GPIO_PIN_14

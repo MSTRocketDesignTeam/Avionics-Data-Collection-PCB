@@ -548,7 +548,7 @@
     (uuid 00000000-0000-0000-0000-000061c3adee)
     (property "Reference" "JP1" (id 0) (at 69.85 76.073 0))
     (property "Value" "5V Disconnect" (id 1) (at 69.85 78.3844 0))
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" (id 2) (at 69.85 81.28 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (id 2) (at 69.85 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 69.85 81.28 0)
