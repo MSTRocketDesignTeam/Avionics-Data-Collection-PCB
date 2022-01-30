@@ -2193,6 +2193,9 @@
     (path "/00000000-0000-0000-0000-0000615ee01a/00000000-0000-0000-0000-0000616146c5"
       (reference "U5") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
+    (path "/913bedbd-f1c2-4f0a-85ba-61b9b6bc13ef/e88930b6-0888-4cb0-959c-1336c10879e7"
+      (reference "U6") (unit 1) (value "MIC184YMM-TR") (footprint "RDT_Custom_Footprints:MIC184YMM-TR")
+    )
     (path "/00000000-0000-0000-0000-0000615b3f6f/00000000-0000-0000-0000-00006161026e"
       (reference "U7") (unit 1) (value "MS5607-02BA") (footprint "Package_LGA:LGA-8_3x5mm_P1.25mm")
     )
@@ -2201,9 +2204,6 @@
     )
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a5d08a"
       (reference "U9") (unit 1) (value "STM32L562VET6Q") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
-    )
-    (path "/913bedbd-f1c2-4f0a-85ba-61b9b6bc13ef/e88930b6-0888-4cb0-959c-1336c10879e7"
-      (reference "U?") (unit 1) (value "MIC184YMM-TR") (footprint "RDT_Custom_Footprints:MIC184YMM-TR")
     )
     (path "/00000000-0000-0000-0000-0000615a5159/00000000-0000-0000-0000-00006166ff64"
       (reference "Y1") (unit 1) (value "32.768kHz") (footprint "RDT_Custom_Footprints:XTAL_ABM7-32.000MHZ-D2Y-T")

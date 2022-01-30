@@ -475,7 +475,7 @@
   (symbol (lib_id "MIC184YMM-TR:MIC184YMM-TR") (at 97.79 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e88930b6-0888-4cb0-959c-1336c10879e7)
-    (property "Reference" "U?" (id 0) (at 129.0447 83.1245 0)
+    (property "Reference" "U6" (id 0) (at 129.0447 83.1245 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MIC184YMM-TR" (id 1) (at 129.0447 86.4035 0)
