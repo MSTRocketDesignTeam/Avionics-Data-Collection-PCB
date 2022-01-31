@@ -2128,7 +2128,7 @@
       (reference "L1") (unit 1) (value "27nH") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000615a5f2c/00000000-0000-0000-0000-0000616192ef"
-      (reference "Q1") (unit 1) (value "SI1040X-T1-GE3") (footprint "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering")
+      (reference "Q1") (unit 1) (value "SI1040X-T1-GE3") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
     (path "/00000000-0000-0000-0000-0000615a5f2c/00000000-0000-0000-0000-000061619311"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")

@@ -1183,7 +1183,7 @@
     (uuid 00000000-0000-0000-0000-0000616192ef)
     (property "Reference" "Q1" (id 0) (at 101.6 129.7432 0))
     (property "Value" "SI1040X-T1-GE3" (id 1) (at 101.6 132.0546 0))
-    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" (id 2) (at 102.87 158.115 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-563" (id 2) (at 102.87 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF" (id 3) (at 104.14 146.05 0)
