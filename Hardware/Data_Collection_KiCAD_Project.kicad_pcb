@@ -305,7 +305,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp ee27d19c-8dca-4ac8-a760-6dfd54d28071))
     (pad "2" smd roundrect (at 0.8625 0 45) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 9b0a1687-7e1b-4a04-a30b-c27a072a2949))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -348,7 +348,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 666f63f2-f9b2-4a47-a90a-fece5b9dae61))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp e31ba313-0add-40a3-8a7f-cd4c405ba338))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -391,7 +391,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp e77b9723-376d-4560-be0d-26563be50d83))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp c4f3ee90-5c8e-4b82-9da9-0376d9763529))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -434,7 +434,7 @@
       (net 89 "Net-(D6-Pad2)") (pintype "passive") (tstamp a86ce70c-0b0b-4e00-81fd-fa720b16c5ec))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 124 "Net-(R10-Pad2)") (pintype "passive") (tstamp f3fc3ce5-4efa-4006-8983-46e918c0de75))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -530,7 +530,7 @@
       (net 103 "GND") (pinfunction "K") (pintype "passive") (tstamp 8d4f4814-b60a-48e1-b41d-beeb347cf229))
     (pad "2" smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 88 "Net-(D5-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 02ab9e83-b6ac-4ce5-9d19-df0ae2667345))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -572,7 +572,7 @@
       (net 103 "GND") (pintype "passive") (tstamp eaef1172-3351-417c-bfc4-74a598f141cb))
     (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 150 "+3V3") (pintype "passive") (tstamp f6ee98b5-4773-4eeb-a825-33c1705abace))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -615,7 +615,7 @@
       (net 149 "+5V") (pintype "passive") (tstamp 154356df-d96a-4426-aa08-058870f95ab8))
     (pad "2" smd roundrect (at 0.8625 0 180) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 73894dbb-be06-4c9d-b554-a3676ed6b03f))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -658,7 +658,7 @@
       (net 87 "Net-(D4-Pad2)") (pintype "passive") (tstamp 96fd148c-2abd-4da2-a739-1fc716e496e9))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 122 "Net-(R8-Pad2)") (pintype "passive") (tstamp f0d57cc9-c4de-4eb8-97e9-9df19eea248e))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -703,7 +703,7 @@
       (net 103 "GND") (pinfunction "K") (pintype "passive") (tstamp d5f12618-2c91-4dab-af46-e5d162090f3e))
     (pad "2" smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 86 "Net-(D3-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d599ee5f-5c96-4c6d-a4f2-87e98db0087b))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -745,7 +745,7 @@
       (net 130 "/MAX-8Q/GPS_LNA_EN") (pintype "passive") (tstamp 2a3045fd-49b2-4e17-94bf-b5864659b054))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp cb625889-a39e-48a1-b5ca-64b654415724))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -788,7 +788,7 @@
       (net 101 "Net-(C14-Pad1)") (pintype "passive") (tstamp 90fa0465-7fe5-474b-8e7c-9f955c02a0f6))
     (pad "2" smd roundrect locked (at 0.8625 0 225) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 7806469b-c133-4e19-b2d5-f2b690b4b2f3))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -831,7 +831,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 0822003a-4943-41d2-9c41-77d7bd200eaa))
     (pad "2" smd roundrect (at 0.8625 0 225) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 63a5166e-d5d7-400d-8cd8-a44cd76b5051))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -874,7 +874,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 9bb1ef3c-118b-4827-bd75-538a6c260d81))
     (pad "2" smd roundrect (at 0.8625 0 315) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 6c319460-254f-4764-8594-04a29186b80e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -916,7 +916,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp f5ae382e-762f-45ff-b350-8e2d7e80445d))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 17c369cf-c27d-429e-9fd7-b60e8872935e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -959,7 +959,7 @@
       (net 90 "Net-(R4-Pad1)") (pintype "passive") (tstamp ae7dd71c-ca1d-4baa-8bd4-5f40cd8792b3))
     (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp d992211c-595f-4ab7-a67f-c1ff5e8d9c81))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1149,7 +1149,7 @@
       (net 103 "GND") (pinfunction "A0") (pintype "input") (tstamp 4544fa2f-a581-41fd-afaa-fe5256e48fbd))
     (pad "8" smd rect locked (at 2.2606 -0.974999) (size 1.233399 0.3548) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 150 "+3V3") (pinfunction "VDD") (pintype "power_in") (tstamp 51e60551-4b20-46bb-98aa-f696beff73dd))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1273,7 +1273,7 @@
       (net 92 "Net-(Q1-Pad2)") (pintype "passive") (tstamp 18648368-8315-41f6-b287-55706b48f79e))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 93 "Net-(L1-Pad1)") (pintype "passive") (tstamp 996c5414-4d36-42a5-a5a3-5c685d76f56d))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2394,7 +2394,7 @@
       (net 103 "GND") (pintype "passive") (tstamp a5da963a-270f-4c3d-a079-114d8eef79b7))
     (pad "2" smd roundrect (at 0.8625 0 180) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 98 "Net-(C3-Pad2)") (pintype "passive") (tstamp 588bef68-8354-4667-a575-3c31f5656918))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2436,7 +2436,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 55f629e5-1c97-4453-a1ae-599ac25f2ed5))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 9bab507b-ffe8-4c5e-9c8f-1c526f0716c7))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2508,7 +2508,7 @@
       (net 103 "GND") (pinfunction "NC") (pintype "passive") (tstamp abfff7e4-4e89-4e2d-816e-624233b98cb4))
     (pad "12" smd rect (at -0.25 -0.7625 90) (size 0.375 0.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 115 "/SENSOR_SCL") (pinfunction "SCLK/SCL") (pintype "input") (tstamp e3898bcd-ba25-495d-bce5-2258be9d151b))
-    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2550,7 +2550,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 17b65212-5089-4b10-8076-6ae933d78b8b))
     (pad "2" smd roundrect (at 0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 2e20faf4-7401-46d5-ae6b-fc5bbb32f6ff))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2710,7 +2710,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 7d8f0369-0f22-4824-95fe-9de45ac90be0))
     (pad "2" smd roundrect (at 0.8625 0 45) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 962bbcda-aa4a-4389-8f03-f28addb0f938))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2755,7 +2755,7 @@
       (net 103 "GND") (pinfunction "K") (pintype "passive") (tstamp 7e3affd6-47f1-4504-8de1-d0fb9e30232e))
     (pad "2" smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 87 "Net-(D4-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f05b539d-f3ed-4d87-8562-322d3113dab5))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2798,7 +2798,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 0cf0c4b0-36cf-4067-8907-36d99d44645c))
     (pad "2" smd roundrect (at 0.8625 0 45) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 93a8c13a-56cf-4c81-ba35-f91f1e512315))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2843,7 +2843,7 @@
       (net 103 "GND") (pinfunction "K") (pintype "passive") (tstamp 574d7ea9-f0f3-406b-9bc0-9485fcb74b81))
     (pad "2" smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 85 "Net-(D2-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 7b573841-0d69-4c95-a545-76ac472425dc))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2896,7 +2896,7 @@
       (net 149 "+5V") (pinfunction "VBUS") (pintype "passive") (tstamp a6cfadf5-18e0-4f9c-b98d-03570140b7f6))
     (pad "6" smd roundrect (at 1.1375 -0.95) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 108 "/USB Connector and ESD/USB_CONN_D+") (pinfunction "I/O1") (pintype "passive") (tstamp 7d71b99b-9002-4eec-b931-5a93f61b4ffe))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2939,7 +2939,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp b2a64c85-6c77-43aa-ace7-b9c5df7cc3a9))
     (pad "2" smd roundrect (at 0.8625 0 315) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp c70c2c63-e3e6-4e94-9872-5f0b6ccafa30))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2984,7 +2984,7 @@
       (net 149 "+5V") (pinfunction "K") (pintype "passive") (tstamp 6c5c9815-f3e2-4d91-9d67-c04651c16947))
     (pad "2" smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 96 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 87e9f15d-ead3-4eb3-b376-13ccb17b64e9))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3027,7 +3027,7 @@
       (net 102 "Net-(C11-Pad1)") (pintype "passive") (tstamp d62c7b9b-2733-4c7c-acaf-935bbb5b42fb))
     (pad "2" smd roundrect (at 0.8625 0 180) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp cc823f72-f0e4-4202-8e7e-d5cbcbc3c9fe))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3069,7 +3069,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 1fba3702-2a66-4290-b838-8a910d891117))
     (pad "2" smd roundrect (at 0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 3b112371-73c1-4989-b06f-6f78464e66b6))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3111,7 +3111,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 04f5865e-f449-4408-a0c8-771cccfcb129))
     (pad "2" smd roundrect (at 0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 6199bec7-e7eb-4ae0-b9ec-c563e157d635))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3153,7 +3153,7 @@
       (net 103 "GND") (pintype "passive") (tstamp d1bcc174-49ee-47dc-8537-17590e91bff5))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 150 "+3V3") (pintype "passive") (tstamp c63ea0fb-2c6c-4f97-86fb-617c2560809e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3215,7 +3215,7 @@
       (net 114 "/SENSOR_SDA") (pinfunction "SDI/SDA") (pintype "bidirectional") (tstamp 21445f35-cdf9-45ed-b042-42162bce0eb5))
     (pad "8" smd rect (at 1.075 -1.875) (size 0.95 0.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 115 "/SENSOR_SCL") (pinfunction "SCLK") (pintype "input") (tstamp 8afea0dd-8a3a-4118-856d-4b06ba1173b6))
-    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-8_3x5mm_P1.25mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-8_3x5mm_P1.25mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3482,7 +3482,7 @@
       (net 1 "unconnected-(U9-Pad99)") (pinfunction "V15SMPS_2") (pintype "power_out+no_connect") (tstamp 71ec2bcf-c838-4d93-88b9-769d3aedab35))
     (pad "100" smd roundrect (at -6 -7.675 315) (size 0.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 150 "+3V3") (pinfunction "VDD") (pintype "power_in") (tstamp 2c577a47-dd99-484d-98e7-a1a6118d18cf))
-    (model "${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-100_14x14mm_P0.5mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-100_14x14mm_P0.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3583,7 +3583,7 @@
       (net 97 "Net-(C4-Pad2)") (pinfunction "XIN32") (pintype "input") (tstamp e397848a-7c5f-4dca-a1cb-8dda896b045e))
     (pad "28" smd rect (at -1.75 -1.6625) (size 0.254 0.675) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 150 "+3V3") (pinfunction "VDDIO") (pintype "power_in") (tstamp 0857a56e-8d39-4447-ac0e-f99300a1e4be))
-    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-28_5.2x3.8mm_P0.5mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-28_5.2x3.8mm_P0.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3626,7 +3626,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 5537c63f-3513-479c-afbd-d44353a14380))
     (pad "2" smd roundrect (at 0.8625 0 180) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp ffb03990-fc3b-4cc7-b247-0ccb88bf866d))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3669,7 +3669,7 @@
       (net 88 "Net-(D5-Pad2)") (pintype "passive") (tstamp 677f7fd6-fe65-4132-818c-44a0c91f5c31))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 123 "Net-(R9-Pad2)") (pintype "passive") (tstamp 915afd34-85f2-4f65-b2f6-5c607c325148))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3712,7 +3712,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp a06f1fc7-5ab4-4723-81c4-0f3820d9e4b8))
     (pad "2" smd roundrect (at 0.8625 0 45) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 076eb927-3d46-4a02-9606-353f0ad48221))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5513,7 +5513,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 6a55e82c-d9f3-44e0-9840-548f1508f9e5))
     (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 23993c88-8623-4417-86a3-d34de7ceb975))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5555,7 +5555,7 @@
       (net 96 "Net-(D1-Pad2)") (pintype "passive") (tstamp 668d2714-2659-4f31-9b9d-e656d508e0f7))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 95 "Net-(FB1-Pad2)") (pintype "passive") (tstamp 643a5c35-c8ac-4fca-a8bf-42bed6f5de92))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5635,7 +5635,7 @@
       (net 93 "Net-(L1-Pad1)") (pinfunction "1") (pintype "passive") (tstamp b57691ac-45e2-4fef-b67e-be0698b53c0a))
     (pad "2" smd roundrect (at 0.8625 0 180) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 131 "/MAX-8Q/GPS_ANT_NET") (pinfunction "2") (pintype "passive") (tstamp 46a7dba6-e84c-4e04-a72e-86e4c6e4e198))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5678,7 +5678,7 @@
       (net 86 "Net-(D3-Pad2)") (pintype "passive") (tstamp 7e75e4cc-e0cb-4b98-b80b-d3c04ae9a412))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 120 "Net-(R7-Pad2)") (pintype "passive") (tstamp 785e7afb-5347-4e11-b292-701c649113fb))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5773,7 +5773,7 @@
       (net 102 "Net-(C11-Pad1)") (pintype "passive") (tstamp 95e118e5-e774-496d-8eec-03f3d8bac894))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 90 "Net-(R4-Pad1)") (pintype "passive") (tstamp 1355bc2d-f057-4b22-8213-873dc10d93b7))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5815,7 +5815,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 047cf595-1972-4c2a-a70b-65489a060f88))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 23708b85-adf5-4cbf-a4c4-69f9be2b941b))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5858,7 +5858,7 @@
       (net 116 "/NRST") (pintype "passive") (tstamp 88829688-4ef3-4bd2-aabd-0fd5cefeaa65))
     (pad "2" smd roundrect (at 0.8625 0 180) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 7b170979-1103-46dd-8022-e2a129c4bf7d))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5901,7 +5901,7 @@
       (net 100 "Net-(C15-Pad1)") (pintype "passive") (tstamp 05e45f00-3c6b-4c0c-9ffb-3fe26fcda007))
     (pad "2" smd roundrect locked (at 0.8625 0 45) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp 40b38567-9d6a-4691-bccf-1b4dbe39957b))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5944,7 +5944,7 @@
       (net 150 "+3V3") (pintype "passive") (tstamp 43fc1e82-5e3e-4778-97d5-5aab5f5cda80))
     (pad "2" smd roundrect (at 0.8625 0 45) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp ced23a17-cc8a-4c5d-95f6-018b51394a9f))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5995,7 +5995,7 @@
       (net 130 "/MAX-8Q/GPS_LNA_EN") (pinfunction "G1") (pintype "passive") (tstamp 34c012ea-824c-49e6-9605-a983abab426a))
     (pad "6" smd rect (at 0.75 -0.5 180) (size 0.7 0.34) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 91 "Net-(Q1-Pad6)") (pinfunction "D1") (pintype "passive") (tstamp 2ab3877f-2fd3-43e5-af54-3f5d0c28320b))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18362,7 +18362,7 @@
       (net 85 "Net-(D2-Pad2)") (pintype "passive") (tstamp 3a6e1b00-aa08-416c-85dc-bf006b0a4a78))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 118 "Net-(R6-Pad2)") (pintype "passive") (tstamp ed93faec-dea3-4b89-9648-290ad7f4effb))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18407,7 +18407,7 @@
       (net 103 "GND") (pinfunction "K") (pintype "passive") (tstamp 2bb84d21-052f-4073-8b99-82886d4d4112))
     (pad "2" smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 89 "Net-(D6-Pad2)") (pinfunction "A") (pintype "passive") (tstamp fa287af3-8143-4b7d-ba6a-f713228393e0))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18450,7 +18450,7 @@
       (net 114 "/SENSOR_SDA") (pintype "passive") (tstamp 227f15c7-95b9-498e-a2ac-436548e5f17f))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 150 "+3V3") (pintype "passive") (tstamp cce66d06-ed54-4eae-867a-a3f52946556d))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18492,7 +18492,7 @@
       (net 91 "Net-(Q1-Pad6)") (pintype "passive") (tstamp cb232dae-017e-46a0-81d3-8ae4432055dd))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 129 "/MAX-8Q/GPS_VCC_RF") (pintype "passive") (tstamp 5278fb5e-f15e-42fe-84df-a59fee8119f1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18680,7 +18680,7 @@
       (net 129 "/MAX-8Q/GPS_VCC_RF") (pintype "passive") (tstamp 4b3e8ab8-6573-4361-8b87-a68e53872f35))
     (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "GND") (pintype "passive") (tstamp e34e1373-69b0-4599-a75a-7458f19f5398))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18734,7 +18734,7 @@
       (net 103 "GND") (pinfunction "2") (pintype "passive") (tstamp 30a8d4e5-202c-4d57-80d8-c5f2ad3ce2dd))
     (pad "2" smd rect (at 3.98 2.25) (size 1.55 1.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 103 "GND") (pinfunction "2") (pintype "passive") (tstamp 39f69e4c-3d98-4642-8cee-de7f9bf86b5e))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18798,7 +18798,7 @@
       (net 103 "GND") (pinfunction "IO3") (pintype "bidirectional") (tstamp d30ff73b-7370-497f-aedd-a5bc68a9e258))
     (pad "8" smd roundrect (at 3.6 -1.905 45) (size 1.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 150 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 18d8abaa-19c1-45ff-b0a6-4a9fbd8b1327))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_5.3x6.2mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_5.3x6.2mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18847,7 +18847,7 @@
       (net 94 "Net-(JP2-Pad2)") (pinfunction "C") (pintype "input") (tstamp b481b075-9fdf-42c9-9f4f-1820179a57db))
     (pad "3" thru_hole oval (at 0 5.08 45) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 150 "+3V3") (pinfunction "B") (pintype "passive") (tstamp c1d61362-65a2-49c7-92c4-42116f69f186))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18958,7 +18958,7 @@
       (net 115 "/SENSOR_SCL") (pintype "passive") (tstamp 62ff3f34-d3e2-41a5-ae11-1b931533f98a))
     (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 150 "+3V3") (pintype "passive") (tstamp 5d56d28a-c4af-4430-8964-9b60bd37a4ca))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -19000,7 +19000,7 @@
       (net 103 "GND") (pintype "passive") (tstamp 91ba689b-5dd8-4302-8420-efca48ac6b5f))
     (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 97 "Net-(C4-Pad2)") (pintype "passive") (tstamp 96fa3736-070f-437c-b67e-34080cd0f9e4))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -19042,7 +19042,7 @@
       (net 103 "GND") (pintype "passive") (tstamp fe29d3b6-92be-4e54-a383-392356bcc809))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 99 "Net-(C2-Pad2)") (pintype "passive") (tstamp 5fc03015-6f9b-4e08-9fd5-ba1cb6c63544))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

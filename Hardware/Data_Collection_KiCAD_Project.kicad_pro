@@ -675,7 +675,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/Data_Collection_KiCAD_Project.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
