@@ -23,4 +23,7 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+
+# KiCAD Project Backups
+Hardware/Data_Collection_KiCAD_Project-backups/
+
