@@ -1962,20 +1962,11 @@
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f0271b"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
-    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f1e582"
-      (reference "#PWR054") (unit 1) (value "GND") (footprint "")
-    )
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f7c3c1"
       (reference "#PWR055") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f7894f"
       (reference "#PWR056") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f3d703"
-      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a6db50"
-      (reference "#PWR058") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a6473b"
       (reference "#PWR059") (unit 1) (value "GND") (footprint "")
@@ -2001,6 +1992,39 @@
     (path "/f2100222-bbee-497e-b422-b853b0304182"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/82aa92a7-7205-4821-b431-1ce6162fc3e9"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/8bc8a000-6fda-4e3e-a3b2-26aaa620e51b"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/214eeba8-1f33-40a8-a01c-82bb81938121"
+      (reference "#PWR0104") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/3acabd00-174f-454c-b464-36c7ae37e600"
+      (reference "#PWR0105") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/bc38b3b8-23f5-4e01-afd0-b10b3decc747"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/3fb2f6fa-ca73-40aa-8d29-98d8b2566bc8"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/4859f4fe-24a1-43fe-a64a-c4a4a1232f79"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/18ebc2e7-027a-4534-b2f8-83708cf0f907"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/0b49164a-f664-4416-9376-f85409d5563e"
+      (reference "#PWR0110") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/43e592a4-4fd4-486e-bbb7-1624e671f87d"
+      (reference "#PWR0111") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/617763a7-beef-4af9-bef8-a16613eea12c"
+      (reference "#PWR0112") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000615a5159/00000000-0000-0000-0000-00006167196c"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -2012,6 +2036,9 @@
     )
     (path "/00000000-0000-0000-0000-0000615a5159/00000000-0000-0000-0000-00006167c82f"
       (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/95f8b4ed-f081-4541-a6e8-006f9e3388b3"
+      (reference "C5") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000615a5f2c/00000000-0000-0000-0000-00006161c9ac"
       (reference "C6") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -2043,7 +2070,7 @@
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061adfe7c"
       (reference "C15") (unit 1) (value "30pF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f1e588"
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/a7d4d516-5f37-48c7-a2eb-07a0284326c5"
       (reference "C16") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a17ddf"
@@ -2073,8 +2100,8 @@
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061aa2953"
       (reference "C25") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a17df7"
-      (reference "C26") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/117739c6-d4ea-4e83-9310-0cadcbf64854"
+      (reference "C26") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000615a5159/8f4c3114-f423-4204-83ae-03c0807b1953"
       (reference "C27") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -2087,6 +2114,9 @@
     )
     (path "/00000000-0000-0000-0000-0000615fc266/5ac9d12a-1c1a-4e94-aabc-63284dfa9c0a"
       (reference "C30") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/d13cc996-11b5-4549-b1f3-6b732fe8bc54"
+      (reference "C31") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000615ee01a/23c7d2b5-1a3b-43b1-969c-0d1c7c9d0ba5"
       (reference "D1") (unit 1) (value "D_Schottky_Small") (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -2166,7 +2196,13 @@
     (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061a17e32"
       (reference "R12") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/00000000-0000-0000-0000-000061f1a897"
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/1d3c50ee-43a4-4fb0-84ae-4a58800fa9d6"
+      (reference "R13") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/8f2e3287-d3ba-4adc-ba8b-3abaf423a71a"
+      (reference "R14") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+    )
+    (path "/57a3ed70-0e3f-4606-9632-b49c5b4b5bc1/788b4f29-d106-4cb8-b53a-1ee6cd66d489"
       (reference "SW1") (unit 1) (value "MCU Reset") (footprint "Button_Switch_SMD:SW_SPST_PTS645")
     )
     (path "/00000000-0000-0000-0000-000061a7eb52"
