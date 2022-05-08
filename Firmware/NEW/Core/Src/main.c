@@ -95,11 +95,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_11);
+	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_11);
 	  HAL_Delay(100);
-	  //HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_10);
-	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_11, GPIO_PIN_SET);
-	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10, GPIO_PIN_SET);
+	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_10);
+	  //HAL_GPIO_WritePin(GPIOC, GPIO_PIN_11, GPIO_PIN_SET);
+	  //HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10, GPIO_PIN_SET);
   }
   /* USER CODE END 3 */
 }
