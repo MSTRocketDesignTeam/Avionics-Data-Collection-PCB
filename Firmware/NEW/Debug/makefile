@@ -75,8 +75,8 @@ all: main-build
 main-build: DataCollection_NEW.elf secondary-outputs
 
 # Tool invocations
-DataCollection_NEW.elf DataCollection_NEW.map: $(OBJS) $(USER_OBJS) C:\Users\Seth\Documents\GitHub\Avionics-Data-Collection-PCB\Firmware\NEW\STM32L562VETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "DataCollection_NEW.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\Seth\Documents\GitHub\Avionics-Data-Collection-PCB\Firmware\NEW\STM32L562VETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="DataCollection_NEW.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+DataCollection_NEW.elf DataCollection_NEW.map: $(OBJS) $(USER_OBJS) D:\Users\Seth\Documents\GitHub\Avionics-Data-Collection-PCB\Firmware\NEW\STM32L562VETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "DataCollection_NEW.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"D:\Users\Seth\Documents\GitHub\Avionics-Data-Collection-PCB\Firmware\NEW\STM32L562VETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="DataCollection_NEW.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
